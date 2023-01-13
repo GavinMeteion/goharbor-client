@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv1/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv1/model"
 )
 
 // GetProjectsReader is a Reader for the GetProjects structure.
@@ -54,7 +54,8 @@ func NewGetProjectsOK() *GetProjectsOK {
 	return &GetProjectsOK{}
 }
 
-/*GetProjectsOK handles this case with default header values.
+/*
+GetProjectsOK handles this case with default header values.
 
 Return all matched projects.
 */
@@ -102,7 +103,8 @@ func NewGetProjectsUnauthorized() *GetProjectsUnauthorized {
 	return &GetProjectsUnauthorized{}
 }
 
-/*GetProjectsUnauthorized handles this case with default header values.
+/*
+GetProjectsUnauthorized handles this case with default header values.
 
 User need to log in first.
 */
@@ -123,7 +125,8 @@ func NewGetProjectsInternalServerError() *GetProjectsInternalServerError {
 	return &GetProjectsInternalServerError{}
 }
 
-/*GetProjectsInternalServerError handles this case with default header values.
+/*
+GetProjectsInternalServerError handles this case with default header values.
 
 Internal errors.
 */

@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetVolumesReader is a Reader for the GetVolumes structure.
@@ -64,7 +64,8 @@ func NewGetVolumesOK() *GetVolumesOK {
 	return &GetVolumesOK{}
 }
 
-/*GetVolumesOK handles this case with default header values.
+/*
+GetVolumesOK handles this case with default header values.
 
 Get system volumes successfully.
 */
@@ -97,7 +98,8 @@ func NewGetVolumesUnauthorized() *GetVolumesUnauthorized {
 	return &GetVolumesUnauthorized{}
 }
 
-/*GetVolumesUnauthorized handles this case with default header values.
+/*
+GetVolumesUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -137,7 +139,8 @@ func NewGetVolumesForbidden() *GetVolumesForbidden {
 	return &GetVolumesForbidden{}
 }
 
-/*GetVolumesForbidden handles this case with default header values.
+/*
+GetVolumesForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -177,7 +180,8 @@ func NewGetVolumesNotFound() *GetVolumesNotFound {
 	return &GetVolumesNotFound{}
 }
 
-/*GetVolumesNotFound handles this case with default header values.
+/*
+GetVolumesNotFound handles this case with default header values.
 
 Not found
 */
@@ -217,7 +221,8 @@ func NewGetVolumesInternalServerError() *GetVolumesInternalServerError {
 	return &GetVolumesInternalServerError{}
 }
 
-/*GetVolumesInternalServerError handles this case with default header values.
+/*
+GetVolumesInternalServerError handles this case with default header values.
 
 Internal server error
 */

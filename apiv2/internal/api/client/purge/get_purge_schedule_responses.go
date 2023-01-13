@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetPurgeScheduleReader is a Reader for the GetPurgeSchedule structure.
@@ -58,7 +58,8 @@ func NewGetPurgeScheduleOK() *GetPurgeScheduleOK {
 	return &GetPurgeScheduleOK{}
 }
 
-/*GetPurgeScheduleOK handles this case with default header values.
+/*
+GetPurgeScheduleOK handles this case with default header values.
 
 Get purge job's schedule.
 */
@@ -91,7 +92,8 @@ func NewGetPurgeScheduleUnauthorized() *GetPurgeScheduleUnauthorized {
 	return &GetPurgeScheduleUnauthorized{}
 }
 
-/*GetPurgeScheduleUnauthorized handles this case with default header values.
+/*
+GetPurgeScheduleUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -131,7 +133,8 @@ func NewGetPurgeScheduleForbidden() *GetPurgeScheduleForbidden {
 	return &GetPurgeScheduleForbidden{}
 }
 
-/*GetPurgeScheduleForbidden handles this case with default header values.
+/*
+GetPurgeScheduleForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -171,7 +174,8 @@ func NewGetPurgeScheduleInternalServerError() *GetPurgeScheduleInternalServerErr
 	return &GetPurgeScheduleInternalServerError{}
 }
 
-/*GetPurgeScheduleInternalServerError handles this case with default header values.
+/*
+GetPurgeScheduleInternalServerError handles this case with default header values.
 
 Internal server error
 */

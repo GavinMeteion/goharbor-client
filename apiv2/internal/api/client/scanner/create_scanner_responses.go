@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // CreateScannerReader is a Reader for the CreateScanner structure.
@@ -64,7 +64,8 @@ func NewCreateScannerCreated() *CreateScannerCreated {
 	return &CreateScannerCreated{}
 }
 
-/*CreateScannerCreated handles this case with default header values.
+/*
+CreateScannerCreated handles this case with default header values.
 
 Created successfully
 */
@@ -91,7 +92,8 @@ func NewCreateScannerBadRequest() *CreateScannerBadRequest {
 	return &CreateScannerBadRequest{}
 }
 
-/*CreateScannerBadRequest handles this case with default header values.
+/*
+CreateScannerBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -131,7 +133,8 @@ func NewCreateScannerUnauthorized() *CreateScannerUnauthorized {
 	return &CreateScannerUnauthorized{}
 }
 
-/*CreateScannerUnauthorized handles this case with default header values.
+/*
+CreateScannerUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -171,7 +174,8 @@ func NewCreateScannerForbidden() *CreateScannerForbidden {
 	return &CreateScannerForbidden{}
 }
 
-/*CreateScannerForbidden handles this case with default header values.
+/*
+CreateScannerForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -211,7 +215,8 @@ func NewCreateScannerInternalServerError() *CreateScannerInternalServerError {
 	return &CreateScannerInternalServerError{}
 }
 
-/*CreateScannerInternalServerError handles this case with default header values.
+/*
+CreateScannerInternalServerError handles this case with default header values.
 
 Internal server error
 */

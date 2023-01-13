@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // ListProvidersUnderProjectReader is a Reader for the ListProvidersUnderProject structure.
@@ -70,7 +70,8 @@ func NewListProvidersUnderProjectOK() *ListProvidersUnderProjectOK {
 	return &ListProvidersUnderProjectOK{}
 }
 
-/*ListProvidersUnderProjectOK handles this case with default header values.
+/*
+ListProvidersUnderProjectOK handles this case with default header values.
 
 Success
 */
@@ -101,7 +102,8 @@ func NewListProvidersUnderProjectBadRequest() *ListProvidersUnderProjectBadReque
 	return &ListProvidersUnderProjectBadRequest{}
 }
 
-/*ListProvidersUnderProjectBadRequest handles this case with default header values.
+/*
+ListProvidersUnderProjectBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -141,7 +143,8 @@ func NewListProvidersUnderProjectUnauthorized() *ListProvidersUnderProjectUnauth
 	return &ListProvidersUnderProjectUnauthorized{}
 }
 
-/*ListProvidersUnderProjectUnauthorized handles this case with default header values.
+/*
+ListProvidersUnderProjectUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -181,7 +184,8 @@ func NewListProvidersUnderProjectForbidden() *ListProvidersUnderProjectForbidden
 	return &ListProvidersUnderProjectForbidden{}
 }
 
-/*ListProvidersUnderProjectForbidden handles this case with default header values.
+/*
+ListProvidersUnderProjectForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -221,7 +225,8 @@ func NewListProvidersUnderProjectNotFound() *ListProvidersUnderProjectNotFound {
 	return &ListProvidersUnderProjectNotFound{}
 }
 
-/*ListProvidersUnderProjectNotFound handles this case with default header values.
+/*
+ListProvidersUnderProjectNotFound handles this case with default header values.
 
 Not found
 */
@@ -261,7 +266,8 @@ func NewListProvidersUnderProjectInternalServerError() *ListProvidersUnderProjec
 	return &ListProvidersUnderProjectInternalServerError{}
 }
 
-/*ListProvidersUnderProjectInternalServerError handles this case with default header values.
+/*
+ListProvidersUnderProjectInternalServerError handles this case with default header values.
 
 Internal server error
 */

@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetGCLogReader is a Reader for the GetGCLog structure.
@@ -70,7 +70,8 @@ func NewGetGCLogOK() *GetGCLogOK {
 	return &GetGCLogOK{}
 }
 
-/*GetGCLogOK handles this case with default header values.
+/*
+GetGCLogOK handles this case with default header values.
 
 Get successfully.
 */
@@ -101,7 +102,8 @@ func NewGetGCLogBadRequest() *GetGCLogBadRequest {
 	return &GetGCLogBadRequest{}
 }
 
-/*GetGCLogBadRequest handles this case with default header values.
+/*
+GetGCLogBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -141,7 +143,8 @@ func NewGetGCLogUnauthorized() *GetGCLogUnauthorized {
 	return &GetGCLogUnauthorized{}
 }
 
-/*GetGCLogUnauthorized handles this case with default header values.
+/*
+GetGCLogUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -181,7 +184,8 @@ func NewGetGCLogForbidden() *GetGCLogForbidden {
 	return &GetGCLogForbidden{}
 }
 
-/*GetGCLogForbidden handles this case with default header values.
+/*
+GetGCLogForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -221,7 +225,8 @@ func NewGetGCLogNotFound() *GetGCLogNotFound {
 	return &GetGCLogNotFound{}
 }
 
-/*GetGCLogNotFound handles this case with default header values.
+/*
+GetGCLogNotFound handles this case with default header values.
 
 Not found
 */
@@ -261,7 +266,8 @@ func NewGetGCLogInternalServerError() *GetGCLogInternalServerError {
 	return &GetGCLogInternalServerError{}
 }
 
-/*GetGCLogInternalServerError handles this case with default header values.
+/*
+GetGCLogInternalServerError handles this case with default header values.
 
 Internal server error
 */

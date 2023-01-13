@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // ListWebhookJobsReader is a Reader for the ListWebhookJobs structure.
@@ -66,7 +66,8 @@ func NewListWebhookJobsOK() *ListWebhookJobsOK {
 	return &ListWebhookJobsOK{}
 }
 
-/*ListWebhookJobsOK handles this case with default header values.
+/*
+ListWebhookJobsOK handles this case with default header values.
 
 List project webhook jobs successfully.
 */
@@ -114,7 +115,8 @@ func NewListWebhookJobsBadRequest() *ListWebhookJobsBadRequest {
 	return &ListWebhookJobsBadRequest{}
 }
 
-/*ListWebhookJobsBadRequest handles this case with default header values.
+/*
+ListWebhookJobsBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -154,7 +156,8 @@ func NewListWebhookJobsUnauthorized() *ListWebhookJobsUnauthorized {
 	return &ListWebhookJobsUnauthorized{}
 }
 
-/*ListWebhookJobsUnauthorized handles this case with default header values.
+/*
+ListWebhookJobsUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -194,7 +197,8 @@ func NewListWebhookJobsForbidden() *ListWebhookJobsForbidden {
 	return &ListWebhookJobsForbidden{}
 }
 
-/*ListWebhookJobsForbidden handles this case with default header values.
+/*
+ListWebhookJobsForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -234,7 +238,8 @@ func NewListWebhookJobsInternalServerError() *ListWebhookJobsInternalServerError
 	return &ListWebhookJobsInternalServerError{}
 }
 
-/*ListWebhookJobsInternalServerError handles this case with default header values.
+/*
+ListWebhookJobsInternalServerError handles this case with default header values.
 
 Internal server error
 */

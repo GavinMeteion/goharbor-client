@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // CreateLabelReader is a Reader for the CreateLabel structure.
@@ -70,7 +70,8 @@ func NewCreateLabelCreated() *CreateLabelCreated {
 	return &CreateLabelCreated{}
 }
 
-/*CreateLabelCreated handles this case with default header values.
+/*
+CreateLabelCreated handles this case with default header values.
 
 Create successfully.
 */
@@ -97,7 +98,8 @@ func NewCreateLabelBadRequest() *CreateLabelBadRequest {
 	return &CreateLabelBadRequest{}
 }
 
-/*CreateLabelBadRequest handles this case with default header values.
+/*
+CreateLabelBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -137,7 +139,8 @@ func NewCreateLabelUnauthorized() *CreateLabelUnauthorized {
 	return &CreateLabelUnauthorized{}
 }
 
-/*CreateLabelUnauthorized handles this case with default header values.
+/*
+CreateLabelUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -177,7 +180,8 @@ func NewCreateLabelConflict() *CreateLabelConflict {
 	return &CreateLabelConflict{}
 }
 
-/*CreateLabelConflict handles this case with default header values.
+/*
+CreateLabelConflict handles this case with default header values.
 
 Conflict
 */
@@ -217,7 +221,8 @@ func NewCreateLabelUnsupportedMediaType() *CreateLabelUnsupportedMediaType {
 	return &CreateLabelUnsupportedMediaType{}
 }
 
-/*CreateLabelUnsupportedMediaType handles this case with default header values.
+/*
+CreateLabelUnsupportedMediaType handles this case with default header values.
 
 Unsupported MediaType
 */
@@ -257,7 +262,8 @@ func NewCreateLabelInternalServerError() *CreateLabelInternalServerError {
 	return &CreateLabelInternalServerError{}
 }
 
-/*CreateLabelInternalServerError handles this case with default header values.
+/*
+CreateLabelInternalServerError handles this case with default header values.
 
 Internal server error
 */

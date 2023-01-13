@@ -16,7 +16,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv1/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv1/model"
 )
 
 // NewPutReplicationPoliciesIDParams creates a new PutReplicationPoliciesIDParams object
@@ -58,7 +58,8 @@ func NewPutReplicationPoliciesIDParamsWithHTTPClient(client *http.Client) *PutRe
 	}
 }
 
-/*PutReplicationPoliciesIDParams contains all the parameters to send to the API endpoint
+/*
+PutReplicationPoliciesIDParams contains all the parameters to send to the API endpoint
 for the put replication policies ID operation typically these are written to a http.Request
 */
 type PutReplicationPoliciesIDParams struct {

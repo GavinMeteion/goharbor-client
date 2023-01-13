@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // DeleteRetentionReader is a Reader for the DeleteRetention structure.
@@ -58,7 +58,8 @@ func NewDeleteRetentionOK() *DeleteRetentionOK {
 	return &DeleteRetentionOK{}
 }
 
-/*DeleteRetentionOK handles this case with default header values.
+/*
+DeleteRetentionOK handles this case with default header values.
 
 Update Retention Policy successfully.
 */
@@ -79,7 +80,8 @@ func NewDeleteRetentionUnauthorized() *DeleteRetentionUnauthorized {
 	return &DeleteRetentionUnauthorized{}
 }
 
-/*DeleteRetentionUnauthorized handles this case with default header values.
+/*
+DeleteRetentionUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -119,7 +121,8 @@ func NewDeleteRetentionForbidden() *DeleteRetentionForbidden {
 	return &DeleteRetentionForbidden{}
 }
 
-/*DeleteRetentionForbidden handles this case with default header values.
+/*
+DeleteRetentionForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -159,7 +162,8 @@ func NewDeleteRetentionInternalServerError() *DeleteRetentionInternalServerError
 	return &DeleteRetentionInternalServerError{}
 }
 
-/*DeleteRetentionInternalServerError handles this case with default header values.
+/*
+DeleteRetentionInternalServerError handles this case with default header values.
 
 Internal server error
 */

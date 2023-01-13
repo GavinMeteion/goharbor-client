@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // PingLdapReader is a Reader for the PingLdap structure.
@@ -64,7 +64,8 @@ func NewPingLdapOK() *PingLdapOK {
 	return &PingLdapOK{}
 }
 
-/*PingLdapOK handles this case with default header values.
+/*
+PingLdapOK handles this case with default header values.
 
 Ping ldap service successfully.
 */
@@ -97,7 +98,8 @@ func NewPingLdapBadRequest() *PingLdapBadRequest {
 	return &PingLdapBadRequest{}
 }
 
-/*PingLdapBadRequest handles this case with default header values.
+/*
+PingLdapBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -137,7 +139,8 @@ func NewPingLdapUnauthorized() *PingLdapUnauthorized {
 	return &PingLdapUnauthorized{}
 }
 
-/*PingLdapUnauthorized handles this case with default header values.
+/*
+PingLdapUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -177,7 +180,8 @@ func NewPingLdapForbidden() *PingLdapForbidden {
 	return &PingLdapForbidden{}
 }
 
-/*PingLdapForbidden handles this case with default header values.
+/*
+PingLdapForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -217,7 +221,8 @@ func NewPingLdapInternalServerError() *PingLdapInternalServerError {
 	return &PingLdapInternalServerError{}
 }
 
-/*PingLdapInternalServerError handles this case with default header values.
+/*
+PingLdapInternalServerError handles this case with default header values.
 
 Internal server error
 */

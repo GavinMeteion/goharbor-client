@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetPurgeHistoryReader is a Reader for the GetPurgeHistory structure.
@@ -60,7 +60,8 @@ func NewGetPurgeHistoryOK() *GetPurgeHistoryOK {
 	return &GetPurgeHistoryOK{}
 }
 
-/*GetPurgeHistoryOK handles this case with default header values.
+/*
+GetPurgeHistoryOK handles this case with default header values.
 
 Get purge job results successfully.
 */
@@ -108,7 +109,8 @@ func NewGetPurgeHistoryUnauthorized() *GetPurgeHistoryUnauthorized {
 	return &GetPurgeHistoryUnauthorized{}
 }
 
-/*GetPurgeHistoryUnauthorized handles this case with default header values.
+/*
+GetPurgeHistoryUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -148,7 +150,8 @@ func NewGetPurgeHistoryForbidden() *GetPurgeHistoryForbidden {
 	return &GetPurgeHistoryForbidden{}
 }
 
-/*GetPurgeHistoryForbidden handles this case with default header values.
+/*
+GetPurgeHistoryForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -188,7 +191,8 @@ func NewGetPurgeHistoryInternalServerError() *GetPurgeHistoryInternalServerError
 	return &GetPurgeHistoryInternalServerError{}
 }
 
-/*GetPurgeHistoryInternalServerError handles this case with default header values.
+/*
+GetPurgeHistoryInternalServerError handles this case with default header values.
 
 Internal server error
 */

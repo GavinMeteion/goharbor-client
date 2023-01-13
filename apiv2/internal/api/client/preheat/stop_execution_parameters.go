@@ -16,7 +16,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // NewStopExecutionParams creates a new StopExecutionParams object
@@ -58,7 +58,8 @@ func NewStopExecutionParamsWithHTTPClient(client *http.Client) *StopExecutionPar
 	}
 }
 
-/*StopExecutionParams contains all the parameters to send to the API endpoint
+/*
+StopExecutionParams contains all the parameters to send to the API endpoint
 for the stop execution operation typically these are written to a http.Request
 */
 type StopExecutionParams struct {

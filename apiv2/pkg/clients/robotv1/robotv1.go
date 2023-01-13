@@ -3,11 +3,11 @@ package robotv1
 import (
 	"context"
 
+	v2client "github.com/GavinMeteion/goharbor-client/v5/apiv2/internal/api/client"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/internal/api/client/robotv1"
+	modelv2 "github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/pkg/config"
 	"github.com/go-openapi/runtime"
-	v2client "github.com/mittwald/goharbor-client/v5/apiv2/internal/api/client"
-	"github.com/mittwald/goharbor-client/v5/apiv2/internal/api/client/robotv1"
-	modelv2 "github.com/mittwald/goharbor-client/v5/apiv2/model"
-	"github.com/mittwald/goharbor-client/v5/apiv2/pkg/config"
 )
 
 // RESTClient is a subclient for handling project related actions.

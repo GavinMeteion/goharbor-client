@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // UpdateInstanceReader is a Reader for the UpdateInstance structure.
@@ -70,7 +70,8 @@ func NewUpdateInstanceOK() *UpdateInstanceOK {
 	return &UpdateInstanceOK{}
 }
 
-/*UpdateInstanceOK handles this case with default header values.
+/*
+UpdateInstanceOK handles this case with default header values.
 
 Success
 */
@@ -97,7 +98,8 @@ func NewUpdateInstanceBadRequest() *UpdateInstanceBadRequest {
 	return &UpdateInstanceBadRequest{}
 }
 
-/*UpdateInstanceBadRequest handles this case with default header values.
+/*
+UpdateInstanceBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -137,7 +139,8 @@ func NewUpdateInstanceUnauthorized() *UpdateInstanceUnauthorized {
 	return &UpdateInstanceUnauthorized{}
 }
 
-/*UpdateInstanceUnauthorized handles this case with default header values.
+/*
+UpdateInstanceUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -177,7 +180,8 @@ func NewUpdateInstanceForbidden() *UpdateInstanceForbidden {
 	return &UpdateInstanceForbidden{}
 }
 
-/*UpdateInstanceForbidden handles this case with default header values.
+/*
+UpdateInstanceForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -217,7 +221,8 @@ func NewUpdateInstanceNotFound() *UpdateInstanceNotFound {
 	return &UpdateInstanceNotFound{}
 }
 
-/*UpdateInstanceNotFound handles this case with default header values.
+/*
+UpdateInstanceNotFound handles this case with default header values.
 
 Not found
 */
@@ -257,7 +262,8 @@ func NewUpdateInstanceInternalServerError() *UpdateInstanceInternalServerError {
 	return &UpdateInstanceInternalServerError{}
 }
 
-/*UpdateInstanceInternalServerError handles this case with default header values.
+/*
+UpdateInstanceInternalServerError handles this case with default header values.
 
 Internal server error
 */

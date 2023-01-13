@@ -16,7 +16,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // NewUpdateUserProfileParams creates a new UpdateUserProfileParams object
@@ -58,7 +58,8 @@ func NewUpdateUserProfileParamsWithHTTPClient(client *http.Client) *UpdateUserPr
 	}
 }
 
-/*UpdateUserProfileParams contains all the parameters to send to the API endpoint
+/*
+UpdateUserProfileParams contains all the parameters to send to the API endpoint
 for the update user profile operation typically these are written to a http.Request
 */
 type UpdateUserProfileParams struct {

@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // StopReplicationReader is a Reader for the StopReplication structure.
@@ -64,7 +64,8 @@ func NewStopReplicationOK() *StopReplicationOK {
 	return &StopReplicationOK{}
 }
 
-/*StopReplicationOK handles this case with default header values.
+/*
+StopReplicationOK handles this case with default header values.
 
 Success
 */
@@ -91,7 +92,8 @@ func NewStopReplicationUnauthorized() *StopReplicationUnauthorized {
 	return &StopReplicationUnauthorized{}
 }
 
-/*StopReplicationUnauthorized handles this case with default header values.
+/*
+StopReplicationUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -131,7 +133,8 @@ func NewStopReplicationForbidden() *StopReplicationForbidden {
 	return &StopReplicationForbidden{}
 }
 
-/*StopReplicationForbidden handles this case with default header values.
+/*
+StopReplicationForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -171,7 +174,8 @@ func NewStopReplicationNotFound() *StopReplicationNotFound {
 	return &StopReplicationNotFound{}
 }
 
-/*StopReplicationNotFound handles this case with default header values.
+/*
+StopReplicationNotFound handles this case with default header values.
 
 Not found
 */
@@ -211,7 +215,8 @@ func NewStopReplicationInternalServerError() *StopReplicationInternalServerError
 	return &StopReplicationInternalServerError{}
 }
 
-/*StopReplicationInternalServerError handles this case with default header values.
+/*
+StopReplicationInternalServerError handles this case with default header values.
 
 Internal server error
 */

@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetCertReader is a Reader for the GetCert structure.
@@ -55,7 +55,8 @@ func NewGetCertOK(writer io.Writer) *GetCertOK {
 	}
 }
 
-/*GetCertOK handles this case with default header values.
+/*
+GetCertOK handles this case with default header values.
 
 Get default root certificate successfully.
 */
@@ -93,7 +94,8 @@ func NewGetCertNotFound() *GetCertNotFound {
 	return &GetCertNotFound{}
 }
 
-/*GetCertNotFound handles this case with default header values.
+/*
+GetCertNotFound handles this case with default header values.
 
 Not found the default root certificate.
 */
@@ -114,7 +116,8 @@ func NewGetCertInternalServerError() *GetCertInternalServerError {
 	return &GetCertInternalServerError{}
 }
 
-/*GetCertInternalServerError handles this case with default header values.
+/*
+GetCertInternalServerError handles this case with default header values.
 
 Internal server error
 */

@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetUserGroupReader is a Reader for the GetUserGroup structure.
@@ -70,7 +70,8 @@ func NewGetUserGroupOK() *GetUserGroupOK {
 	return &GetUserGroupOK{}
 }
 
-/*GetUserGroupOK handles this case with default header values.
+/*
+GetUserGroupOK handles this case with default header values.
 
 User group get successfully.
 */
@@ -103,7 +104,8 @@ func NewGetUserGroupBadRequest() *GetUserGroupBadRequest {
 	return &GetUserGroupBadRequest{}
 }
 
-/*GetUserGroupBadRequest handles this case with default header values.
+/*
+GetUserGroupBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -143,7 +145,8 @@ func NewGetUserGroupUnauthorized() *GetUserGroupUnauthorized {
 	return &GetUserGroupUnauthorized{}
 }
 
-/*GetUserGroupUnauthorized handles this case with default header values.
+/*
+GetUserGroupUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -183,7 +186,8 @@ func NewGetUserGroupForbidden() *GetUserGroupForbidden {
 	return &GetUserGroupForbidden{}
 }
 
-/*GetUserGroupForbidden handles this case with default header values.
+/*
+GetUserGroupForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -223,7 +227,8 @@ func NewGetUserGroupNotFound() *GetUserGroupNotFound {
 	return &GetUserGroupNotFound{}
 }
 
-/*GetUserGroupNotFound handles this case with default header values.
+/*
+GetUserGroupNotFound handles this case with default header values.
 
 Not found
 */
@@ -263,7 +268,8 @@ func NewGetUserGroupInternalServerError() *GetUserGroupInternalServerError {
 	return &GetUserGroupInternalServerError{}
 }
 
-/*GetUserGroupInternalServerError handles this case with default header values.
+/*
+GetUserGroupInternalServerError handles this case with default header values.
 
 Internal server error
 */

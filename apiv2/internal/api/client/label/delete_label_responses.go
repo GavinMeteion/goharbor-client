@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // DeleteLabelReader is a Reader for the DeleteLabel structure.
@@ -64,7 +64,8 @@ func NewDeleteLabelOK() *DeleteLabelOK {
 	return &DeleteLabelOK{}
 }
 
-/*DeleteLabelOK handles this case with default header values.
+/*
+DeleteLabelOK handles this case with default header values.
 
 Success
 */
@@ -91,7 +92,8 @@ func NewDeleteLabelBadRequest() *DeleteLabelBadRequest {
 	return &DeleteLabelBadRequest{}
 }
 
-/*DeleteLabelBadRequest handles this case with default header values.
+/*
+DeleteLabelBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -131,7 +133,8 @@ func NewDeleteLabelUnauthorized() *DeleteLabelUnauthorized {
 	return &DeleteLabelUnauthorized{}
 }
 
-/*DeleteLabelUnauthorized handles this case with default header values.
+/*
+DeleteLabelUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -171,7 +174,8 @@ func NewDeleteLabelNotFound() *DeleteLabelNotFound {
 	return &DeleteLabelNotFound{}
 }
 
-/*DeleteLabelNotFound handles this case with default header values.
+/*
+DeleteLabelNotFound handles this case with default header values.
 
 Not found
 */
@@ -211,7 +215,8 @@ func NewDeleteLabelInternalServerError() *DeleteLabelInternalServerError {
 	return &DeleteLabelInternalServerError{}
 }
 
-/*DeleteLabelInternalServerError handles this case with default header values.
+/*
+DeleteLabelInternalServerError handles this case with default header values.
 
 Internal server error
 */

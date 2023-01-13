@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // StopExecutionReader is a Reader for the StopExecution structure.
@@ -70,7 +70,8 @@ func NewStopExecutionOK() *StopExecutionOK {
 	return &StopExecutionOK{}
 }
 
-/*StopExecutionOK handles this case with default header values.
+/*
+StopExecutionOK handles this case with default header values.
 
 Success
 */
@@ -97,7 +98,8 @@ func NewStopExecutionBadRequest() *StopExecutionBadRequest {
 	return &StopExecutionBadRequest{}
 }
 
-/*StopExecutionBadRequest handles this case with default header values.
+/*
+StopExecutionBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -137,7 +139,8 @@ func NewStopExecutionUnauthorized() *StopExecutionUnauthorized {
 	return &StopExecutionUnauthorized{}
 }
 
-/*StopExecutionUnauthorized handles this case with default header values.
+/*
+StopExecutionUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -177,7 +180,8 @@ func NewStopExecutionForbidden() *StopExecutionForbidden {
 	return &StopExecutionForbidden{}
 }
 
-/*StopExecutionForbidden handles this case with default header values.
+/*
+StopExecutionForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -217,7 +221,8 @@ func NewStopExecutionNotFound() *StopExecutionNotFound {
 	return &StopExecutionNotFound{}
 }
 
-/*StopExecutionNotFound handles this case with default header values.
+/*
+StopExecutionNotFound handles this case with default header values.
 
 Not found
 */
@@ -257,7 +262,8 @@ func NewStopExecutionInternalServerError() *StopExecutionInternalServerError {
 	return &StopExecutionInternalServerError{}
 }
 
-/*StopExecutionInternalServerError handles this case with default header values.
+/*
+StopExecutionInternalServerError handles this case with default header values.
 
 Internal server error
 */

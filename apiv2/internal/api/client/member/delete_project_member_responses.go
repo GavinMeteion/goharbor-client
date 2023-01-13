@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // DeleteProjectMemberReader is a Reader for the DeleteProjectMember structure.
@@ -64,7 +64,8 @@ func NewDeleteProjectMemberOK() *DeleteProjectMemberOK {
 	return &DeleteProjectMemberOK{}
 }
 
-/*DeleteProjectMemberOK handles this case with default header values.
+/*
+DeleteProjectMemberOK handles this case with default header values.
 
 Success
 */
@@ -91,7 +92,8 @@ func NewDeleteProjectMemberBadRequest() *DeleteProjectMemberBadRequest {
 	return &DeleteProjectMemberBadRequest{}
 }
 
-/*DeleteProjectMemberBadRequest handles this case with default header values.
+/*
+DeleteProjectMemberBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -131,7 +133,8 @@ func NewDeleteProjectMemberUnauthorized() *DeleteProjectMemberUnauthorized {
 	return &DeleteProjectMemberUnauthorized{}
 }
 
-/*DeleteProjectMemberUnauthorized handles this case with default header values.
+/*
+DeleteProjectMemberUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -171,7 +174,8 @@ func NewDeleteProjectMemberForbidden() *DeleteProjectMemberForbidden {
 	return &DeleteProjectMemberForbidden{}
 }
 
-/*DeleteProjectMemberForbidden handles this case with default header values.
+/*
+DeleteProjectMemberForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -211,7 +215,8 @@ func NewDeleteProjectMemberInternalServerError() *DeleteProjectMemberInternalSer
 	return &DeleteProjectMemberInternalServerError{}
 }
 
-/*DeleteProjectMemberInternalServerError handles this case with default header values.
+/*
+DeleteProjectMemberInternalServerError handles this case with default header values.
 
 Internal server error
 */

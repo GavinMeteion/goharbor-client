@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // ListQuotasReader is a Reader for the ListQuotas structure.
@@ -60,7 +60,8 @@ func NewListQuotasOK() *ListQuotasOK {
 	return &ListQuotasOK{}
 }
 
-/*ListQuotasOK handles this case with default header values.
+/*
+ListQuotasOK handles this case with default header values.
 
 Successfully retrieved the quotas.
 */
@@ -108,7 +109,8 @@ func NewListQuotasUnauthorized() *ListQuotasUnauthorized {
 	return &ListQuotasUnauthorized{}
 }
 
-/*ListQuotasUnauthorized handles this case with default header values.
+/*
+ListQuotasUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -148,7 +150,8 @@ func NewListQuotasForbidden() *ListQuotasForbidden {
 	return &ListQuotasForbidden{}
 }
 
-/*ListQuotasForbidden handles this case with default header values.
+/*
+ListQuotasForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -188,7 +191,8 @@ func NewListQuotasInternalServerError() *ListQuotasInternalServerError {
 	return &ListQuotasInternalServerError{}
 }
 
-/*ListQuotasInternalServerError handles this case with default header values.
+/*
+ListQuotasInternalServerError handles this case with default header values.
 
 Internal server error
 */

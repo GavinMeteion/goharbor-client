@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // UpdateQuotaReader is a Reader for the UpdateQuota structure.
@@ -70,7 +70,8 @@ func NewUpdateQuotaOK() *UpdateQuotaOK {
 	return &UpdateQuotaOK{}
 }
 
-/*UpdateQuotaOK handles this case with default header values.
+/*
+UpdateQuotaOK handles this case with default header values.
 
 Success
 */
@@ -97,7 +98,8 @@ func NewUpdateQuotaBadRequest() *UpdateQuotaBadRequest {
 	return &UpdateQuotaBadRequest{}
 }
 
-/*UpdateQuotaBadRequest handles this case with default header values.
+/*
+UpdateQuotaBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -137,7 +139,8 @@ func NewUpdateQuotaUnauthorized() *UpdateQuotaUnauthorized {
 	return &UpdateQuotaUnauthorized{}
 }
 
-/*UpdateQuotaUnauthorized handles this case with default header values.
+/*
+UpdateQuotaUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -177,7 +180,8 @@ func NewUpdateQuotaForbidden() *UpdateQuotaForbidden {
 	return &UpdateQuotaForbidden{}
 }
 
-/*UpdateQuotaForbidden handles this case with default header values.
+/*
+UpdateQuotaForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -217,7 +221,8 @@ func NewUpdateQuotaNotFound() *UpdateQuotaNotFound {
 	return &UpdateQuotaNotFound{}
 }
 
-/*UpdateQuotaNotFound handles this case with default header values.
+/*
+UpdateQuotaNotFound handles this case with default header values.
 
 Not found
 */
@@ -257,7 +262,8 @@ func NewUpdateQuotaInternalServerError() *UpdateQuotaInternalServerError {
 	return &UpdateQuotaInternalServerError{}
 }
 
-/*UpdateQuotaInternalServerError handles this case with default header values.
+/*
+UpdateQuotaInternalServerError handles this case with default header values.
 
 Internal server error
 */

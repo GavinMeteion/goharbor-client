@@ -16,7 +16,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // NewUpdateRegistryParams creates a new UpdateRegistryParams object
@@ -58,7 +58,8 @@ func NewUpdateRegistryParamsWithHTTPClient(client *http.Client) *UpdateRegistryP
 	}
 }
 
-/*UpdateRegistryParams contains all the parameters to send to the API endpoint
+/*
+UpdateRegistryParams contains all the parameters to send to the API endpoint
 for the update registry operation typically these are written to a http.Request
 */
 type UpdateRegistryParams struct {

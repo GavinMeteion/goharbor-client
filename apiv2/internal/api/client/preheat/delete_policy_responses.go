@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // DeletePolicyReader is a Reader for the DeletePolicy structure.
@@ -70,7 +70,8 @@ func NewDeletePolicyOK() *DeletePolicyOK {
 	return &DeletePolicyOK{}
 }
 
-/*DeletePolicyOK handles this case with default header values.
+/*
+DeletePolicyOK handles this case with default header values.
 
 Success
 */
@@ -97,7 +98,8 @@ func NewDeletePolicyBadRequest() *DeletePolicyBadRequest {
 	return &DeletePolicyBadRequest{}
 }
 
-/*DeletePolicyBadRequest handles this case with default header values.
+/*
+DeletePolicyBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -137,7 +139,8 @@ func NewDeletePolicyUnauthorized() *DeletePolicyUnauthorized {
 	return &DeletePolicyUnauthorized{}
 }
 
-/*DeletePolicyUnauthorized handles this case with default header values.
+/*
+DeletePolicyUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -177,7 +180,8 @@ func NewDeletePolicyForbidden() *DeletePolicyForbidden {
 	return &DeletePolicyForbidden{}
 }
 
-/*DeletePolicyForbidden handles this case with default header values.
+/*
+DeletePolicyForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -217,7 +221,8 @@ func NewDeletePolicyNotFound() *DeletePolicyNotFound {
 	return &DeletePolicyNotFound{}
 }
 
-/*DeletePolicyNotFound handles this case with default header values.
+/*
+DeletePolicyNotFound handles this case with default header values.
 
 Not found
 */
@@ -257,7 +262,8 @@ func NewDeletePolicyInternalServerError() *DeletePolicyInternalServerError {
 	return &DeletePolicyInternalServerError{}
 }
 
-/*DeletePolicyInternalServerError handles this case with default header values.
+/*
+DeletePolicyInternalServerError handles this case with default header values.
 
 Internal server error
 */

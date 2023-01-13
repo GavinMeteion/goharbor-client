@@ -15,7 +15,7 @@ import (
 	cr "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // NewCreatePurgeScheduleParams creates a new CreatePurgeScheduleParams object
@@ -57,7 +57,8 @@ func NewCreatePurgeScheduleParamsWithHTTPClient(client *http.Client) *CreatePurg
 	}
 }
 
-/*CreatePurgeScheduleParams contains all the parameters to send to the API endpoint
+/*
+CreatePurgeScheduleParams contains all the parameters to send to the API endpoint
 for the create purge schedule operation typically these are written to a http.Request
 */
 type CreatePurgeScheduleParams struct {

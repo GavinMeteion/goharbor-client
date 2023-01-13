@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // DeleteRobotV1Reader is a Reader for the DeleteRobotV1 structure.
@@ -70,7 +70,8 @@ func NewDeleteRobotV1OK() *DeleteRobotV1OK {
 	return &DeleteRobotV1OK{}
 }
 
-/*DeleteRobotV1OK handles this case with default header values.
+/*
+DeleteRobotV1OK handles this case with default header values.
 
 Success
 */
@@ -97,7 +98,8 @@ func NewDeleteRobotV1BadRequest() *DeleteRobotV1BadRequest {
 	return &DeleteRobotV1BadRequest{}
 }
 
-/*DeleteRobotV1BadRequest handles this case with default header values.
+/*
+DeleteRobotV1BadRequest handles this case with default header values.
 
 Bad request
 */
@@ -137,7 +139,8 @@ func NewDeleteRobotV1Unauthorized() *DeleteRobotV1Unauthorized {
 	return &DeleteRobotV1Unauthorized{}
 }
 
-/*DeleteRobotV1Unauthorized handles this case with default header values.
+/*
+DeleteRobotV1Unauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -177,7 +180,8 @@ func NewDeleteRobotV1Forbidden() *DeleteRobotV1Forbidden {
 	return &DeleteRobotV1Forbidden{}
 }
 
-/*DeleteRobotV1Forbidden handles this case with default header values.
+/*
+DeleteRobotV1Forbidden handles this case with default header values.
 
 Forbidden
 */
@@ -217,7 +221,8 @@ func NewDeleteRobotV1NotFound() *DeleteRobotV1NotFound {
 	return &DeleteRobotV1NotFound{}
 }
 
-/*DeleteRobotV1NotFound handles this case with default header values.
+/*
+DeleteRobotV1NotFound handles this case with default header values.
 
 Not found
 */
@@ -257,7 +262,8 @@ func NewDeleteRobotV1InternalServerError() *DeleteRobotV1InternalServerError {
 	return &DeleteRobotV1InternalServerError{}
 }
 
-/*DeleteRobotV1InternalServerError handles this case with default header values.
+/*
+DeleteRobotV1InternalServerError handles this case with default header values.
 
 Internal server error
 */

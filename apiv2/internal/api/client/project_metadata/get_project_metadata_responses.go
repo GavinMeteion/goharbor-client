@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetProjectMetadataReader is a Reader for the GetProjectMetadata structure.
@@ -70,7 +70,8 @@ func NewGetProjectMetadataOK() *GetProjectMetadataOK {
 	return &GetProjectMetadataOK{}
 }
 
-/*GetProjectMetadataOK handles this case with default header values.
+/*
+GetProjectMetadataOK handles this case with default header values.
 
 Success
 */
@@ -101,7 +102,8 @@ func NewGetProjectMetadataBadRequest() *GetProjectMetadataBadRequest {
 	return &GetProjectMetadataBadRequest{}
 }
 
-/*GetProjectMetadataBadRequest handles this case with default header values.
+/*
+GetProjectMetadataBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -141,7 +143,8 @@ func NewGetProjectMetadataUnauthorized() *GetProjectMetadataUnauthorized {
 	return &GetProjectMetadataUnauthorized{}
 }
 
-/*GetProjectMetadataUnauthorized handles this case with default header values.
+/*
+GetProjectMetadataUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -181,7 +184,8 @@ func NewGetProjectMetadataForbidden() *GetProjectMetadataForbidden {
 	return &GetProjectMetadataForbidden{}
 }
 
-/*GetProjectMetadataForbidden handles this case with default header values.
+/*
+GetProjectMetadataForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -221,7 +225,8 @@ func NewGetProjectMetadataNotFound() *GetProjectMetadataNotFound {
 	return &GetProjectMetadataNotFound{}
 }
 
-/*GetProjectMetadataNotFound handles this case with default header values.
+/*
+GetProjectMetadataNotFound handles this case with default header values.
 
 Not found
 */
@@ -261,7 +266,8 @@ func NewGetProjectMetadataInternalServerError() *GetProjectMetadataInternalServe
 	return &GetProjectMetadataInternalServerError{}
 }
 
-/*GetProjectMetadataInternalServerError handles this case with default header values.
+/*
+GetProjectMetadataInternalServerError handles this case with default header values.
 
 Internal server error
 */

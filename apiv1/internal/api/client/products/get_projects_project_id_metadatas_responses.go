@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv1/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv1/model"
 )
 
 // GetProjectsProjectIDMetadatasReader is a Reader for the GetProjectsProjectIDMetadatas structure.
@@ -52,7 +52,8 @@ func NewGetProjectsProjectIDMetadatasOK() *GetProjectsProjectIDMetadatasOK {
 	return &GetProjectsProjectIDMetadatasOK{}
 }
 
-/*GetProjectsProjectIDMetadatasOK handles this case with default header values.
+/*
+GetProjectsProjectIDMetadatasOK handles this case with default header values.
 
 Get metadata successfully.
 */
@@ -85,7 +86,8 @@ func NewGetProjectsProjectIDMetadatasUnauthorized() *GetProjectsProjectIDMetadat
 	return &GetProjectsProjectIDMetadatasUnauthorized{}
 }
 
-/*GetProjectsProjectIDMetadatasUnauthorized handles this case with default header values.
+/*
+GetProjectsProjectIDMetadatasUnauthorized handles this case with default header values.
 
 User need to login first.
 */
@@ -106,7 +108,8 @@ func NewGetProjectsProjectIDMetadatasInternalServerError() *GetProjectsProjectID
 	return &GetProjectsProjectIDMetadatasInternalServerError{}
 }
 
-/*GetProjectsProjectIDMetadatasInternalServerError handles this case with default header values.
+/*
+GetProjectsProjectIDMetadatasInternalServerError handles this case with default header values.
 
 Internal server errors.
 */

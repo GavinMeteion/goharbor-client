@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // StopGCReader is a Reader for the StopGC structure.
@@ -64,7 +64,8 @@ func NewStopGCOK() *StopGCOK {
 	return &StopGCOK{}
 }
 
-/*StopGCOK handles this case with default header values.
+/*
+StopGCOK handles this case with default header values.
 
 Success
 */
@@ -91,7 +92,8 @@ func NewStopGCUnauthorized() *StopGCUnauthorized {
 	return &StopGCUnauthorized{}
 }
 
-/*StopGCUnauthorized handles this case with default header values.
+/*
+StopGCUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -131,7 +133,8 @@ func NewStopGCForbidden() *StopGCForbidden {
 	return &StopGCForbidden{}
 }
 
-/*StopGCForbidden handles this case with default header values.
+/*
+StopGCForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -171,7 +174,8 @@ func NewStopGCNotFound() *StopGCNotFound {
 	return &StopGCNotFound{}
 }
 
-/*StopGCNotFound handles this case with default header values.
+/*
+StopGCNotFound handles this case with default header values.
 
 Not found
 */
@@ -211,7 +215,8 @@ func NewStopGCInternalServerError() *StopGCInternalServerError {
 	return &StopGCInternalServerError{}
 }
 
-/*StopGCInternalServerError handles this case with default header values.
+/*
+StopGCInternalServerError handles this case with default header values.
 
 Internal server error
 */

@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // DeleteImmuRuleReader is a Reader for the DeleteImmuRule structure.
@@ -64,7 +64,8 @@ func NewDeleteImmuRuleOK() *DeleteImmuRuleOK {
 	return &DeleteImmuRuleOK{}
 }
 
-/*DeleteImmuRuleOK handles this case with default header values.
+/*
+DeleteImmuRuleOK handles this case with default header values.
 
 Success
 */
@@ -91,7 +92,8 @@ func NewDeleteImmuRuleBadRequest() *DeleteImmuRuleBadRequest {
 	return &DeleteImmuRuleBadRequest{}
 }
 
-/*DeleteImmuRuleBadRequest handles this case with default header values.
+/*
+DeleteImmuRuleBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -131,7 +133,8 @@ func NewDeleteImmuRuleUnauthorized() *DeleteImmuRuleUnauthorized {
 	return &DeleteImmuRuleUnauthorized{}
 }
 
-/*DeleteImmuRuleUnauthorized handles this case with default header values.
+/*
+DeleteImmuRuleUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -171,7 +174,8 @@ func NewDeleteImmuRuleForbidden() *DeleteImmuRuleForbidden {
 	return &DeleteImmuRuleForbidden{}
 }
 
-/*DeleteImmuRuleForbidden handles this case with default header values.
+/*
+DeleteImmuRuleForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -211,7 +215,8 @@ func NewDeleteImmuRuleInternalServerError() *DeleteImmuRuleInternalServerError {
 	return &DeleteImmuRuleInternalServerError{}
 }
 
-/*DeleteImmuRuleInternalServerError handles this case with default header values.
+/*
+DeleteImmuRuleInternalServerError handles this case with default header values.
 
 Internal server error
 */

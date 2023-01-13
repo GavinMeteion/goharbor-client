@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetPurgeJobReader is a Reader for the GetPurgeJob structure.
@@ -64,7 +64,8 @@ func NewGetPurgeJobOK() *GetPurgeJobOK {
 	return &GetPurgeJobOK{}
 }
 
-/*GetPurgeJobOK handles this case with default header values.
+/*
+GetPurgeJobOK handles this case with default header values.
 
 Get purge job results successfully.
 */
@@ -97,7 +98,8 @@ func NewGetPurgeJobUnauthorized() *GetPurgeJobUnauthorized {
 	return &GetPurgeJobUnauthorized{}
 }
 
-/*GetPurgeJobUnauthorized handles this case with default header values.
+/*
+GetPurgeJobUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -137,7 +139,8 @@ func NewGetPurgeJobForbidden() *GetPurgeJobForbidden {
 	return &GetPurgeJobForbidden{}
 }
 
-/*GetPurgeJobForbidden handles this case with default header values.
+/*
+GetPurgeJobForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -177,7 +180,8 @@ func NewGetPurgeJobNotFound() *GetPurgeJobNotFound {
 	return &GetPurgeJobNotFound{}
 }
 
-/*GetPurgeJobNotFound handles this case with default header values.
+/*
+GetPurgeJobNotFound handles this case with default header values.
 
 Not found
 */
@@ -217,7 +221,8 @@ func NewGetPurgeJobInternalServerError() *GetPurgeJobInternalServerError {
 	return &GetPurgeJobInternalServerError{}
 }
 
-/*GetPurgeJobInternalServerError handles this case with default header values.
+/*
+GetPurgeJobInternalServerError handles this case with default header values.
 
 Internal server error
 */

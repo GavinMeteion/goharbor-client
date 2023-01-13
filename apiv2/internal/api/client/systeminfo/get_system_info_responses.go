@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetSystemInfoReader is a Reader for the GetSystemInfo structure.
@@ -46,7 +46,8 @@ func NewGetSystemInfoOK() *GetSystemInfoOK {
 	return &GetSystemInfoOK{}
 }
 
-/*GetSystemInfoOK handles this case with default header values.
+/*
+GetSystemInfoOK handles this case with default header values.
 
 Get general info successfully.
 */
@@ -79,7 +80,8 @@ func NewGetSystemInfoInternalServerError() *GetSystemInfoInternalServerError {
 	return &GetSystemInfoInternalServerError{}
 }
 
-/*GetSystemInfoInternalServerError handles this case with default header values.
+/*
+GetSystemInfoInternalServerError handles this case with default header values.
 
 Internal server error
 */

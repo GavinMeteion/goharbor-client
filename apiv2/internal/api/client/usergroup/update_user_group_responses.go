@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // UpdateUserGroupReader is a Reader for the UpdateUserGroup structure.
@@ -70,7 +70,8 @@ func NewUpdateUserGroupOK() *UpdateUserGroupOK {
 	return &UpdateUserGroupOK{}
 }
 
-/*UpdateUserGroupOK handles this case with default header values.
+/*
+UpdateUserGroupOK handles this case with default header values.
 
 Success
 */
@@ -97,7 +98,8 @@ func NewUpdateUserGroupBadRequest() *UpdateUserGroupBadRequest {
 	return &UpdateUserGroupBadRequest{}
 }
 
-/*UpdateUserGroupBadRequest handles this case with default header values.
+/*
+UpdateUserGroupBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -137,7 +139,8 @@ func NewUpdateUserGroupUnauthorized() *UpdateUserGroupUnauthorized {
 	return &UpdateUserGroupUnauthorized{}
 }
 
-/*UpdateUserGroupUnauthorized handles this case with default header values.
+/*
+UpdateUserGroupUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -177,7 +180,8 @@ func NewUpdateUserGroupForbidden() *UpdateUserGroupForbidden {
 	return &UpdateUserGroupForbidden{}
 }
 
-/*UpdateUserGroupForbidden handles this case with default header values.
+/*
+UpdateUserGroupForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -217,7 +221,8 @@ func NewUpdateUserGroupNotFound() *UpdateUserGroupNotFound {
 	return &UpdateUserGroupNotFound{}
 }
 
-/*UpdateUserGroupNotFound handles this case with default header values.
+/*
+UpdateUserGroupNotFound handles this case with default header values.
 
 Not found
 */
@@ -257,7 +262,8 @@ func NewUpdateUserGroupInternalServerError() *UpdateUserGroupInternalServerError
 	return &UpdateUserGroupInternalServerError{}
 }
 
-/*UpdateUserGroupInternalServerError handles this case with default header values.
+/*
+UpdateUserGroupInternalServerError handles this case with default header values.
 
 Internal server error
 */

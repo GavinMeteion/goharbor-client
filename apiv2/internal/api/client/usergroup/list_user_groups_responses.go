@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // ListUserGroupsReader is a Reader for the ListUserGroups structure.
@@ -60,7 +60,8 @@ func NewListUserGroupsOK() *ListUserGroupsOK {
 	return &ListUserGroupsOK{}
 }
 
-/*ListUserGroupsOK handles this case with default header values.
+/*
+ListUserGroupsOK handles this case with default header values.
 
 Get user group successfully.
 */
@@ -108,7 +109,8 @@ func NewListUserGroupsUnauthorized() *ListUserGroupsUnauthorized {
 	return &ListUserGroupsUnauthorized{}
 }
 
-/*ListUserGroupsUnauthorized handles this case with default header values.
+/*
+ListUserGroupsUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -148,7 +150,8 @@ func NewListUserGroupsForbidden() *ListUserGroupsForbidden {
 	return &ListUserGroupsForbidden{}
 }
 
-/*ListUserGroupsForbidden handles this case with default header values.
+/*
+ListUserGroupsForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -188,7 +191,8 @@ func NewListUserGroupsInternalServerError() *ListUserGroupsInternalServerError {
 	return &ListUserGroupsInternalServerError{}
 }
 
-/*ListUserGroupsInternalServerError handles this case with default header values.
+/*
+ListUserGroupsInternalServerError handles this case with default header values.
 
 Internal server error
 */

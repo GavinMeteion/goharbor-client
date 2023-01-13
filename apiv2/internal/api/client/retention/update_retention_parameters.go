@@ -16,7 +16,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // NewUpdateRetentionParams creates a new UpdateRetentionParams object
@@ -58,7 +58,8 @@ func NewUpdateRetentionParamsWithHTTPClient(client *http.Client) *UpdateRetentio
 	}
 }
 
-/*UpdateRetentionParams contains all the parameters to send to the API endpoint
+/*
+UpdateRetentionParams contains all the parameters to send to the API endpoint
 for the update retention operation typically these are written to a http.Request
 */
 type UpdateRetentionParams struct {

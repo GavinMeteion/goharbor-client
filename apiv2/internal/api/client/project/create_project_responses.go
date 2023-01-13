@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // CreateProjectReader is a Reader for the CreateProject structure.
@@ -64,7 +64,8 @@ func NewCreateProjectCreated() *CreateProjectCreated {
 	return &CreateProjectCreated{}
 }
 
-/*CreateProjectCreated handles this case with default header values.
+/*
+CreateProjectCreated handles this case with default header values.
 
 Created
 */
@@ -97,7 +98,8 @@ func NewCreateProjectBadRequest() *CreateProjectBadRequest {
 	return &CreateProjectBadRequest{}
 }
 
-/*CreateProjectBadRequest handles this case with default header values.
+/*
+CreateProjectBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -137,7 +139,8 @@ func NewCreateProjectUnauthorized() *CreateProjectUnauthorized {
 	return &CreateProjectUnauthorized{}
 }
 
-/*CreateProjectUnauthorized handles this case with default header values.
+/*
+CreateProjectUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -177,7 +180,8 @@ func NewCreateProjectConflict() *CreateProjectConflict {
 	return &CreateProjectConflict{}
 }
 
-/*CreateProjectConflict handles this case with default header values.
+/*
+CreateProjectConflict handles this case with default header values.
 
 Conflict
 */
@@ -217,7 +221,8 @@ func NewCreateProjectInternalServerError() *CreateProjectInternalServerError {
 	return &CreateProjectInternalServerError{}
 }
 
-/*CreateProjectInternalServerError handles this case with default header values.
+/*
+CreateProjectInternalServerError handles this case with default header values.
 
 Internal server error
 */

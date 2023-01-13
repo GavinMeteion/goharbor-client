@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetGCReader is a Reader for the GetGC structure.
@@ -64,7 +64,8 @@ func NewGetGCOK() *GetGCOK {
 	return &GetGCOK{}
 }
 
-/*GetGCOK handles this case with default header values.
+/*
+GetGCOK handles this case with default header values.
 
 Get gc results successfully.
 */
@@ -97,7 +98,8 @@ func NewGetGCUnauthorized() *GetGCUnauthorized {
 	return &GetGCUnauthorized{}
 }
 
-/*GetGCUnauthorized handles this case with default header values.
+/*
+GetGCUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -137,7 +139,8 @@ func NewGetGCForbidden() *GetGCForbidden {
 	return &GetGCForbidden{}
 }
 
-/*GetGCForbidden handles this case with default header values.
+/*
+GetGCForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -177,7 +180,8 @@ func NewGetGCNotFound() *GetGCNotFound {
 	return &GetGCNotFound{}
 }
 
-/*GetGCNotFound handles this case with default header values.
+/*
+GetGCNotFound handles this case with default header values.
 
 Not found
 */
@@ -217,7 +221,8 @@ func NewGetGCInternalServerError() *GetGCInternalServerError {
 	return &GetGCInternalServerError{}
 }
 
-/*GetGCInternalServerError handles this case with default header values.
+/*
+GetGCInternalServerError handles this case with default header values.
 
 Internal server error
 */

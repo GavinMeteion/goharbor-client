@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv1/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv1/model"
 )
 
 // GetSystemGcScheduleReader is a Reader for the GetSystemGcSchedule structure.
@@ -58,7 +58,8 @@ func NewGetSystemGcScheduleOK() *GetSystemGcScheduleOK {
 	return &GetSystemGcScheduleOK{}
 }
 
-/*GetSystemGcScheduleOK handles this case with default header values.
+/*
+GetSystemGcScheduleOK handles this case with default header values.
 
 Get gc's schedule.
 */
@@ -91,7 +92,8 @@ func NewGetSystemGcScheduleUnauthorized() *GetSystemGcScheduleUnauthorized {
 	return &GetSystemGcScheduleUnauthorized{}
 }
 
-/*GetSystemGcScheduleUnauthorized handles this case with default header values.
+/*
+GetSystemGcScheduleUnauthorized handles this case with default header values.
 
 User need to log in first.
 */
@@ -112,7 +114,8 @@ func NewGetSystemGcScheduleForbidden() *GetSystemGcScheduleForbidden {
 	return &GetSystemGcScheduleForbidden{}
 }
 
-/*GetSystemGcScheduleForbidden handles this case with default header values.
+/*
+GetSystemGcScheduleForbidden handles this case with default header values.
 
 Only admin has this authority.
 */
@@ -133,7 +136,8 @@ func NewGetSystemGcScheduleInternalServerError() *GetSystemGcScheduleInternalSer
 	return &GetSystemGcScheduleInternalServerError{}
 }
 
-/*GetSystemGcScheduleInternalServerError handles this case with default header values.
+/*
+GetSystemGcScheduleInternalServerError handles this case with default header values.
 
 Unexpected internal errors.
 */

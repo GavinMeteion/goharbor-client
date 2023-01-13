@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // ListRepositoriesReader is a Reader for the ListRepositories structure.
@@ -72,7 +72,8 @@ func NewListRepositoriesOK() *ListRepositoriesOK {
 	return &ListRepositoriesOK{}
 }
 
-/*ListRepositoriesOK handles this case with default header values.
+/*
+ListRepositoriesOK handles this case with default header values.
 
 Success
 */
@@ -120,7 +121,8 @@ func NewListRepositoriesBadRequest() *ListRepositoriesBadRequest {
 	return &ListRepositoriesBadRequest{}
 }
 
-/*ListRepositoriesBadRequest handles this case with default header values.
+/*
+ListRepositoriesBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -160,7 +162,8 @@ func NewListRepositoriesUnauthorized() *ListRepositoriesUnauthorized {
 	return &ListRepositoriesUnauthorized{}
 }
 
-/*ListRepositoriesUnauthorized handles this case with default header values.
+/*
+ListRepositoriesUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -200,7 +203,8 @@ func NewListRepositoriesForbidden() *ListRepositoriesForbidden {
 	return &ListRepositoriesForbidden{}
 }
 
-/*ListRepositoriesForbidden handles this case with default header values.
+/*
+ListRepositoriesForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -240,7 +244,8 @@ func NewListRepositoriesNotFound() *ListRepositoriesNotFound {
 	return &ListRepositoriesNotFound{}
 }
 
-/*ListRepositoriesNotFound handles this case with default header values.
+/*
+ListRepositoriesNotFound handles this case with default header values.
 
 Not found
 */
@@ -280,7 +285,8 @@ func NewListRepositoriesInternalServerError() *ListRepositoriesInternalServerErr
 	return &ListRepositoriesInternalServerError{}
 }
 
-/*ListRepositoriesInternalServerError handles this case with default header values.
+/*
+ListRepositoriesInternalServerError handles this case with default header values.
 
 Internal server error
 */

@@ -16,7 +16,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv1/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv1/model"
 )
 
 // NewPutProjectsProjectIDParams creates a new PutProjectsProjectIDParams object
@@ -58,7 +58,8 @@ func NewPutProjectsProjectIDParamsWithHTTPClient(client *http.Client) *PutProjec
 	}
 }
 
-/*PutProjectsProjectIDParams contains all the parameters to send to the API endpoint
+/*
+PutProjectsProjectIDParams contains all the parameters to send to the API endpoint
 for the put projects project ID operation typically these are written to a http.Request
 */
 type PutProjectsProjectIDParams struct {

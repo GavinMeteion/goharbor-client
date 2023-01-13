@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // ListImmuRulesReader is a Reader for the ListImmuRules structure.
@@ -66,7 +66,8 @@ func NewListImmuRulesOK() *ListImmuRulesOK {
 	return &ListImmuRulesOK{}
 }
 
-/*ListImmuRulesOK handles this case with default header values.
+/*
+ListImmuRulesOK handles this case with default header values.
 
 Success
 */
@@ -114,7 +115,8 @@ func NewListImmuRulesBadRequest() *ListImmuRulesBadRequest {
 	return &ListImmuRulesBadRequest{}
 }
 
-/*ListImmuRulesBadRequest handles this case with default header values.
+/*
+ListImmuRulesBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -154,7 +156,8 @@ func NewListImmuRulesUnauthorized() *ListImmuRulesUnauthorized {
 	return &ListImmuRulesUnauthorized{}
 }
 
-/*ListImmuRulesUnauthorized handles this case with default header values.
+/*
+ListImmuRulesUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -194,7 +197,8 @@ func NewListImmuRulesForbidden() *ListImmuRulesForbidden {
 	return &ListImmuRulesForbidden{}
 }
 
-/*ListImmuRulesForbidden handles this case with default header values.
+/*
+ListImmuRulesForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -234,7 +238,8 @@ func NewListImmuRulesInternalServerError() *ListImmuRulesInternalServerError {
 	return &ListImmuRulesInternalServerError{}
 }
 
-/*ListImmuRulesInternalServerError handles this case with default header values.
+/*
+ListImmuRulesInternalServerError handles this case with default header values.
 
 Internal server error
 */

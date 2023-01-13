@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // ListProjectMembersReader is a Reader for the ListProjectMembers structure.
@@ -72,7 +72,8 @@ func NewListProjectMembersOK() *ListProjectMembersOK {
 	return &ListProjectMembersOK{}
 }
 
-/*ListProjectMembersOK handles this case with default header values.
+/*
+ListProjectMembersOK handles this case with default header values.
 
 Get project members successfully.
 */
@@ -120,7 +121,8 @@ func NewListProjectMembersBadRequest() *ListProjectMembersBadRequest {
 	return &ListProjectMembersBadRequest{}
 }
 
-/*ListProjectMembersBadRequest handles this case with default header values.
+/*
+ListProjectMembersBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -160,7 +162,8 @@ func NewListProjectMembersUnauthorized() *ListProjectMembersUnauthorized {
 	return &ListProjectMembersUnauthorized{}
 }
 
-/*ListProjectMembersUnauthorized handles this case with default header values.
+/*
+ListProjectMembersUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -200,7 +203,8 @@ func NewListProjectMembersForbidden() *ListProjectMembersForbidden {
 	return &ListProjectMembersForbidden{}
 }
 
-/*ListProjectMembersForbidden handles this case with default header values.
+/*
+ListProjectMembersForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -240,7 +244,8 @@ func NewListProjectMembersNotFound() *ListProjectMembersNotFound {
 	return &ListProjectMembersNotFound{}
 }
 
-/*ListProjectMembersNotFound handles this case with default header values.
+/*
+ListProjectMembersNotFound handles this case with default header values.
 
 Not found
 */
@@ -280,7 +285,8 @@ func NewListProjectMembersInternalServerError() *ListProjectMembersInternalServe
 	return &ListProjectMembersInternalServerError{}
 }
 
-/*ListProjectMembersInternalServerError handles this case with default header values.
+/*
+ListProjectMembersInternalServerError handles this case with default header values.
 
 Internal server error
 */

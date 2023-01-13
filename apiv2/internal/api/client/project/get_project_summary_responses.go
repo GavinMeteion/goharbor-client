@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetProjectSummaryReader is a Reader for the GetProjectSummary structure.
@@ -70,7 +70,8 @@ func NewGetProjectSummaryOK() *GetProjectSummaryOK {
 	return &GetProjectSummaryOK{}
 }
 
-/*GetProjectSummaryOK handles this case with default header values.
+/*
+GetProjectSummaryOK handles this case with default header values.
 
 Get summary of the project successfully.
 */
@@ -103,7 +104,8 @@ func NewGetProjectSummaryBadRequest() *GetProjectSummaryBadRequest {
 	return &GetProjectSummaryBadRequest{}
 }
 
-/*GetProjectSummaryBadRequest handles this case with default header values.
+/*
+GetProjectSummaryBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -143,7 +145,8 @@ func NewGetProjectSummaryUnauthorized() *GetProjectSummaryUnauthorized {
 	return &GetProjectSummaryUnauthorized{}
 }
 
-/*GetProjectSummaryUnauthorized handles this case with default header values.
+/*
+GetProjectSummaryUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -183,7 +186,8 @@ func NewGetProjectSummaryForbidden() *GetProjectSummaryForbidden {
 	return &GetProjectSummaryForbidden{}
 }
 
-/*GetProjectSummaryForbidden handles this case with default header values.
+/*
+GetProjectSummaryForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -223,7 +227,8 @@ func NewGetProjectSummaryNotFound() *GetProjectSummaryNotFound {
 	return &GetProjectSummaryNotFound{}
 }
 
-/*GetProjectSummaryNotFound handles this case with default header values.
+/*
+GetProjectSummaryNotFound handles this case with default header values.
 
 Not found
 */
@@ -263,7 +268,8 @@ func NewGetProjectSummaryInternalServerError() *GetProjectSummaryInternalServerE
 	return &GetProjectSummaryInternalServerError{}
 }
 
-/*GetProjectSummaryInternalServerError handles this case with default header values.
+/*
+GetProjectSummaryInternalServerError handles this case with default header values.
 
 Internal server error
 */

@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // DeleteReplicationPolicyReader is a Reader for the DeleteReplicationPolicy structure.
@@ -70,7 +70,8 @@ func NewDeleteReplicationPolicyOK() *DeleteReplicationPolicyOK {
 	return &DeleteReplicationPolicyOK{}
 }
 
-/*DeleteReplicationPolicyOK handles this case with default header values.
+/*
+DeleteReplicationPolicyOK handles this case with default header values.
 
 Success
 */
@@ -97,7 +98,8 @@ func NewDeleteReplicationPolicyUnauthorized() *DeleteReplicationPolicyUnauthoriz
 	return &DeleteReplicationPolicyUnauthorized{}
 }
 
-/*DeleteReplicationPolicyUnauthorized handles this case with default header values.
+/*
+DeleteReplicationPolicyUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -137,7 +139,8 @@ func NewDeleteReplicationPolicyForbidden() *DeleteReplicationPolicyForbidden {
 	return &DeleteReplicationPolicyForbidden{}
 }
 
-/*DeleteReplicationPolicyForbidden handles this case with default header values.
+/*
+DeleteReplicationPolicyForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -177,7 +180,8 @@ func NewDeleteReplicationPolicyNotFound() *DeleteReplicationPolicyNotFound {
 	return &DeleteReplicationPolicyNotFound{}
 }
 
-/*DeleteReplicationPolicyNotFound handles this case with default header values.
+/*
+DeleteReplicationPolicyNotFound handles this case with default header values.
 
 Not found
 */
@@ -217,7 +221,8 @@ func NewDeleteReplicationPolicyPreconditionFailed() *DeleteReplicationPolicyPrec
 	return &DeleteReplicationPolicyPreconditionFailed{}
 }
 
-/*DeleteReplicationPolicyPreconditionFailed handles this case with default header values.
+/*
+DeleteReplicationPolicyPreconditionFailed handles this case with default header values.
 
 Precondition failed
 */
@@ -257,7 +262,8 @@ func NewDeleteReplicationPolicyInternalServerError() *DeleteReplicationPolicyInt
 	return &DeleteReplicationPolicyInternalServerError{}
 }
 
-/*DeleteReplicationPolicyInternalServerError handles this case with default header values.
+/*
+DeleteReplicationPolicyInternalServerError handles this case with default header values.
 
 Internal server error
 */

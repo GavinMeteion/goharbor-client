@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // SetScannerAsDefaultReader is a Reader for the SetScannerAsDefault structure.
@@ -58,7 +58,8 @@ func NewSetScannerAsDefaultOK() *SetScannerAsDefaultOK {
 	return &SetScannerAsDefaultOK{}
 }
 
-/*SetScannerAsDefaultOK handles this case with default header values.
+/*
+SetScannerAsDefaultOK handles this case with default header values.
 
 Successfully set the specified scanner registration as system default
 */
@@ -79,7 +80,8 @@ func NewSetScannerAsDefaultUnauthorized() *SetScannerAsDefaultUnauthorized {
 	return &SetScannerAsDefaultUnauthorized{}
 }
 
-/*SetScannerAsDefaultUnauthorized handles this case with default header values.
+/*
+SetScannerAsDefaultUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -119,7 +121,8 @@ func NewSetScannerAsDefaultForbidden() *SetScannerAsDefaultForbidden {
 	return &SetScannerAsDefaultForbidden{}
 }
 
-/*SetScannerAsDefaultForbidden handles this case with default header values.
+/*
+SetScannerAsDefaultForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -159,7 +162,8 @@ func NewSetScannerAsDefaultInternalServerError() *SetScannerAsDefaultInternalSer
 	return &SetScannerAsDefaultInternalServerError{}
 }
 
-/*SetScannerAsDefaultInternalServerError handles this case with default header values.
+/*
+SetScannerAsDefaultInternalServerError handles this case with default header values.
 
 Internal server error
 */

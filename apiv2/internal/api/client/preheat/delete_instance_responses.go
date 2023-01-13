@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // DeleteInstanceReader is a Reader for the DeleteInstance structure.
@@ -64,7 +64,8 @@ func NewDeleteInstanceOK() *DeleteInstanceOK {
 	return &DeleteInstanceOK{}
 }
 
-/*DeleteInstanceOK handles this case with default header values.
+/*
+DeleteInstanceOK handles this case with default header values.
 
 Success
 */
@@ -91,7 +92,8 @@ func NewDeleteInstanceUnauthorized() *DeleteInstanceUnauthorized {
 	return &DeleteInstanceUnauthorized{}
 }
 
-/*DeleteInstanceUnauthorized handles this case with default header values.
+/*
+DeleteInstanceUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -131,7 +133,8 @@ func NewDeleteInstanceForbidden() *DeleteInstanceForbidden {
 	return &DeleteInstanceForbidden{}
 }
 
-/*DeleteInstanceForbidden handles this case with default header values.
+/*
+DeleteInstanceForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -171,7 +174,8 @@ func NewDeleteInstanceNotFound() *DeleteInstanceNotFound {
 	return &DeleteInstanceNotFound{}
 }
 
-/*DeleteInstanceNotFound handles this case with default header values.
+/*
+DeleteInstanceNotFound handles this case with default header values.
 
 Not found
 */
@@ -211,7 +215,8 @@ func NewDeleteInstanceInternalServerError() *DeleteInstanceInternalServerError {
 	return &DeleteInstanceInternalServerError{}
 }
 
-/*DeleteInstanceInternalServerError handles this case with default header values.
+/*
+DeleteInstanceInternalServerError handles this case with default header values.
 
 Internal server error
 */

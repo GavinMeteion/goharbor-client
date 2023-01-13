@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetWebhookPolicyOfProjectReader is a Reader for the GetWebhookPolicyOfProject structure.
@@ -70,7 +70,8 @@ func NewGetWebhookPolicyOfProjectOK() *GetWebhookPolicyOfProjectOK {
 	return &GetWebhookPolicyOfProjectOK{}
 }
 
-/*GetWebhookPolicyOfProjectOK handles this case with default header values.
+/*
+GetWebhookPolicyOfProjectOK handles this case with default header values.
 
 Get webhook policy successfully.
 */
@@ -103,7 +104,8 @@ func NewGetWebhookPolicyOfProjectBadRequest() *GetWebhookPolicyOfProjectBadReque
 	return &GetWebhookPolicyOfProjectBadRequest{}
 }
 
-/*GetWebhookPolicyOfProjectBadRequest handles this case with default header values.
+/*
+GetWebhookPolicyOfProjectBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -143,7 +145,8 @@ func NewGetWebhookPolicyOfProjectUnauthorized() *GetWebhookPolicyOfProjectUnauth
 	return &GetWebhookPolicyOfProjectUnauthorized{}
 }
 
-/*GetWebhookPolicyOfProjectUnauthorized handles this case with default header values.
+/*
+GetWebhookPolicyOfProjectUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -183,7 +186,8 @@ func NewGetWebhookPolicyOfProjectForbidden() *GetWebhookPolicyOfProjectForbidden
 	return &GetWebhookPolicyOfProjectForbidden{}
 }
 
-/*GetWebhookPolicyOfProjectForbidden handles this case with default header values.
+/*
+GetWebhookPolicyOfProjectForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -223,7 +227,8 @@ func NewGetWebhookPolicyOfProjectNotFound() *GetWebhookPolicyOfProjectNotFound {
 	return &GetWebhookPolicyOfProjectNotFound{}
 }
 
-/*GetWebhookPolicyOfProjectNotFound handles this case with default header values.
+/*
+GetWebhookPolicyOfProjectNotFound handles this case with default header values.
 
 Not found
 */
@@ -263,7 +268,8 @@ func NewGetWebhookPolicyOfProjectInternalServerError() *GetWebhookPolicyOfProjec
 	return &GetWebhookPolicyOfProjectInternalServerError{}
 }
 
-/*GetWebhookPolicyOfProjectInternalServerError handles this case with default header values.
+/*
+GetWebhookPolicyOfProjectInternalServerError handles this case with default header values.
 
 Internal server error
 */

@@ -15,7 +15,7 @@ import (
 	cr "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv1/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv1/model"
 )
 
 // NewPutSystemGcScheduleParams creates a new PutSystemGcScheduleParams object
@@ -57,7 +57,8 @@ func NewPutSystemGcScheduleParamsWithHTTPClient(client *http.Client) *PutSystemG
 	}
 }
 
-/*PutSystemGcScheduleParams contains all the parameters to send to the API endpoint
+/*
+PutSystemGcScheduleParams contains all the parameters to send to the API endpoint
 for the put system gc schedule operation typically these are written to a http.Request
 */
 type PutSystemGcScheduleParams struct {

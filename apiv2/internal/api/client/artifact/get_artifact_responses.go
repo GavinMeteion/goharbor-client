@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetArtifactReader is a Reader for the GetArtifact structure.
@@ -70,7 +70,8 @@ func NewGetArtifactOK() *GetArtifactOK {
 	return &GetArtifactOK{}
 }
 
-/*GetArtifactOK handles this case with default header values.
+/*
+GetArtifactOK handles this case with default header values.
 
 Success
 */
@@ -103,7 +104,8 @@ func NewGetArtifactBadRequest() *GetArtifactBadRequest {
 	return &GetArtifactBadRequest{}
 }
 
-/*GetArtifactBadRequest handles this case with default header values.
+/*
+GetArtifactBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -143,7 +145,8 @@ func NewGetArtifactUnauthorized() *GetArtifactUnauthorized {
 	return &GetArtifactUnauthorized{}
 }
 
-/*GetArtifactUnauthorized handles this case with default header values.
+/*
+GetArtifactUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -183,7 +186,8 @@ func NewGetArtifactForbidden() *GetArtifactForbidden {
 	return &GetArtifactForbidden{}
 }
 
-/*GetArtifactForbidden handles this case with default header values.
+/*
+GetArtifactForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -223,7 +227,8 @@ func NewGetArtifactNotFound() *GetArtifactNotFound {
 	return &GetArtifactNotFound{}
 }
 
-/*GetArtifactNotFound handles this case with default header values.
+/*
+GetArtifactNotFound handles this case with default header values.
 
 Not found
 */
@@ -263,7 +268,8 @@ func NewGetArtifactInternalServerError() *GetArtifactInternalServerError {
 	return &GetArtifactInternalServerError{}
 }
 
-/*GetArtifactInternalServerError handles this case with default header values.
+/*
+GetArtifactInternalServerError handles this case with default header values.
 
 Internal server error
 */

@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // UpdateRobotReader is a Reader for the UpdateRobot structure.
@@ -76,7 +76,8 @@ func NewUpdateRobotOK() *UpdateRobotOK {
 	return &UpdateRobotOK{}
 }
 
-/*UpdateRobotOK handles this case with default header values.
+/*
+UpdateRobotOK handles this case with default header values.
 
 Success
 */
@@ -103,7 +104,8 @@ func NewUpdateRobotBadRequest() *UpdateRobotBadRequest {
 	return &UpdateRobotBadRequest{}
 }
 
-/*UpdateRobotBadRequest handles this case with default header values.
+/*
+UpdateRobotBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -143,7 +145,8 @@ func NewUpdateRobotUnauthorized() *UpdateRobotUnauthorized {
 	return &UpdateRobotUnauthorized{}
 }
 
-/*UpdateRobotUnauthorized handles this case with default header values.
+/*
+UpdateRobotUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -183,7 +186,8 @@ func NewUpdateRobotForbidden() *UpdateRobotForbidden {
 	return &UpdateRobotForbidden{}
 }
 
-/*UpdateRobotForbidden handles this case with default header values.
+/*
+UpdateRobotForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -223,7 +227,8 @@ func NewUpdateRobotNotFound() *UpdateRobotNotFound {
 	return &UpdateRobotNotFound{}
 }
 
-/*UpdateRobotNotFound handles this case with default header values.
+/*
+UpdateRobotNotFound handles this case with default header values.
 
 Not found
 */
@@ -263,7 +268,8 @@ func NewUpdateRobotConflict() *UpdateRobotConflict {
 	return &UpdateRobotConflict{}
 }
 
-/*UpdateRobotConflict handles this case with default header values.
+/*
+UpdateRobotConflict handles this case with default header values.
 
 Conflict
 */
@@ -303,7 +309,8 @@ func NewUpdateRobotInternalServerError() *UpdateRobotInternalServerError {
 	return &UpdateRobotInternalServerError{}
 }
 
-/*UpdateRobotInternalServerError handles this case with default header values.
+/*
+UpdateRobotInternalServerError handles this case with default header values.
 
 Internal server error
 */

@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // CreatePolicyReader is a Reader for the CreatePolicy structure.
@@ -70,7 +70,8 @@ func NewCreatePolicyCreated() *CreatePolicyCreated {
 	return &CreatePolicyCreated{}
 }
 
-/*CreatePolicyCreated handles this case with default header values.
+/*
+CreatePolicyCreated handles this case with default header values.
 
 Created
 */
@@ -103,7 +104,8 @@ func NewCreatePolicyBadRequest() *CreatePolicyBadRequest {
 	return &CreatePolicyBadRequest{}
 }
 
-/*CreatePolicyBadRequest handles this case with default header values.
+/*
+CreatePolicyBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -143,7 +145,8 @@ func NewCreatePolicyUnauthorized() *CreatePolicyUnauthorized {
 	return &CreatePolicyUnauthorized{}
 }
 
-/*CreatePolicyUnauthorized handles this case with default header values.
+/*
+CreatePolicyUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -183,7 +186,8 @@ func NewCreatePolicyForbidden() *CreatePolicyForbidden {
 	return &CreatePolicyForbidden{}
 }
 
-/*CreatePolicyForbidden handles this case with default header values.
+/*
+CreatePolicyForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -223,7 +227,8 @@ func NewCreatePolicyConflict() *CreatePolicyConflict {
 	return &CreatePolicyConflict{}
 }
 
-/*CreatePolicyConflict handles this case with default header values.
+/*
+CreatePolicyConflict handles this case with default header values.
 
 Conflict
 */
@@ -263,7 +268,8 @@ func NewCreatePolicyInternalServerError() *CreatePolicyInternalServerError {
 	return &CreatePolicyInternalServerError{}
 }
 
-/*CreatePolicyInternalServerError handles this case with default header values.
+/*
+CreatePolicyInternalServerError handles this case with default header values.
 
 Internal server error
 */

@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetExecutionReader is a Reader for the GetExecution structure.
@@ -70,7 +70,8 @@ func NewGetExecutionOK() *GetExecutionOK {
 	return &GetExecutionOK{}
 }
 
-/*GetExecutionOK handles this case with default header values.
+/*
+GetExecutionOK handles this case with default header values.
 
 Get execution success
 */
@@ -103,7 +104,8 @@ func NewGetExecutionBadRequest() *GetExecutionBadRequest {
 	return &GetExecutionBadRequest{}
 }
 
-/*GetExecutionBadRequest handles this case with default header values.
+/*
+GetExecutionBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -143,7 +145,8 @@ func NewGetExecutionUnauthorized() *GetExecutionUnauthorized {
 	return &GetExecutionUnauthorized{}
 }
 
-/*GetExecutionUnauthorized handles this case with default header values.
+/*
+GetExecutionUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -183,7 +186,8 @@ func NewGetExecutionForbidden() *GetExecutionForbidden {
 	return &GetExecutionForbidden{}
 }
 
-/*GetExecutionForbidden handles this case with default header values.
+/*
+GetExecutionForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -223,7 +227,8 @@ func NewGetExecutionNotFound() *GetExecutionNotFound {
 	return &GetExecutionNotFound{}
 }
 
-/*GetExecutionNotFound handles this case with default header values.
+/*
+GetExecutionNotFound handles this case with default header values.
 
 Not found
 */
@@ -263,7 +268,8 @@ func NewGetExecutionInternalServerError() *GetExecutionInternalServerError {
 	return &GetExecutionInternalServerError{}
 }
 
-/*GetExecutionInternalServerError handles this case with default header values.
+/*
+GetExecutionInternalServerError handles this case with default header values.
 
 Internal server error
 */

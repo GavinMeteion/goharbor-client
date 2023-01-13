@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // UpdatePurgeScheduleReader is a Reader for the UpdatePurgeSchedule structure.
@@ -64,7 +64,8 @@ func NewUpdatePurgeScheduleOK() *UpdatePurgeScheduleOK {
 	return &UpdatePurgeScheduleOK{}
 }
 
-/*UpdatePurgeScheduleOK handles this case with default header values.
+/*
+UpdatePurgeScheduleOK handles this case with default header values.
 
 Updated purge's schedule successfully.
 */
@@ -85,7 +86,8 @@ func NewUpdatePurgeScheduleBadRequest() *UpdatePurgeScheduleBadRequest {
 	return &UpdatePurgeScheduleBadRequest{}
 }
 
-/*UpdatePurgeScheduleBadRequest handles this case with default header values.
+/*
+UpdatePurgeScheduleBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -125,7 +127,8 @@ func NewUpdatePurgeScheduleUnauthorized() *UpdatePurgeScheduleUnauthorized {
 	return &UpdatePurgeScheduleUnauthorized{}
 }
 
-/*UpdatePurgeScheduleUnauthorized handles this case with default header values.
+/*
+UpdatePurgeScheduleUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -165,7 +168,8 @@ func NewUpdatePurgeScheduleForbidden() *UpdatePurgeScheduleForbidden {
 	return &UpdatePurgeScheduleForbidden{}
 }
 
-/*UpdatePurgeScheduleForbidden handles this case with default header values.
+/*
+UpdatePurgeScheduleForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -205,7 +209,8 @@ func NewUpdatePurgeScheduleInternalServerError() *UpdatePurgeScheduleInternalSer
 	return &UpdatePurgeScheduleInternalServerError{}
 }
 
-/*UpdatePurgeScheduleInternalServerError handles this case with default header values.
+/*
+UpdatePurgeScheduleInternalServerError handles this case with default header values.
 
 Internal server error
 */

@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // StartReplicationReader is a Reader for the StartReplication structure.
@@ -64,7 +64,8 @@ func NewStartReplicationCreated() *StartReplicationCreated {
 	return &StartReplicationCreated{}
 }
 
-/*StartReplicationCreated handles this case with default header values.
+/*
+StartReplicationCreated handles this case with default header values.
 
 Created
 */
@@ -97,7 +98,8 @@ func NewStartReplicationBadRequest() *StartReplicationBadRequest {
 	return &StartReplicationBadRequest{}
 }
 
-/*StartReplicationBadRequest handles this case with default header values.
+/*
+StartReplicationBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -137,7 +139,8 @@ func NewStartReplicationUnauthorized() *StartReplicationUnauthorized {
 	return &StartReplicationUnauthorized{}
 }
 
-/*StartReplicationUnauthorized handles this case with default header values.
+/*
+StartReplicationUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -177,7 +180,8 @@ func NewStartReplicationForbidden() *StartReplicationForbidden {
 	return &StartReplicationForbidden{}
 }
 
-/*StartReplicationForbidden handles this case with default header values.
+/*
+StartReplicationForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -217,7 +221,8 @@ func NewStartReplicationInternalServerError() *StartReplicationInternalServerErr
 	return &StartReplicationInternalServerError{}
 }
 
-/*StartReplicationInternalServerError handles this case with default header values.
+/*
+StartReplicationInternalServerError handles this case with default header values.
 
 Internal server error
 */

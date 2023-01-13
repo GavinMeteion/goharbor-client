@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // ListAuditLogsReader is a Reader for the ListAuditLogs structure.
@@ -60,7 +60,8 @@ func NewListAuditLogsOK() *ListAuditLogsOK {
 	return &ListAuditLogsOK{}
 }
 
-/*ListAuditLogsOK handles this case with default header values.
+/*
+ListAuditLogsOK handles this case with default header values.
 
 Success
 */
@@ -108,7 +109,8 @@ func NewListAuditLogsBadRequest() *ListAuditLogsBadRequest {
 	return &ListAuditLogsBadRequest{}
 }
 
-/*ListAuditLogsBadRequest handles this case with default header values.
+/*
+ListAuditLogsBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -148,7 +150,8 @@ func NewListAuditLogsUnauthorized() *ListAuditLogsUnauthorized {
 	return &ListAuditLogsUnauthorized{}
 }
 
-/*ListAuditLogsUnauthorized handles this case with default header values.
+/*
+ListAuditLogsUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -188,7 +191,8 @@ func NewListAuditLogsInternalServerError() *ListAuditLogsInternalServerError {
 	return &ListAuditLogsInternalServerError{}
 }
 
-/*ListAuditLogsInternalServerError handles this case with default header values.
+/*
+ListAuditLogsInternalServerError handles this case with default header values.
 
 Internal server error
 */

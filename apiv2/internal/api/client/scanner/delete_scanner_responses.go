@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // DeleteScannerReader is a Reader for the DeleteScanner structure.
@@ -64,7 +64,8 @@ func NewDeleteScannerOK() *DeleteScannerOK {
 	return &DeleteScannerOK{}
 }
 
-/*DeleteScannerOK handles this case with default header values.
+/*
+DeleteScannerOK handles this case with default header values.
 
 Deleted successfully and return the deleted registration
 */
@@ -97,7 +98,8 @@ func NewDeleteScannerUnauthorized() *DeleteScannerUnauthorized {
 	return &DeleteScannerUnauthorized{}
 }
 
-/*DeleteScannerUnauthorized handles this case with default header values.
+/*
+DeleteScannerUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -137,7 +139,8 @@ func NewDeleteScannerForbidden() *DeleteScannerForbidden {
 	return &DeleteScannerForbidden{}
 }
 
-/*DeleteScannerForbidden handles this case with default header values.
+/*
+DeleteScannerForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -177,7 +180,8 @@ func NewDeleteScannerNotFound() *DeleteScannerNotFound {
 	return &DeleteScannerNotFound{}
 }
 
-/*DeleteScannerNotFound handles this case with default header values.
+/*
+DeleteScannerNotFound handles this case with default header values.
 
 Not found
 */
@@ -217,7 +221,8 @@ func NewDeleteScannerInternalServerError() *DeleteScannerInternalServerError {
 	return &DeleteScannerInternalServerError{}
 }
 
-/*DeleteScannerInternalServerError handles this case with default header values.
+/*
+DeleteScannerInternalServerError handles this case with default header values.
 
 Internal server error
 */

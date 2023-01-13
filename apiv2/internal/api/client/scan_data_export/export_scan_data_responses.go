@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // ExportScanDataReader is a Reader for the ExportScanData structure.
@@ -82,7 +82,8 @@ func NewExportScanDataOK() *ExportScanDataOK {
 	return &ExportScanDataOK{}
 }
 
-/*ExportScanDataOK handles this case with default header values.
+/*
+ExportScanDataOK handles this case with default header values.
 
 Success.
 */
@@ -115,7 +116,8 @@ func NewExportScanDataBadRequest() *ExportScanDataBadRequest {
 	return &ExportScanDataBadRequest{}
 }
 
-/*ExportScanDataBadRequest handles this case with default header values.
+/*
+ExportScanDataBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -155,7 +157,8 @@ func NewExportScanDataUnauthorized() *ExportScanDataUnauthorized {
 	return &ExportScanDataUnauthorized{}
 }
 
-/*ExportScanDataUnauthorized handles this case with default header values.
+/*
+ExportScanDataUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -195,7 +198,8 @@ func NewExportScanDataForbidden() *ExportScanDataForbidden {
 	return &ExportScanDataForbidden{}
 }
 
-/*ExportScanDataForbidden handles this case with default header values.
+/*
+ExportScanDataForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -235,7 +239,8 @@ func NewExportScanDataNotFound() *ExportScanDataNotFound {
 	return &ExportScanDataNotFound{}
 }
 
-/*ExportScanDataNotFound handles this case with default header values.
+/*
+ExportScanDataNotFound handles this case with default header values.
 
 Not found
 */
@@ -275,7 +280,8 @@ func NewExportScanDataMethodNotAllowed() *ExportScanDataMethodNotAllowed {
 	return &ExportScanDataMethodNotAllowed{}
 }
 
-/*ExportScanDataMethodNotAllowed handles this case with default header values.
+/*
+ExportScanDataMethodNotAllowed handles this case with default header values.
 
 Method not allowed
 */
@@ -315,7 +321,8 @@ func NewExportScanDataConflict() *ExportScanDataConflict {
 	return &ExportScanDataConflict{}
 }
 
-/*ExportScanDataConflict handles this case with default header values.
+/*
+ExportScanDataConflict handles this case with default header values.
 
 Conflict
 */
@@ -355,7 +362,8 @@ func NewExportScanDataInternalServerError() *ExportScanDataInternalServerError {
 	return &ExportScanDataInternalServerError{}
 }
 
-/*ExportScanDataInternalServerError handles this case with default header values.
+/*
+ExportScanDataInternalServerError handles this case with default header values.
 
 Internal server error
 */

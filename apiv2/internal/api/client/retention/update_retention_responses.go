@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // UpdateRetentionReader is a Reader for the UpdateRetention structure.
@@ -58,7 +58,8 @@ func NewUpdateRetentionOK() *UpdateRetentionOK {
 	return &UpdateRetentionOK{}
 }
 
-/*UpdateRetentionOK handles this case with default header values.
+/*
+UpdateRetentionOK handles this case with default header values.
 
 Update Retention Policy successfully.
 */
@@ -79,7 +80,8 @@ func NewUpdateRetentionUnauthorized() *UpdateRetentionUnauthorized {
 	return &UpdateRetentionUnauthorized{}
 }
 
-/*UpdateRetentionUnauthorized handles this case with default header values.
+/*
+UpdateRetentionUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -119,7 +121,8 @@ func NewUpdateRetentionForbidden() *UpdateRetentionForbidden {
 	return &UpdateRetentionForbidden{}
 }
 
-/*UpdateRetentionForbidden handles this case with default header values.
+/*
+UpdateRetentionForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -159,7 +162,8 @@ func NewUpdateRetentionInternalServerError() *UpdateRetentionInternalServerError
 	return &UpdateRetentionInternalServerError{}
 }
 
-/*UpdateRetentionInternalServerError handles this case with default header values.
+/*
+UpdateRetentionInternalServerError handles this case with default header values.
 
 Internal server error
 */

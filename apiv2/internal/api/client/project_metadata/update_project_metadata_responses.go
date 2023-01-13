@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // UpdateProjectMetadataReader is a Reader for the UpdateProjectMetadata structure.
@@ -76,7 +76,8 @@ func NewUpdateProjectMetadataOK() *UpdateProjectMetadataOK {
 	return &UpdateProjectMetadataOK{}
 }
 
-/*UpdateProjectMetadataOK handles this case with default header values.
+/*
+UpdateProjectMetadataOK handles this case with default header values.
 
 Success
 */
@@ -103,7 +104,8 @@ func NewUpdateProjectMetadataBadRequest() *UpdateProjectMetadataBadRequest {
 	return &UpdateProjectMetadataBadRequest{}
 }
 
-/*UpdateProjectMetadataBadRequest handles this case with default header values.
+/*
+UpdateProjectMetadataBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -143,7 +145,8 @@ func NewUpdateProjectMetadataUnauthorized() *UpdateProjectMetadataUnauthorized {
 	return &UpdateProjectMetadataUnauthorized{}
 }
 
-/*UpdateProjectMetadataUnauthorized handles this case with default header values.
+/*
+UpdateProjectMetadataUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -183,7 +186,8 @@ func NewUpdateProjectMetadataForbidden() *UpdateProjectMetadataForbidden {
 	return &UpdateProjectMetadataForbidden{}
 }
 
-/*UpdateProjectMetadataForbidden handles this case with default header values.
+/*
+UpdateProjectMetadataForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -223,7 +227,8 @@ func NewUpdateProjectMetadataNotFound() *UpdateProjectMetadataNotFound {
 	return &UpdateProjectMetadataNotFound{}
 }
 
-/*UpdateProjectMetadataNotFound handles this case with default header values.
+/*
+UpdateProjectMetadataNotFound handles this case with default header values.
 
 Not found
 */
@@ -263,7 +268,8 @@ func NewUpdateProjectMetadataConflict() *UpdateProjectMetadataConflict {
 	return &UpdateProjectMetadataConflict{}
 }
 
-/*UpdateProjectMetadataConflict handles this case with default header values.
+/*
+UpdateProjectMetadataConflict handles this case with default header values.
 
 Conflict
 */
@@ -303,7 +309,8 @@ func NewUpdateProjectMetadataInternalServerError() *UpdateProjectMetadataInterna
 	return &UpdateProjectMetadataInternalServerError{}
 }
 
-/*UpdateProjectMetadataInternalServerError handles this case with default header values.
+/*
+UpdateProjectMetadataInternalServerError handles this case with default header values.
 
 Internal server error
 */

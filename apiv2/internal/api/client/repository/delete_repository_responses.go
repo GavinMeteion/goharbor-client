@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // DeleteRepositoryReader is a Reader for the DeleteRepository structure.
@@ -70,7 +70,8 @@ func NewDeleteRepositoryOK() *DeleteRepositoryOK {
 	return &DeleteRepositoryOK{}
 }
 
-/*DeleteRepositoryOK handles this case with default header values.
+/*
+DeleteRepositoryOK handles this case with default header values.
 
 Success
 */
@@ -97,7 +98,8 @@ func NewDeleteRepositoryBadRequest() *DeleteRepositoryBadRequest {
 	return &DeleteRepositoryBadRequest{}
 }
 
-/*DeleteRepositoryBadRequest handles this case with default header values.
+/*
+DeleteRepositoryBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -137,7 +139,8 @@ func NewDeleteRepositoryUnauthorized() *DeleteRepositoryUnauthorized {
 	return &DeleteRepositoryUnauthorized{}
 }
 
-/*DeleteRepositoryUnauthorized handles this case with default header values.
+/*
+DeleteRepositoryUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -177,7 +180,8 @@ func NewDeleteRepositoryForbidden() *DeleteRepositoryForbidden {
 	return &DeleteRepositoryForbidden{}
 }
 
-/*DeleteRepositoryForbidden handles this case with default header values.
+/*
+DeleteRepositoryForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -217,7 +221,8 @@ func NewDeleteRepositoryNotFound() *DeleteRepositoryNotFound {
 	return &DeleteRepositoryNotFound{}
 }
 
-/*DeleteRepositoryNotFound handles this case with default header values.
+/*
+DeleteRepositoryNotFound handles this case with default header values.
 
 Not found
 */
@@ -257,7 +262,8 @@ func NewDeleteRepositoryInternalServerError() *DeleteRepositoryInternalServerErr
 	return &DeleteRepositoryInternalServerError{}
 }
 
-/*DeleteRepositoryInternalServerError handles this case with default header values.
+/*
+DeleteRepositoryInternalServerError handles this case with default header values.
 
 Internal server error
 */

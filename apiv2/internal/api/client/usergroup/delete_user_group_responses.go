@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // DeleteUserGroupReader is a Reader for the DeleteUserGroup structure.
@@ -64,7 +64,8 @@ func NewDeleteUserGroupOK() *DeleteUserGroupOK {
 	return &DeleteUserGroupOK{}
 }
 
-/*DeleteUserGroupOK handles this case with default header values.
+/*
+DeleteUserGroupOK handles this case with default header values.
 
 Success
 */
@@ -91,7 +92,8 @@ func NewDeleteUserGroupBadRequest() *DeleteUserGroupBadRequest {
 	return &DeleteUserGroupBadRequest{}
 }
 
-/*DeleteUserGroupBadRequest handles this case with default header values.
+/*
+DeleteUserGroupBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -131,7 +133,8 @@ func NewDeleteUserGroupUnauthorized() *DeleteUserGroupUnauthorized {
 	return &DeleteUserGroupUnauthorized{}
 }
 
-/*DeleteUserGroupUnauthorized handles this case with default header values.
+/*
+DeleteUserGroupUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -171,7 +174,8 @@ func NewDeleteUserGroupForbidden() *DeleteUserGroupForbidden {
 	return &DeleteUserGroupForbidden{}
 }
 
-/*DeleteUserGroupForbidden handles this case with default header values.
+/*
+DeleteUserGroupForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -211,7 +215,8 @@ func NewDeleteUserGroupInternalServerError() *DeleteUserGroupInternalServerError
 	return &DeleteUserGroupInternalServerError{}
 }
 
-/*DeleteUserGroupInternalServerError handles this case with default header values.
+/*
+DeleteUserGroupInternalServerError handles this case with default header values.
 
 Internal server error
 */

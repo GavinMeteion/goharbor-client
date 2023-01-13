@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // DeleteTagReader is a Reader for the DeleteTag structure.
@@ -64,7 +64,8 @@ func NewDeleteTagOK() *DeleteTagOK {
 	return &DeleteTagOK{}
 }
 
-/*DeleteTagOK handles this case with default header values.
+/*
+DeleteTagOK handles this case with default header values.
 
 Success
 */
@@ -91,7 +92,8 @@ func NewDeleteTagUnauthorized() *DeleteTagUnauthorized {
 	return &DeleteTagUnauthorized{}
 }
 
-/*DeleteTagUnauthorized handles this case with default header values.
+/*
+DeleteTagUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -131,7 +133,8 @@ func NewDeleteTagForbidden() *DeleteTagForbidden {
 	return &DeleteTagForbidden{}
 }
 
-/*DeleteTagForbidden handles this case with default header values.
+/*
+DeleteTagForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -171,7 +174,8 @@ func NewDeleteTagNotFound() *DeleteTagNotFound {
 	return &DeleteTagNotFound{}
 }
 
-/*DeleteTagNotFound handles this case with default header values.
+/*
+DeleteTagNotFound handles this case with default header values.
 
 Not found
 */
@@ -211,7 +215,8 @@ func NewDeleteTagInternalServerError() *DeleteTagInternalServerError {
 	return &DeleteTagInternalServerError{}
 }
 
-/*DeleteTagInternalServerError handles this case with default header values.
+/*
+DeleteTagInternalServerError handles this case with default header values.
 
 Internal server error
 */

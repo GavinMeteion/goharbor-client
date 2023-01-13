@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // ListAllRepositoriesReader is a Reader for the ListAllRepositories structure.
@@ -54,7 +54,8 @@ func NewListAllRepositoriesOK() *ListAllRepositoriesOK {
 	return &ListAllRepositoriesOK{}
 }
 
-/*ListAllRepositoriesOK handles this case with default header values.
+/*
+ListAllRepositoriesOK handles this case with default header values.
 
 Success
 */
@@ -102,7 +103,8 @@ func NewListAllRepositoriesBadRequest() *ListAllRepositoriesBadRequest {
 	return &ListAllRepositoriesBadRequest{}
 }
 
-/*ListAllRepositoriesBadRequest handles this case with default header values.
+/*
+ListAllRepositoriesBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -142,7 +144,8 @@ func NewListAllRepositoriesInternalServerError() *ListAllRepositoriesInternalSer
 	return &ListAllRepositoriesInternalServerError{}
 }
 
-/*ListAllRepositoriesInternalServerError handles this case with default header values.
+/*
+ListAllRepositoriesInternalServerError handles this case with default header values.
 
 Internal server error
 */

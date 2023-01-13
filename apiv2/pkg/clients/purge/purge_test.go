@@ -6,10 +6,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/internal/api/client/purge"
-	"github.com/mittwald/goharbor-client/v5/apiv2/mocks"
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
-	clienttesting "github.com/mittwald/goharbor-client/v5/apiv2/pkg/testing"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/internal/api/client/purge"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/mocks"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
+	clienttesting "github.com/GavinMeteion/goharbor-client/v5/apiv2/pkg/testing"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 )

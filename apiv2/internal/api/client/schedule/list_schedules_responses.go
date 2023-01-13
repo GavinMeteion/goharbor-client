@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // ListSchedulesReader is a Reader for the ListSchedules structure.
@@ -66,7 +66,8 @@ func NewListSchedulesOK() *ListSchedulesOK {
 	return &ListSchedulesOK{}
 }
 
-/*ListSchedulesOK handles this case with default header values.
+/*
+ListSchedulesOK handles this case with default header values.
 
 list schedule successfully.
 */
@@ -114,7 +115,8 @@ func NewListSchedulesUnauthorized() *ListSchedulesUnauthorized {
 	return &ListSchedulesUnauthorized{}
 }
 
-/*ListSchedulesUnauthorized handles this case with default header values.
+/*
+ListSchedulesUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -154,7 +156,8 @@ func NewListSchedulesForbidden() *ListSchedulesForbidden {
 	return &ListSchedulesForbidden{}
 }
 
-/*ListSchedulesForbidden handles this case with default header values.
+/*
+ListSchedulesForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -194,7 +197,8 @@ func NewListSchedulesNotFound() *ListSchedulesNotFound {
 	return &ListSchedulesNotFound{}
 }
 
-/*ListSchedulesNotFound handles this case with default header values.
+/*
+ListSchedulesNotFound handles this case with default header values.
 
 Not found
 */
@@ -234,7 +238,8 @@ func NewListSchedulesInternalServerError() *ListSchedulesInternalServerError {
 	return &ListSchedulesInternalServerError{}
 }
 
-/*ListSchedulesInternalServerError handles this case with default header values.
+/*
+ListSchedulesInternalServerError handles this case with default header values.
 
 Internal server error
 */

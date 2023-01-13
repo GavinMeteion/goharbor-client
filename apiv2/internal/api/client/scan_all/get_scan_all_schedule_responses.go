@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetScanAllScheduleReader is a Reader for the GetScanAllSchedule structure.
@@ -64,7 +64,8 @@ func NewGetScanAllScheduleOK() *GetScanAllScheduleOK {
 	return &GetScanAllScheduleOK{}
 }
 
-/*GetScanAllScheduleOK handles this case with default header values.
+/*
+GetScanAllScheduleOK handles this case with default header values.
 
 Get a schedule for the scan all job, which scans all of images in Harbor.
 */
@@ -97,7 +98,8 @@ func NewGetScanAllScheduleUnauthorized() *GetScanAllScheduleUnauthorized {
 	return &GetScanAllScheduleUnauthorized{}
 }
 
-/*GetScanAllScheduleUnauthorized handles this case with default header values.
+/*
+GetScanAllScheduleUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -137,7 +139,8 @@ func NewGetScanAllScheduleForbidden() *GetScanAllScheduleForbidden {
 	return &GetScanAllScheduleForbidden{}
 }
 
-/*GetScanAllScheduleForbidden handles this case with default header values.
+/*
+GetScanAllScheduleForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -177,7 +180,8 @@ func NewGetScanAllSchedulePreconditionFailed() *GetScanAllSchedulePreconditionFa
 	return &GetScanAllSchedulePreconditionFailed{}
 }
 
-/*GetScanAllSchedulePreconditionFailed handles this case with default header values.
+/*
+GetScanAllSchedulePreconditionFailed handles this case with default header values.
 
 Precondition failed
 */
@@ -217,7 +221,8 @@ func NewGetScanAllScheduleInternalServerError() *GetScanAllScheduleInternalServe
 	return &GetScanAllScheduleInternalServerError{}
 }
 
-/*GetScanAllScheduleInternalServerError handles this case with default header values.
+/*
+GetScanAllScheduleInternalServerError handles this case with default header values.
 
 Internal server error
 */

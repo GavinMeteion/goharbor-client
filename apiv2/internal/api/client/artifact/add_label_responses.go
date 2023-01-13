@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // AddLabelReader is a Reader for the AddLabel structure.
@@ -76,7 +76,8 @@ func NewAddLabelOK() *AddLabelOK {
 	return &AddLabelOK{}
 }
 
-/*AddLabelOK handles this case with default header values.
+/*
+AddLabelOK handles this case with default header values.
 
 Success
 */
@@ -103,7 +104,8 @@ func NewAddLabelBadRequest() *AddLabelBadRequest {
 	return &AddLabelBadRequest{}
 }
 
-/*AddLabelBadRequest handles this case with default header values.
+/*
+AddLabelBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -143,7 +145,8 @@ func NewAddLabelUnauthorized() *AddLabelUnauthorized {
 	return &AddLabelUnauthorized{}
 }
 
-/*AddLabelUnauthorized handles this case with default header values.
+/*
+AddLabelUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -183,7 +186,8 @@ func NewAddLabelForbidden() *AddLabelForbidden {
 	return &AddLabelForbidden{}
 }
 
-/*AddLabelForbidden handles this case with default header values.
+/*
+AddLabelForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -223,7 +227,8 @@ func NewAddLabelNotFound() *AddLabelNotFound {
 	return &AddLabelNotFound{}
 }
 
-/*AddLabelNotFound handles this case with default header values.
+/*
+AddLabelNotFound handles this case with default header values.
 
 Not found
 */
@@ -263,7 +268,8 @@ func NewAddLabelConflict() *AddLabelConflict {
 	return &AddLabelConflict{}
 }
 
-/*AddLabelConflict handles this case with default header values.
+/*
+AddLabelConflict handles this case with default header values.
 
 Conflict
 */
@@ -303,7 +309,8 @@ func NewAddLabelInternalServerError() *AddLabelInternalServerError {
 	return &AddLabelInternalServerError{}
 }
 
-/*AddLabelInternalServerError handles this case with default header values.
+/*
+AddLabelInternalServerError handles this case with default header values.
 
 Internal server error
 */

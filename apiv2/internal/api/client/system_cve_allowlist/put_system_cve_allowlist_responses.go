@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // PutSystemCVEAllowlistReader is a Reader for the PutSystemCVEAllowlist structure.
@@ -58,7 +58,8 @@ func NewPutSystemCVEAllowlistOK() *PutSystemCVEAllowlistOK {
 	return &PutSystemCVEAllowlistOK{}
 }
 
-/*PutSystemCVEAllowlistOK handles this case with default header values.
+/*
+PutSystemCVEAllowlistOK handles this case with default header values.
 
 Successfully updated the CVE allowlist.
 */
@@ -79,7 +80,8 @@ func NewPutSystemCVEAllowlistUnauthorized() *PutSystemCVEAllowlistUnauthorized {
 	return &PutSystemCVEAllowlistUnauthorized{}
 }
 
-/*PutSystemCVEAllowlistUnauthorized handles this case with default header values.
+/*
+PutSystemCVEAllowlistUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -119,7 +121,8 @@ func NewPutSystemCVEAllowlistForbidden() *PutSystemCVEAllowlistForbidden {
 	return &PutSystemCVEAllowlistForbidden{}
 }
 
-/*PutSystemCVEAllowlistForbidden handles this case with default header values.
+/*
+PutSystemCVEAllowlistForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -159,7 +162,8 @@ func NewPutSystemCVEAllowlistInternalServerError() *PutSystemCVEAllowlistInterna
 	return &PutSystemCVEAllowlistInternalServerError{}
 }
 
-/*PutSystemCVEAllowlistInternalServerError handles this case with default header values.
+/*
+PutSystemCVEAllowlistInternalServerError handles this case with default header values.
 
 Internal server error
 */

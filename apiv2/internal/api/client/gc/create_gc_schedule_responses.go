@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // CreateGCScheduleReader is a Reader for the CreateGCSchedule structure.
@@ -70,7 +70,8 @@ func NewCreateGCScheduleCreated() *CreateGCScheduleCreated {
 	return &CreateGCScheduleCreated{}
 }
 
-/*CreateGCScheduleCreated handles this case with default header values.
+/*
+CreateGCScheduleCreated handles this case with default header values.
 
 Created
 */
@@ -103,7 +104,8 @@ func NewCreateGCScheduleBadRequest() *CreateGCScheduleBadRequest {
 	return &CreateGCScheduleBadRequest{}
 }
 
-/*CreateGCScheduleBadRequest handles this case with default header values.
+/*
+CreateGCScheduleBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -143,7 +145,8 @@ func NewCreateGCScheduleUnauthorized() *CreateGCScheduleUnauthorized {
 	return &CreateGCScheduleUnauthorized{}
 }
 
-/*CreateGCScheduleUnauthorized handles this case with default header values.
+/*
+CreateGCScheduleUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -183,7 +186,8 @@ func NewCreateGCScheduleForbidden() *CreateGCScheduleForbidden {
 	return &CreateGCScheduleForbidden{}
 }
 
-/*CreateGCScheduleForbidden handles this case with default header values.
+/*
+CreateGCScheduleForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -223,7 +227,8 @@ func NewCreateGCScheduleConflict() *CreateGCScheduleConflict {
 	return &CreateGCScheduleConflict{}
 }
 
-/*CreateGCScheduleConflict handles this case with default header values.
+/*
+CreateGCScheduleConflict handles this case with default header values.
 
 Conflict
 */
@@ -263,7 +268,8 @@ func NewCreateGCScheduleInternalServerError() *CreateGCScheduleInternalServerErr
 	return &CreateGCScheduleInternalServerError{}
 }
 
-/*CreateGCScheduleInternalServerError handles this case with default header values.
+/*
+CreateGCScheduleInternalServerError handles this case with default header values.
 
 Internal server error
 */

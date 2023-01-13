@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // CreateInstanceReader is a Reader for the CreateInstance structure.
@@ -76,7 +76,8 @@ func NewCreateInstanceCreated() *CreateInstanceCreated {
 	return &CreateInstanceCreated{}
 }
 
-/*CreateInstanceCreated handles this case with default header values.
+/*
+CreateInstanceCreated handles this case with default header values.
 
 Created
 */
@@ -109,7 +110,8 @@ func NewCreateInstanceBadRequest() *CreateInstanceBadRequest {
 	return &CreateInstanceBadRequest{}
 }
 
-/*CreateInstanceBadRequest handles this case with default header values.
+/*
+CreateInstanceBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -149,7 +151,8 @@ func NewCreateInstanceUnauthorized() *CreateInstanceUnauthorized {
 	return &CreateInstanceUnauthorized{}
 }
 
-/*CreateInstanceUnauthorized handles this case with default header values.
+/*
+CreateInstanceUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -189,7 +192,8 @@ func NewCreateInstanceForbidden() *CreateInstanceForbidden {
 	return &CreateInstanceForbidden{}
 }
 
-/*CreateInstanceForbidden handles this case with default header values.
+/*
+CreateInstanceForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -229,7 +233,8 @@ func NewCreateInstanceNotFound() *CreateInstanceNotFound {
 	return &CreateInstanceNotFound{}
 }
 
-/*CreateInstanceNotFound handles this case with default header values.
+/*
+CreateInstanceNotFound handles this case with default header values.
 
 Not found
 */
@@ -269,7 +274,8 @@ func NewCreateInstanceConflict() *CreateInstanceConflict {
 	return &CreateInstanceConflict{}
 }
 
-/*CreateInstanceConflict handles this case with default header values.
+/*
+CreateInstanceConflict handles this case with default header values.
 
 Conflict
 */
@@ -309,7 +315,8 @@ func NewCreateInstanceInternalServerError() *CreateInstanceInternalServerError {
 	return &CreateInstanceInternalServerError{}
 }
 
-/*CreateInstanceInternalServerError handles this case with default header values.
+/*
+CreateInstanceInternalServerError handles this case with default header values.
 
 Internal server error
 */

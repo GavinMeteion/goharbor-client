@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // ImportLdapUserReader is a Reader for the ImportLdapUser structure.
@@ -70,7 +70,8 @@ func NewImportLdapUserOK() *ImportLdapUserOK {
 	return &ImportLdapUserOK{}
 }
 
-/*ImportLdapUserOK handles this case with default header values.
+/*
+ImportLdapUserOK handles this case with default header values.
 
 Add ldap users successfully.
 */
@@ -91,7 +92,8 @@ func NewImportLdapUserBadRequest() *ImportLdapUserBadRequest {
 	return &ImportLdapUserBadRequest{}
 }
 
-/*ImportLdapUserBadRequest handles this case with default header values.
+/*
+ImportLdapUserBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -131,7 +133,8 @@ func NewImportLdapUserUnauthorized() *ImportLdapUserUnauthorized {
 	return &ImportLdapUserUnauthorized{}
 }
 
-/*ImportLdapUserUnauthorized handles this case with default header values.
+/*
+ImportLdapUserUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -171,7 +174,8 @@ func NewImportLdapUserForbidden() *ImportLdapUserForbidden {
 	return &ImportLdapUserForbidden{}
 }
 
-/*ImportLdapUserForbidden handles this case with default header values.
+/*
+ImportLdapUserForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -211,7 +215,8 @@ func NewImportLdapUserNotFound() *ImportLdapUserNotFound {
 	return &ImportLdapUserNotFound{}
 }
 
-/*ImportLdapUserNotFound handles this case with default header values.
+/*
+ImportLdapUserNotFound handles this case with default header values.
 
 Failed import some users.
 */
@@ -242,7 +247,8 @@ func NewImportLdapUserInternalServerError() *ImportLdapUserInternalServerError {
 	return &ImportLdapUserInternalServerError{}
 }
 
-/*ImportLdapUserInternalServerError handles this case with default header values.
+/*
+ImportLdapUserInternalServerError handles this case with default header values.
 
 Internal server error
 */

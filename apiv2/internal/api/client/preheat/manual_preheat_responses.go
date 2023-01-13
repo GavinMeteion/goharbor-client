@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // ManualPreheatReader is a Reader for the ManualPreheat structure.
@@ -70,7 +70,8 @@ func NewManualPreheatCreated() *ManualPreheatCreated {
 	return &ManualPreheatCreated{}
 }
 
-/*ManualPreheatCreated handles this case with default header values.
+/*
+ManualPreheatCreated handles this case with default header values.
 
 Created
 */
@@ -103,7 +104,8 @@ func NewManualPreheatBadRequest() *ManualPreheatBadRequest {
 	return &ManualPreheatBadRequest{}
 }
 
-/*ManualPreheatBadRequest handles this case with default header values.
+/*
+ManualPreheatBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -143,7 +145,8 @@ func NewManualPreheatUnauthorized() *ManualPreheatUnauthorized {
 	return &ManualPreheatUnauthorized{}
 }
 
-/*ManualPreheatUnauthorized handles this case with default header values.
+/*
+ManualPreheatUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -183,7 +186,8 @@ func NewManualPreheatForbidden() *ManualPreheatForbidden {
 	return &ManualPreheatForbidden{}
 }
 
-/*ManualPreheatForbidden handles this case with default header values.
+/*
+ManualPreheatForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -223,7 +227,8 @@ func NewManualPreheatNotFound() *ManualPreheatNotFound {
 	return &ManualPreheatNotFound{}
 }
 
-/*ManualPreheatNotFound handles this case with default header values.
+/*
+ManualPreheatNotFound handles this case with default header values.
 
 Not found
 */
@@ -263,7 +268,8 @@ func NewManualPreheatInternalServerError() *ManualPreheatInternalServerError {
 	return &ManualPreheatInternalServerError{}
 }
 
-/*ManualPreheatInternalServerError handles this case with default header values.
+/*
+ManualPreheatInternalServerError handles this case with default header values.
 
 Internal server error
 */

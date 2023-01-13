@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // UpdateReplicationPolicyReader is a Reader for the UpdateReplicationPolicy structure.
@@ -70,7 +70,8 @@ func NewUpdateReplicationPolicyOK() *UpdateReplicationPolicyOK {
 	return &UpdateReplicationPolicyOK{}
 }
 
-/*UpdateReplicationPolicyOK handles this case with default header values.
+/*
+UpdateReplicationPolicyOK handles this case with default header values.
 
 Success
 */
@@ -97,7 +98,8 @@ func NewUpdateReplicationPolicyUnauthorized() *UpdateReplicationPolicyUnauthoriz
 	return &UpdateReplicationPolicyUnauthorized{}
 }
 
-/*UpdateReplicationPolicyUnauthorized handles this case with default header values.
+/*
+UpdateReplicationPolicyUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -137,7 +139,8 @@ func NewUpdateReplicationPolicyForbidden() *UpdateReplicationPolicyForbidden {
 	return &UpdateReplicationPolicyForbidden{}
 }
 
-/*UpdateReplicationPolicyForbidden handles this case with default header values.
+/*
+UpdateReplicationPolicyForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -177,7 +180,8 @@ func NewUpdateReplicationPolicyNotFound() *UpdateReplicationPolicyNotFound {
 	return &UpdateReplicationPolicyNotFound{}
 }
 
-/*UpdateReplicationPolicyNotFound handles this case with default header values.
+/*
+UpdateReplicationPolicyNotFound handles this case with default header values.
 
 Not found
 */
@@ -217,7 +221,8 @@ func NewUpdateReplicationPolicyConflict() *UpdateReplicationPolicyConflict {
 	return &UpdateReplicationPolicyConflict{}
 }
 
-/*UpdateReplicationPolicyConflict handles this case with default header values.
+/*
+UpdateReplicationPolicyConflict handles this case with default header values.
 
 Conflict
 */
@@ -257,7 +262,8 @@ func NewUpdateReplicationPolicyInternalServerError() *UpdateReplicationPolicyInt
 	return &UpdateReplicationPolicyInternalServerError{}
 }
 
-/*UpdateReplicationPolicyInternalServerError handles this case with default header values.
+/*
+UpdateReplicationPolicyInternalServerError handles this case with default header values.
 
 Internal server error
 */

@@ -15,7 +15,7 @@ import (
 	cr "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // NewManualPreheatParams creates a new ManualPreheatParams object
@@ -57,7 +57,8 @@ func NewManualPreheatParamsWithHTTPClient(client *http.Client) *ManualPreheatPar
 	}
 }
 
-/*ManualPreheatParams contains all the parameters to send to the API endpoint
+/*
+ManualPreheatParams contains all the parameters to send to the API endpoint
 for the manual preheat operation typically these are written to a http.Request
 */
 type ManualPreheatParams struct {

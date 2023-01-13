@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv1/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv1/model"
 )
 
 // GetHealthReader is a Reader for the GetHealth structure.
@@ -40,7 +40,8 @@ func NewGetHealthOK() *GetHealthOK {
 	return &GetHealthOK{}
 }
 
-/*GetHealthOK handles this case with default header values.
+/*
+GetHealthOK handles this case with default header values.
 
 The system health status.
 */

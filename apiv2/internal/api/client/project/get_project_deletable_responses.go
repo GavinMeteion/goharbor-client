@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetProjectDeletableReader is a Reader for the GetProjectDeletable structure.
@@ -64,7 +64,8 @@ func NewGetProjectDeletableOK() *GetProjectDeletableOK {
 	return &GetProjectDeletableOK{}
 }
 
-/*GetProjectDeletableOK handles this case with default header values.
+/*
+GetProjectDeletableOK handles this case with default header values.
 
 Return deletable status of the project.
 */
@@ -97,7 +98,8 @@ func NewGetProjectDeletableUnauthorized() *GetProjectDeletableUnauthorized {
 	return &GetProjectDeletableUnauthorized{}
 }
 
-/*GetProjectDeletableUnauthorized handles this case with default header values.
+/*
+GetProjectDeletableUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -137,7 +139,8 @@ func NewGetProjectDeletableForbidden() *GetProjectDeletableForbidden {
 	return &GetProjectDeletableForbidden{}
 }
 
-/*GetProjectDeletableForbidden handles this case with default header values.
+/*
+GetProjectDeletableForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -177,7 +180,8 @@ func NewGetProjectDeletableNotFound() *GetProjectDeletableNotFound {
 	return &GetProjectDeletableNotFound{}
 }
 
-/*GetProjectDeletableNotFound handles this case with default header values.
+/*
+GetProjectDeletableNotFound handles this case with default header values.
 
 Not found
 */
@@ -217,7 +221,8 @@ func NewGetProjectDeletableInternalServerError() *GetProjectDeletableInternalSer
 	return &GetProjectDeletableInternalServerError{}
 }
 
-/*GetProjectDeletableInternalServerError handles this case with default header values.
+/*
+GetProjectDeletableInternalServerError handles this case with default header values.
 
 Internal server error
 */

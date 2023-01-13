@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // ListPoliciesReader is a Reader for the ListPolicies structure.
@@ -66,7 +66,8 @@ func NewListPoliciesOK() *ListPoliciesOK {
 	return &ListPoliciesOK{}
 }
 
-/*ListPoliciesOK handles this case with default header values.
+/*
+ListPoliciesOK handles this case with default header values.
 
 List preheat policies success
 */
@@ -114,7 +115,8 @@ func NewListPoliciesBadRequest() *ListPoliciesBadRequest {
 	return &ListPoliciesBadRequest{}
 }
 
-/*ListPoliciesBadRequest handles this case with default header values.
+/*
+ListPoliciesBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -154,7 +156,8 @@ func NewListPoliciesUnauthorized() *ListPoliciesUnauthorized {
 	return &ListPoliciesUnauthorized{}
 }
 
-/*ListPoliciesUnauthorized handles this case with default header values.
+/*
+ListPoliciesUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -194,7 +197,8 @@ func NewListPoliciesForbidden() *ListPoliciesForbidden {
 	return &ListPoliciesForbidden{}
 }
 
-/*ListPoliciesForbidden handles this case with default header values.
+/*
+ListPoliciesForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -234,7 +238,8 @@ func NewListPoliciesInternalServerError() *ListPoliciesInternalServerError {
 	return &ListPoliciesInternalServerError{}
 }
 
-/*ListPoliciesInternalServerError handles this case with default header values.
+/*
+ListPoliciesInternalServerError handles this case with default header values.
 
 Internal server error
 */

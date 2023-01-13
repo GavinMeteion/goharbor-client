@@ -16,7 +16,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // NewUpdateQuotaParams creates a new UpdateQuotaParams object
@@ -58,7 +58,8 @@ func NewUpdateQuotaParamsWithHTTPClient(client *http.Client) *UpdateQuotaParams 
 	}
 }
 
-/*UpdateQuotaParams contains all the parameters to send to the API endpoint
+/*
+UpdateQuotaParams contains all the parameters to send to the API endpoint
 for the update quota operation typically these are written to a http.Request
 */
 type UpdateQuotaParams struct {

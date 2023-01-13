@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // SetScannerOfProjectReader is a Reader for the SetScannerOfProject structure.
@@ -70,7 +70,8 @@ func NewSetScannerOfProjectOK() *SetScannerOfProjectOK {
 	return &SetScannerOfProjectOK{}
 }
 
-/*SetScannerOfProjectOK handles this case with default header values.
+/*
+SetScannerOfProjectOK handles this case with default header values.
 
 Success
 */
@@ -97,7 +98,8 @@ func NewSetScannerOfProjectBadRequest() *SetScannerOfProjectBadRequest {
 	return &SetScannerOfProjectBadRequest{}
 }
 
-/*SetScannerOfProjectBadRequest handles this case with default header values.
+/*
+SetScannerOfProjectBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -137,7 +139,8 @@ func NewSetScannerOfProjectUnauthorized() *SetScannerOfProjectUnauthorized {
 	return &SetScannerOfProjectUnauthorized{}
 }
 
-/*SetScannerOfProjectUnauthorized handles this case with default header values.
+/*
+SetScannerOfProjectUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -177,7 +180,8 @@ func NewSetScannerOfProjectForbidden() *SetScannerOfProjectForbidden {
 	return &SetScannerOfProjectForbidden{}
 }
 
-/*SetScannerOfProjectForbidden handles this case with default header values.
+/*
+SetScannerOfProjectForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -217,7 +221,8 @@ func NewSetScannerOfProjectNotFound() *SetScannerOfProjectNotFound {
 	return &SetScannerOfProjectNotFound{}
 }
 
-/*SetScannerOfProjectNotFound handles this case with default header values.
+/*
+SetScannerOfProjectNotFound handles this case with default header values.
 
 Not found
 */
@@ -257,7 +262,8 @@ func NewSetScannerOfProjectInternalServerError() *SetScannerOfProjectInternalSer
 	return &SetScannerOfProjectInternalServerError{}
 }
 
-/*SetScannerOfProjectInternalServerError handles this case with default header values.
+/*
+SetScannerOfProjectInternalServerError handles this case with default header values.
 
 Internal server error
 */

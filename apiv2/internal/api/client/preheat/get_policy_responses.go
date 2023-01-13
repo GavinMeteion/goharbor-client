@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetPolicyReader is a Reader for the GetPolicy structure.
@@ -70,7 +70,8 @@ func NewGetPolicyOK() *GetPolicyOK {
 	return &GetPolicyOK{}
 }
 
-/*GetPolicyOK handles this case with default header values.
+/*
+GetPolicyOK handles this case with default header values.
 
 Get a preheat policy success
 */
@@ -103,7 +104,8 @@ func NewGetPolicyBadRequest() *GetPolicyBadRequest {
 	return &GetPolicyBadRequest{}
 }
 
-/*GetPolicyBadRequest handles this case with default header values.
+/*
+GetPolicyBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -143,7 +145,8 @@ func NewGetPolicyUnauthorized() *GetPolicyUnauthorized {
 	return &GetPolicyUnauthorized{}
 }
 
-/*GetPolicyUnauthorized handles this case with default header values.
+/*
+GetPolicyUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -183,7 +186,8 @@ func NewGetPolicyForbidden() *GetPolicyForbidden {
 	return &GetPolicyForbidden{}
 }
 
-/*GetPolicyForbidden handles this case with default header values.
+/*
+GetPolicyForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -223,7 +227,8 @@ func NewGetPolicyNotFound() *GetPolicyNotFound {
 	return &GetPolicyNotFound{}
 }
 
-/*GetPolicyNotFound handles this case with default header values.
+/*
+GetPolicyNotFound handles this case with default header values.
 
 Not found
 */
@@ -263,7 +268,8 @@ func NewGetPolicyInternalServerError() *GetPolicyInternalServerError {
 	return &GetPolicyInternalServerError{}
 }
 
-/*GetPolicyInternalServerError handles this case with default header values.
+/*
+GetPolicyInternalServerError handles this case with default header values.
 
 Internal server error
 */

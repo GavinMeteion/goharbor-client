@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // ListScannersReader is a Reader for the ListScanners structure.
@@ -66,7 +66,8 @@ func NewListScannersOK() *ListScannersOK {
 	return &ListScannersOK{}
 }
 
-/*ListScannersOK handles this case with default header values.
+/*
+ListScannersOK handles this case with default header values.
 
 A list of scanner registrations.
 */
@@ -114,7 +115,8 @@ func NewListScannersBadRequest() *ListScannersBadRequest {
 	return &ListScannersBadRequest{}
 }
 
-/*ListScannersBadRequest handles this case with default header values.
+/*
+ListScannersBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -154,7 +156,8 @@ func NewListScannersUnauthorized() *ListScannersUnauthorized {
 	return &ListScannersUnauthorized{}
 }
 
-/*ListScannersUnauthorized handles this case with default header values.
+/*
+ListScannersUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -194,7 +197,8 @@ func NewListScannersForbidden() *ListScannersForbidden {
 	return &ListScannersForbidden{}
 }
 
-/*ListScannersForbidden handles this case with default header values.
+/*
+ListScannersForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -234,7 +238,8 @@ func NewListScannersInternalServerError() *ListScannersInternalServerError {
 	return &ListScannersInternalServerError{}
 }
 
-/*ListScannersInternalServerError handles this case with default header values.
+/*
+ListScannersInternalServerError handles this case with default header values.
 
 Internal server error
 */

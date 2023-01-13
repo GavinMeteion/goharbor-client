@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // ListReplicationPoliciesReader is a Reader for the ListReplicationPolicies structure.
@@ -60,7 +60,8 @@ func NewListReplicationPoliciesOK() *ListReplicationPoliciesOK {
 	return &ListReplicationPoliciesOK{}
 }
 
-/*ListReplicationPoliciesOK handles this case with default header values.
+/*
+ListReplicationPoliciesOK handles this case with default header values.
 
 Success
 */
@@ -108,7 +109,8 @@ func NewListReplicationPoliciesUnauthorized() *ListReplicationPoliciesUnauthoriz
 	return &ListReplicationPoliciesUnauthorized{}
 }
 
-/*ListReplicationPoliciesUnauthorized handles this case with default header values.
+/*
+ListReplicationPoliciesUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -148,7 +150,8 @@ func NewListReplicationPoliciesForbidden() *ListReplicationPoliciesForbidden {
 	return &ListReplicationPoliciesForbidden{}
 }
 
-/*ListReplicationPoliciesForbidden handles this case with default header values.
+/*
+ListReplicationPoliciesForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -188,7 +191,8 @@ func NewListReplicationPoliciesInternalServerError() *ListReplicationPoliciesInt
 	return &ListReplicationPoliciesInternalServerError{}
 }
 
-/*ListReplicationPoliciesInternalServerError handles this case with default header values.
+/*
+ListReplicationPoliciesInternalServerError handles this case with default header values.
 
 Internal server error
 */

@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // RemoveLabelReader is a Reader for the RemoveLabel structure.
@@ -70,7 +70,8 @@ func NewRemoveLabelOK() *RemoveLabelOK {
 	return &RemoveLabelOK{}
 }
 
-/*RemoveLabelOK handles this case with default header values.
+/*
+RemoveLabelOK handles this case with default header values.
 
 Success
 */
@@ -97,7 +98,8 @@ func NewRemoveLabelUnauthorized() *RemoveLabelUnauthorized {
 	return &RemoveLabelUnauthorized{}
 }
 
-/*RemoveLabelUnauthorized handles this case with default header values.
+/*
+RemoveLabelUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -137,7 +139,8 @@ func NewRemoveLabelForbidden() *RemoveLabelForbidden {
 	return &RemoveLabelForbidden{}
 }
 
-/*RemoveLabelForbidden handles this case with default header values.
+/*
+RemoveLabelForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -177,7 +180,8 @@ func NewRemoveLabelNotFound() *RemoveLabelNotFound {
 	return &RemoveLabelNotFound{}
 }
 
-/*RemoveLabelNotFound handles this case with default header values.
+/*
+RemoveLabelNotFound handles this case with default header values.
 
 Not found
 */
@@ -217,7 +221,8 @@ func NewRemoveLabelConflict() *RemoveLabelConflict {
 	return &RemoveLabelConflict{}
 }
 
-/*RemoveLabelConflict handles this case with default header values.
+/*
+RemoveLabelConflict handles this case with default header values.
 
 Conflict
 */
@@ -257,7 +262,8 @@ func NewRemoveLabelInternalServerError() *RemoveLabelInternalServerError {
 	return &RemoveLabelInternalServerError{}
 }
 
-/*RemoveLabelInternalServerError handles this case with default header values.
+/*
+RemoveLabelInternalServerError handles this case with default header values.
 
 Internal server error
 */

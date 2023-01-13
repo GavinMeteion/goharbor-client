@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // UpdateLabelReader is a Reader for the UpdateLabel structure.
@@ -70,7 +70,8 @@ func NewUpdateLabelOK() *UpdateLabelOK {
 	return &UpdateLabelOK{}
 }
 
-/*UpdateLabelOK handles this case with default header values.
+/*
+UpdateLabelOK handles this case with default header values.
 
 Success
 */
@@ -97,7 +98,8 @@ func NewUpdateLabelBadRequest() *UpdateLabelBadRequest {
 	return &UpdateLabelBadRequest{}
 }
 
-/*UpdateLabelBadRequest handles this case with default header values.
+/*
+UpdateLabelBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -137,7 +139,8 @@ func NewUpdateLabelUnauthorized() *UpdateLabelUnauthorized {
 	return &UpdateLabelUnauthorized{}
 }
 
-/*UpdateLabelUnauthorized handles this case with default header values.
+/*
+UpdateLabelUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -177,7 +180,8 @@ func NewUpdateLabelNotFound() *UpdateLabelNotFound {
 	return &UpdateLabelNotFound{}
 }
 
-/*UpdateLabelNotFound handles this case with default header values.
+/*
+UpdateLabelNotFound handles this case with default header values.
 
 Not found
 */
@@ -217,7 +221,8 @@ func NewUpdateLabelConflict() *UpdateLabelConflict {
 	return &UpdateLabelConflict{}
 }
 
-/*UpdateLabelConflict handles this case with default header values.
+/*
+UpdateLabelConflict handles this case with default header values.
 
 Conflict
 */
@@ -257,7 +262,8 @@ func NewUpdateLabelInternalServerError() *UpdateLabelInternalServerError {
 	return &UpdateLabelInternalServerError{}
 }
 
-/*UpdateLabelInternalServerError handles this case with default header values.
+/*
+UpdateLabelInternalServerError handles this case with default header values.
 
 Internal server error
 */

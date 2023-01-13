@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // CreateRobotV1Reader is a Reader for the CreateRobotV1 structure.
@@ -70,7 +70,8 @@ func NewCreateRobotV1Created() *CreateRobotV1Created {
 	return &CreateRobotV1Created{}
 }
 
-/*CreateRobotV1Created handles this case with default header values.
+/*
+CreateRobotV1Created handles this case with default header values.
 
 Created
 */
@@ -116,7 +117,8 @@ func NewCreateRobotV1BadRequest() *CreateRobotV1BadRequest {
 	return &CreateRobotV1BadRequest{}
 }
 
-/*CreateRobotV1BadRequest handles this case with default header values.
+/*
+CreateRobotV1BadRequest handles this case with default header values.
 
 Bad request
 */
@@ -156,7 +158,8 @@ func NewCreateRobotV1Unauthorized() *CreateRobotV1Unauthorized {
 	return &CreateRobotV1Unauthorized{}
 }
 
-/*CreateRobotV1Unauthorized handles this case with default header values.
+/*
+CreateRobotV1Unauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -196,7 +199,8 @@ func NewCreateRobotV1Forbidden() *CreateRobotV1Forbidden {
 	return &CreateRobotV1Forbidden{}
 }
 
-/*CreateRobotV1Forbidden handles this case with default header values.
+/*
+CreateRobotV1Forbidden handles this case with default header values.
 
 Forbidden
 */
@@ -236,7 +240,8 @@ func NewCreateRobotV1NotFound() *CreateRobotV1NotFound {
 	return &CreateRobotV1NotFound{}
 }
 
-/*CreateRobotV1NotFound handles this case with default header values.
+/*
+CreateRobotV1NotFound handles this case with default header values.
 
 Not found
 */
@@ -276,7 +281,8 @@ func NewCreateRobotV1InternalServerError() *CreateRobotV1InternalServerError {
 	return &CreateRobotV1InternalServerError{}
 }
 
-/*CreateRobotV1InternalServerError handles this case with default header values.
+/*
+CreateRobotV1InternalServerError handles this case with default header values.
 
 Internal server error
 */

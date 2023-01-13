@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // CreateReplicationPolicyReader is a Reader for the CreateReplicationPolicy structure.
@@ -70,7 +70,8 @@ func NewCreateReplicationPolicyCreated() *CreateReplicationPolicyCreated {
 	return &CreateReplicationPolicyCreated{}
 }
 
-/*CreateReplicationPolicyCreated handles this case with default header values.
+/*
+CreateReplicationPolicyCreated handles this case with default header values.
 
 Created
 */
@@ -103,7 +104,8 @@ func NewCreateReplicationPolicyBadRequest() *CreateReplicationPolicyBadRequest {
 	return &CreateReplicationPolicyBadRequest{}
 }
 
-/*CreateReplicationPolicyBadRequest handles this case with default header values.
+/*
+CreateReplicationPolicyBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -143,7 +145,8 @@ func NewCreateReplicationPolicyUnauthorized() *CreateReplicationPolicyUnauthoriz
 	return &CreateReplicationPolicyUnauthorized{}
 }
 
-/*CreateReplicationPolicyUnauthorized handles this case with default header values.
+/*
+CreateReplicationPolicyUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -183,7 +186,8 @@ func NewCreateReplicationPolicyForbidden() *CreateReplicationPolicyForbidden {
 	return &CreateReplicationPolicyForbidden{}
 }
 
-/*CreateReplicationPolicyForbidden handles this case with default header values.
+/*
+CreateReplicationPolicyForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -223,7 +227,8 @@ func NewCreateReplicationPolicyConflict() *CreateReplicationPolicyConflict {
 	return &CreateReplicationPolicyConflict{}
 }
 
-/*CreateReplicationPolicyConflict handles this case with default header values.
+/*
+CreateReplicationPolicyConflict handles this case with default header values.
 
 Conflict
 */
@@ -263,7 +268,8 @@ func NewCreateReplicationPolicyInternalServerError() *CreateReplicationPolicyInt
 	return &CreateReplicationPolicyInternalServerError{}
 }
 
-/*CreateReplicationPolicyInternalServerError handles this case with default header values.
+/*
+CreateReplicationPolicyInternalServerError handles this case with default header values.
 
 Internal server error
 */

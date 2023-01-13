@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetCurrentUserPermissionsReader is a Reader for the GetCurrentUserPermissions structure.
@@ -52,7 +52,8 @@ func NewGetCurrentUserPermissionsOK() *GetCurrentUserPermissionsOK {
 	return &GetCurrentUserPermissionsOK{}
 }
 
-/*GetCurrentUserPermissionsOK handles this case with default header values.
+/*
+GetCurrentUserPermissionsOK handles this case with default header values.
 
 Get current user permission successfully.
 */
@@ -83,7 +84,8 @@ func NewGetCurrentUserPermissionsUnauthorized() *GetCurrentUserPermissionsUnauth
 	return &GetCurrentUserPermissionsUnauthorized{}
 }
 
-/*GetCurrentUserPermissionsUnauthorized handles this case with default header values.
+/*
+GetCurrentUserPermissionsUnauthorized handles this case with default header values.
 
 User need to log in first.
 */
@@ -104,7 +106,8 @@ func NewGetCurrentUserPermissionsInternalServerError() *GetCurrentUserPermission
 	return &GetCurrentUserPermissionsInternalServerError{}
 }
 
-/*GetCurrentUserPermissionsInternalServerError handles this case with default header values.
+/*
+GetCurrentUserPermissionsInternalServerError handles this case with default header values.
 
 Internal errors.
 */

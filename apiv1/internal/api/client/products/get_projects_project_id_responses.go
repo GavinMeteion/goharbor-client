@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv1/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv1/model"
 )
 
 // GetProjectsProjectIDReader is a Reader for the GetProjectsProjectID structure.
@@ -52,7 +52,8 @@ func NewGetProjectsProjectIDOK() *GetProjectsProjectIDOK {
 	return &GetProjectsProjectIDOK{}
 }
 
-/*GetProjectsProjectIDOK handles this case with default header values.
+/*
+GetProjectsProjectIDOK handles this case with default header values.
 
 Return matched project information.
 */
@@ -85,7 +86,8 @@ func NewGetProjectsProjectIDUnauthorized() *GetProjectsProjectIDUnauthorized {
 	return &GetProjectsProjectIDUnauthorized{}
 }
 
-/*GetProjectsProjectIDUnauthorized handles this case with default header values.
+/*
+GetProjectsProjectIDUnauthorized handles this case with default header values.
 
 User need to log in first.
 */
@@ -106,7 +108,8 @@ func NewGetProjectsProjectIDInternalServerError() *GetProjectsProjectIDInternalS
 	return &GetProjectsProjectIDInternalServerError{}
 }
 
-/*GetProjectsProjectIDInternalServerError handles this case with default header values.
+/*
+GetProjectsProjectIDInternalServerError handles this case with default header values.
 
 Internal errors.
 */

@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // UpdateScanAllScheduleReader is a Reader for the UpdateScanAllSchedule structure.
@@ -70,7 +70,8 @@ func NewUpdateScanAllScheduleOK() *UpdateScanAllScheduleOK {
 	return &UpdateScanAllScheduleOK{}
 }
 
-/*UpdateScanAllScheduleOK handles this case with default header values.
+/*
+UpdateScanAllScheduleOK handles this case with default header values.
 
 Success
 */
@@ -97,7 +98,8 @@ func NewUpdateScanAllScheduleBadRequest() *UpdateScanAllScheduleBadRequest {
 	return &UpdateScanAllScheduleBadRequest{}
 }
 
-/*UpdateScanAllScheduleBadRequest handles this case with default header values.
+/*
+UpdateScanAllScheduleBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -137,7 +139,8 @@ func NewUpdateScanAllScheduleUnauthorized() *UpdateScanAllScheduleUnauthorized {
 	return &UpdateScanAllScheduleUnauthorized{}
 }
 
-/*UpdateScanAllScheduleUnauthorized handles this case with default header values.
+/*
+UpdateScanAllScheduleUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -177,7 +180,8 @@ func NewUpdateScanAllScheduleForbidden() *UpdateScanAllScheduleForbidden {
 	return &UpdateScanAllScheduleForbidden{}
 }
 
-/*UpdateScanAllScheduleForbidden handles this case with default header values.
+/*
+UpdateScanAllScheduleForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -217,7 +221,8 @@ func NewUpdateScanAllSchedulePreconditionFailed() *UpdateScanAllSchedulePrecondi
 	return &UpdateScanAllSchedulePreconditionFailed{}
 }
 
-/*UpdateScanAllSchedulePreconditionFailed handles this case with default header values.
+/*
+UpdateScanAllSchedulePreconditionFailed handles this case with default header values.
 
 Precondition failed
 */
@@ -257,7 +262,8 @@ func NewUpdateScanAllScheduleInternalServerError() *UpdateScanAllScheduleInterna
 	return &UpdateScanAllScheduleInternalServerError{}
 }
 
-/*UpdateScanAllScheduleInternalServerError handles this case with default header values.
+/*
+UpdateScanAllScheduleInternalServerError handles this case with default header values.
 
 Internal server error
 */

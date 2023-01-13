@@ -15,7 +15,7 @@ import (
 	cr "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // NewUpdateGCScheduleParams creates a new UpdateGCScheduleParams object
@@ -57,7 +57,8 @@ func NewUpdateGCScheduleParamsWithHTTPClient(client *http.Client) *UpdateGCSched
 	}
 }
 
-/*UpdateGCScheduleParams contains all the parameters to send to the API endpoint
+/*
+UpdateGCScheduleParams contains all the parameters to send to the API endpoint
 for the update GC schedule operation typically these are written to a http.Request
 */
 type UpdateGCScheduleParams struct {

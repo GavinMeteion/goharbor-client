@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // ListTagsReader is a Reader for the ListTags structure.
@@ -72,7 +72,8 @@ func NewListTagsOK() *ListTagsOK {
 	return &ListTagsOK{}
 }
 
-/*ListTagsOK handles this case with default header values.
+/*
+ListTagsOK handles this case with default header values.
 
 Success
 */
@@ -120,7 +121,8 @@ func NewListTagsBadRequest() *ListTagsBadRequest {
 	return &ListTagsBadRequest{}
 }
 
-/*ListTagsBadRequest handles this case with default header values.
+/*
+ListTagsBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -160,7 +162,8 @@ func NewListTagsUnauthorized() *ListTagsUnauthorized {
 	return &ListTagsUnauthorized{}
 }
 
-/*ListTagsUnauthorized handles this case with default header values.
+/*
+ListTagsUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -200,7 +203,8 @@ func NewListTagsForbidden() *ListTagsForbidden {
 	return &ListTagsForbidden{}
 }
 
-/*ListTagsForbidden handles this case with default header values.
+/*
+ListTagsForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -240,7 +244,8 @@ func NewListTagsNotFound() *ListTagsNotFound {
 	return &ListTagsNotFound{}
 }
 
-/*ListTagsNotFound handles this case with default header values.
+/*
+ListTagsNotFound handles this case with default header values.
 
 Not found
 */
@@ -280,7 +285,8 @@ func NewListTagsInternalServerError() *ListTagsInternalServerError {
 	return &ListTagsInternalServerError{}
 }
 
-/*ListTagsInternalServerError handles this case with default header values.
+/*
+ListTagsInternalServerError handles this case with default header values.
 
 Internal server error
 */

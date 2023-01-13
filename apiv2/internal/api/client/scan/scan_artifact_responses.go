@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // ScanArtifactReader is a Reader for the ScanArtifact structure.
@@ -70,7 +70,8 @@ func NewScanArtifactAccepted() *ScanArtifactAccepted {
 	return &ScanArtifactAccepted{}
 }
 
-/*ScanArtifactAccepted handles this case with default header values.
+/*
+ScanArtifactAccepted handles this case with default header values.
 
 Accepted
 */
@@ -97,7 +98,8 @@ func NewScanArtifactBadRequest() *ScanArtifactBadRequest {
 	return &ScanArtifactBadRequest{}
 }
 
-/*ScanArtifactBadRequest handles this case with default header values.
+/*
+ScanArtifactBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -137,7 +139,8 @@ func NewScanArtifactUnauthorized() *ScanArtifactUnauthorized {
 	return &ScanArtifactUnauthorized{}
 }
 
-/*ScanArtifactUnauthorized handles this case with default header values.
+/*
+ScanArtifactUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -177,7 +180,8 @@ func NewScanArtifactForbidden() *ScanArtifactForbidden {
 	return &ScanArtifactForbidden{}
 }
 
-/*ScanArtifactForbidden handles this case with default header values.
+/*
+ScanArtifactForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -217,7 +221,8 @@ func NewScanArtifactNotFound() *ScanArtifactNotFound {
 	return &ScanArtifactNotFound{}
 }
 
-/*ScanArtifactNotFound handles this case with default header values.
+/*
+ScanArtifactNotFound handles this case with default header values.
 
 Not found
 */
@@ -257,7 +262,8 @@ func NewScanArtifactInternalServerError() *ScanArtifactInternalServerError {
 	return &ScanArtifactInternalServerError{}
 }
 
-/*ScanArtifactInternalServerError handles this case with default header values.
+/*
+ScanArtifactInternalServerError handles this case with default header values.
 
 Internal server error
 */

@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // SearchLdapUserReader is a Reader for the SearchLdapUser structure.
@@ -64,7 +64,8 @@ func NewSearchLdapUserOK() *SearchLdapUserOK {
 	return &SearchLdapUserOK{}
 }
 
-/*SearchLdapUserOK handles this case with default header values.
+/*
+SearchLdapUserOK handles this case with default header values.
 
 Search ldap users successfully.
 */
@@ -95,7 +96,8 @@ func NewSearchLdapUserBadRequest() *SearchLdapUserBadRequest {
 	return &SearchLdapUserBadRequest{}
 }
 
-/*SearchLdapUserBadRequest handles this case with default header values.
+/*
+SearchLdapUserBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -135,7 +137,8 @@ func NewSearchLdapUserUnauthorized() *SearchLdapUserUnauthorized {
 	return &SearchLdapUserUnauthorized{}
 }
 
-/*SearchLdapUserUnauthorized handles this case with default header values.
+/*
+SearchLdapUserUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -175,7 +178,8 @@ func NewSearchLdapUserForbidden() *SearchLdapUserForbidden {
 	return &SearchLdapUserForbidden{}
 }
 
-/*SearchLdapUserForbidden handles this case with default header values.
+/*
+SearchLdapUserForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -215,7 +219,8 @@ func NewSearchLdapUserInternalServerError() *SearchLdapUserInternalServerError {
 	return &SearchLdapUserInternalServerError{}
 }
 
-/*SearchLdapUserInternalServerError handles this case with default header values.
+/*
+SearchLdapUserInternalServerError handles this case with default header values.
 
 Internal server error
 */

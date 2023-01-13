@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // UpdateUserPasswordReader is a Reader for the UpdateUserPassword structure.
@@ -64,7 +64,8 @@ func NewUpdateUserPasswordOK() *UpdateUserPasswordOK {
 	return &UpdateUserPasswordOK{}
 }
 
-/*UpdateUserPasswordOK handles this case with default header values.
+/*
+UpdateUserPasswordOK handles this case with default header values.
 
 Success
 */
@@ -91,7 +92,8 @@ func NewUpdateUserPasswordBadRequest() *UpdateUserPasswordBadRequest {
 	return &UpdateUserPasswordBadRequest{}
 }
 
-/*UpdateUserPasswordBadRequest handles this case with default header values.
+/*
+UpdateUserPasswordBadRequest handles this case with default header values.
 
 Invalid user ID; Password does not meet requirement
 */
@@ -112,7 +114,8 @@ func NewUpdateUserPasswordUnauthorized() *UpdateUserPasswordUnauthorized {
 	return &UpdateUserPasswordUnauthorized{}
 }
 
-/*UpdateUserPasswordUnauthorized handles this case with default header values.
+/*
+UpdateUserPasswordUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -152,7 +155,8 @@ func NewUpdateUserPasswordForbidden() *UpdateUserPasswordForbidden {
 	return &UpdateUserPasswordForbidden{}
 }
 
-/*UpdateUserPasswordForbidden handles this case with default header values.
+/*
+UpdateUserPasswordForbidden handles this case with default header values.
 
 The caller does not have permission to update the password of the user with given ID, or the old password in request body is not correct.
 */
@@ -173,7 +177,8 @@ func NewUpdateUserPasswordInternalServerError() *UpdateUserPasswordInternalServe
 	return &UpdateUserPasswordInternalServerError{}
 }
 
-/*UpdateUserPasswordInternalServerError handles this case with default header values.
+/*
+UpdateUserPasswordInternalServerError handles this case with default header values.
 
 Internal server error
 */

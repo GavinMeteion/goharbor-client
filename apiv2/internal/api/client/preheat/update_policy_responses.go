@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // UpdatePolicyReader is a Reader for the UpdatePolicy structure.
@@ -76,7 +76,8 @@ func NewUpdatePolicyOK() *UpdatePolicyOK {
 	return &UpdatePolicyOK{}
 }
 
-/*UpdatePolicyOK handles this case with default header values.
+/*
+UpdatePolicyOK handles this case with default header values.
 
 Success
 */
@@ -103,7 +104,8 @@ func NewUpdatePolicyBadRequest() *UpdatePolicyBadRequest {
 	return &UpdatePolicyBadRequest{}
 }
 
-/*UpdatePolicyBadRequest handles this case with default header values.
+/*
+UpdatePolicyBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -143,7 +145,8 @@ func NewUpdatePolicyUnauthorized() *UpdatePolicyUnauthorized {
 	return &UpdatePolicyUnauthorized{}
 }
 
-/*UpdatePolicyUnauthorized handles this case with default header values.
+/*
+UpdatePolicyUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -183,7 +186,8 @@ func NewUpdatePolicyForbidden() *UpdatePolicyForbidden {
 	return &UpdatePolicyForbidden{}
 }
 
-/*UpdatePolicyForbidden handles this case with default header values.
+/*
+UpdatePolicyForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -223,7 +227,8 @@ func NewUpdatePolicyNotFound() *UpdatePolicyNotFound {
 	return &UpdatePolicyNotFound{}
 }
 
-/*UpdatePolicyNotFound handles this case with default header values.
+/*
+UpdatePolicyNotFound handles this case with default header values.
 
 Not found
 */
@@ -263,7 +268,8 @@ func NewUpdatePolicyConflict() *UpdatePolicyConflict {
 	return &UpdatePolicyConflict{}
 }
 
-/*UpdatePolicyConflict handles this case with default header values.
+/*
+UpdatePolicyConflict handles this case with default header values.
 
 Conflict
 */
@@ -303,7 +309,8 @@ func NewUpdatePolicyInternalServerError() *UpdatePolicyInternalServerError {
 	return &UpdatePolicyInternalServerError{}
 }
 
-/*UpdatePolicyInternalServerError handles this case with default header values.
+/*
+UpdatePolicyInternalServerError handles this case with default header values.
 
 Internal server error
 */

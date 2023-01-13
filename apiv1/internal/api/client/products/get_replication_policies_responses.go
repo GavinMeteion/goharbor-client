@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv1/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv1/model"
 )
 
 // GetReplicationPoliciesReader is a Reader for the GetReplicationPolicies structure.
@@ -64,7 +64,8 @@ func NewGetReplicationPoliciesOK() *GetReplicationPoliciesOK {
 	return &GetReplicationPoliciesOK{}
 }
 
-/*GetReplicationPoliciesOK handles this case with default header values.
+/*
+GetReplicationPoliciesOK handles this case with default header values.
 
 Get policy successfully.
 */
@@ -95,7 +96,8 @@ func NewGetReplicationPoliciesBadRequest() *GetReplicationPoliciesBadRequest {
 	return &GetReplicationPoliciesBadRequest{}
 }
 
-/*GetReplicationPoliciesBadRequest handles this case with default header values.
+/*
+GetReplicationPoliciesBadRequest handles this case with default header values.
 
 Bad Request
 */
@@ -116,7 +118,8 @@ func NewGetReplicationPoliciesUnauthorized() *GetReplicationPoliciesUnauthorized
 	return &GetReplicationPoliciesUnauthorized{}
 }
 
-/*GetReplicationPoliciesUnauthorized handles this case with default header values.
+/*
+GetReplicationPoliciesUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -137,7 +140,8 @@ func NewGetReplicationPoliciesForbidden() *GetReplicationPoliciesForbidden {
 	return &GetReplicationPoliciesForbidden{}
 }
 
-/*GetReplicationPoliciesForbidden handles this case with default header values.
+/*
+GetReplicationPoliciesForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -158,7 +162,8 @@ func NewGetReplicationPoliciesInternalServerError() *GetReplicationPoliciesInter
 	return &GetReplicationPoliciesInternalServerError{}
 }
 
-/*GetReplicationPoliciesInternalServerError handles this case with default header values.
+/*
+GetReplicationPoliciesInternalServerError handles this case with default header values.
 
 Internal Server Error
 */

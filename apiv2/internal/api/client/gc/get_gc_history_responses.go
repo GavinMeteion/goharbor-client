@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetGCHistoryReader is a Reader for the GetGCHistory structure.
@@ -60,7 +60,8 @@ func NewGetGCHistoryOK() *GetGCHistoryOK {
 	return &GetGCHistoryOK{}
 }
 
-/*GetGCHistoryOK handles this case with default header values.
+/*
+GetGCHistoryOK handles this case with default header values.
 
 Get gc results successfully.
 */
@@ -108,7 +109,8 @@ func NewGetGCHistoryUnauthorized() *GetGCHistoryUnauthorized {
 	return &GetGCHistoryUnauthorized{}
 }
 
-/*GetGCHistoryUnauthorized handles this case with default header values.
+/*
+GetGCHistoryUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -148,7 +150,8 @@ func NewGetGCHistoryForbidden() *GetGCHistoryForbidden {
 	return &GetGCHistoryForbidden{}
 }
 
-/*GetGCHistoryForbidden handles this case with default header values.
+/*
+GetGCHistoryForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -188,7 +191,8 @@ func NewGetGCHistoryInternalServerError() *GetGCHistoryInternalServerError {
 	return &GetGCHistoryInternalServerError{}
 }
 
-/*GetGCHistoryInternalServerError handles this case with default header values.
+/*
+GetGCHistoryInternalServerError handles this case with default header values.
 
 Internal server error
 */

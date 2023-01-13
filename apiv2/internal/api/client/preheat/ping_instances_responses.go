@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // PingInstancesReader is a Reader for the PingInstances structure.
@@ -64,7 +64,8 @@ func NewPingInstancesOK() *PingInstancesOK {
 	return &PingInstancesOK{}
 }
 
-/*PingInstancesOK handles this case with default header values.
+/*
+PingInstancesOK handles this case with default header values.
 
 Success
 */
@@ -91,7 +92,8 @@ func NewPingInstancesBadRequest() *PingInstancesBadRequest {
 	return &PingInstancesBadRequest{}
 }
 
-/*PingInstancesBadRequest handles this case with default header values.
+/*
+PingInstancesBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -131,7 +133,8 @@ func NewPingInstancesUnauthorized() *PingInstancesUnauthorized {
 	return &PingInstancesUnauthorized{}
 }
 
-/*PingInstancesUnauthorized handles this case with default header values.
+/*
+PingInstancesUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -171,7 +174,8 @@ func NewPingInstancesNotFound() *PingInstancesNotFound {
 	return &PingInstancesNotFound{}
 }
 
-/*PingInstancesNotFound handles this case with default header values.
+/*
+PingInstancesNotFound handles this case with default header values.
 
 Instance not found (when instance is provided by ID).
 */
@@ -192,7 +196,8 @@ func NewPingInstancesInternalServerError() *PingInstancesInternalServerError {
 	return &PingInstancesInternalServerError{}
 }
 
-/*PingInstancesInternalServerError handles this case with default header values.
+/*
+PingInstancesInternalServerError handles this case with default header values.
 
 Internal server error
 */

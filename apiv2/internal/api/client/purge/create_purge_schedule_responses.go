@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // CreatePurgeScheduleReader is a Reader for the CreatePurgeSchedule structure.
@@ -64,7 +64,8 @@ func NewCreatePurgeScheduleCreated() *CreatePurgeScheduleCreated {
 	return &CreatePurgeScheduleCreated{}
 }
 
-/*CreatePurgeScheduleCreated handles this case with default header values.
+/*
+CreatePurgeScheduleCreated handles this case with default header values.
 
 Created
 */
@@ -97,7 +98,8 @@ func NewCreatePurgeScheduleBadRequest() *CreatePurgeScheduleBadRequest {
 	return &CreatePurgeScheduleBadRequest{}
 }
 
-/*CreatePurgeScheduleBadRequest handles this case with default header values.
+/*
+CreatePurgeScheduleBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -137,7 +139,8 @@ func NewCreatePurgeScheduleUnauthorized() *CreatePurgeScheduleUnauthorized {
 	return &CreatePurgeScheduleUnauthorized{}
 }
 
-/*CreatePurgeScheduleUnauthorized handles this case with default header values.
+/*
+CreatePurgeScheduleUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -177,7 +180,8 @@ func NewCreatePurgeScheduleForbidden() *CreatePurgeScheduleForbidden {
 	return &CreatePurgeScheduleForbidden{}
 }
 
-/*CreatePurgeScheduleForbidden handles this case with default header values.
+/*
+CreatePurgeScheduleForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -217,7 +221,8 @@ func NewCreatePurgeScheduleInternalServerError() *CreatePurgeScheduleInternalSer
 	return &CreatePurgeScheduleInternalServerError{}
 }
 
-/*CreatePurgeScheduleInternalServerError handles this case with default header values.
+/*
+CreatePurgeScheduleInternalServerError handles this case with default header values.
 
 Internal server error
 */

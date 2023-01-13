@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // DeleteArtifactReader is a Reader for the DeleteArtifact structure.
@@ -64,7 +64,8 @@ func NewDeleteArtifactOK() *DeleteArtifactOK {
 	return &DeleteArtifactOK{}
 }
 
-/*DeleteArtifactOK handles this case with default header values.
+/*
+DeleteArtifactOK handles this case with default header values.
 
 Success
 */
@@ -91,7 +92,8 @@ func NewDeleteArtifactUnauthorized() *DeleteArtifactUnauthorized {
 	return &DeleteArtifactUnauthorized{}
 }
 
-/*DeleteArtifactUnauthorized handles this case with default header values.
+/*
+DeleteArtifactUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -131,7 +133,8 @@ func NewDeleteArtifactForbidden() *DeleteArtifactForbidden {
 	return &DeleteArtifactForbidden{}
 }
 
-/*DeleteArtifactForbidden handles this case with default header values.
+/*
+DeleteArtifactForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -171,7 +174,8 @@ func NewDeleteArtifactNotFound() *DeleteArtifactNotFound {
 	return &DeleteArtifactNotFound{}
 }
 
-/*DeleteArtifactNotFound handles this case with default header values.
+/*
+DeleteArtifactNotFound handles this case with default header values.
 
 Not found
 */
@@ -211,7 +215,8 @@ func NewDeleteArtifactInternalServerError() *DeleteArtifactInternalServerError {
 	return &DeleteArtifactInternalServerError{}
 }
 
-/*DeleteArtifactInternalServerError handles this case with default header values.
+/*
+DeleteArtifactInternalServerError handles this case with default header values.
 
 Internal server error
 */

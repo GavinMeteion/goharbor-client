@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // CreateTagReader is a Reader for the CreateTag structure.
@@ -82,7 +82,8 @@ func NewCreateTagCreated() *CreateTagCreated {
 	return &CreateTagCreated{}
 }
 
-/*CreateTagCreated handles this case with default header values.
+/*
+CreateTagCreated handles this case with default header values.
 
 Created
 */
@@ -115,7 +116,8 @@ func NewCreateTagBadRequest() *CreateTagBadRequest {
 	return &CreateTagBadRequest{}
 }
 
-/*CreateTagBadRequest handles this case with default header values.
+/*
+CreateTagBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -155,7 +157,8 @@ func NewCreateTagUnauthorized() *CreateTagUnauthorized {
 	return &CreateTagUnauthorized{}
 }
 
-/*CreateTagUnauthorized handles this case with default header values.
+/*
+CreateTagUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -195,7 +198,8 @@ func NewCreateTagForbidden() *CreateTagForbidden {
 	return &CreateTagForbidden{}
 }
 
-/*CreateTagForbidden handles this case with default header values.
+/*
+CreateTagForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -235,7 +239,8 @@ func NewCreateTagNotFound() *CreateTagNotFound {
 	return &CreateTagNotFound{}
 }
 
-/*CreateTagNotFound handles this case with default header values.
+/*
+CreateTagNotFound handles this case with default header values.
 
 Not found
 */
@@ -275,7 +280,8 @@ func NewCreateTagMethodNotAllowed() *CreateTagMethodNotAllowed {
 	return &CreateTagMethodNotAllowed{}
 }
 
-/*CreateTagMethodNotAllowed handles this case with default header values.
+/*
+CreateTagMethodNotAllowed handles this case with default header values.
 
 Method not allowed
 */
@@ -315,7 +321,8 @@ func NewCreateTagConflict() *CreateTagConflict {
 	return &CreateTagConflict{}
 }
 
-/*CreateTagConflict handles this case with default header values.
+/*
+CreateTagConflict handles this case with default header values.
 
 Conflict
 */
@@ -355,7 +362,8 @@ func NewCreateTagInternalServerError() *CreateTagInternalServerError {
 	return &CreateTagInternalServerError{}
 }
 
-/*CreateTagInternalServerError handles this case with default header values.
+/*
+CreateTagInternalServerError handles this case with default header values.
 
 Internal server error
 */

@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // SearchReader is a Reader for the Search structure.
@@ -46,7 +46,8 @@ func NewSearchOK() *SearchOK {
 	return &SearchOK{}
 }
 
-/*SearchOK handles this case with default header values.
+/*
+SearchOK handles this case with default header values.
 
 An array of search results
 */
@@ -79,7 +80,8 @@ func NewSearchInternalServerError() *SearchInternalServerError {
 	return &SearchInternalServerError{}
 }
 
-/*SearchInternalServerError handles this case with default header values.
+/*
+SearchInternalServerError handles this case with default header values.
 
 Internal server error
 */

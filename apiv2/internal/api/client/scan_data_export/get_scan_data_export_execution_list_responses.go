@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetScanDataExportExecutionListReader is a Reader for the GetScanDataExportExecutionList structure.
@@ -64,7 +64,8 @@ func NewGetScanDataExportExecutionListOK() *GetScanDataExportExecutionListOK {
 	return &GetScanDataExportExecutionListOK{}
 }
 
-/*GetScanDataExportExecutionListOK handles this case with default header values.
+/*
+GetScanDataExportExecutionListOK handles this case with default header values.
 
 Success
 */
@@ -97,7 +98,8 @@ func NewGetScanDataExportExecutionListUnauthorized() *GetScanDataExportExecution
 	return &GetScanDataExportExecutionListUnauthorized{}
 }
 
-/*GetScanDataExportExecutionListUnauthorized handles this case with default header values.
+/*
+GetScanDataExportExecutionListUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -137,7 +139,8 @@ func NewGetScanDataExportExecutionListForbidden() *GetScanDataExportExecutionLis
 	return &GetScanDataExportExecutionListForbidden{}
 }
 
-/*GetScanDataExportExecutionListForbidden handles this case with default header values.
+/*
+GetScanDataExportExecutionListForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -177,7 +180,8 @@ func NewGetScanDataExportExecutionListNotFound() *GetScanDataExportExecutionList
 	return &GetScanDataExportExecutionListNotFound{}
 }
 
-/*GetScanDataExportExecutionListNotFound handles this case with default header values.
+/*
+GetScanDataExportExecutionListNotFound handles this case with default header values.
 
 Not found
 */
@@ -217,7 +221,8 @@ func NewGetScanDataExportExecutionListInternalServerError() *GetScanDataExportEx
 	return &GetScanDataExportExecutionListInternalServerError{}
 }
 
-/*GetScanDataExportExecutionListInternalServerError handles this case with default header values.
+/*
+GetScanDataExportExecutionListInternalServerError handles this case with default header values.
 
 Internal server error
 */

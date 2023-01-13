@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetRetentionTaskLogReader is a Reader for the GetRetentionTaskLog structure.
@@ -58,7 +58,8 @@ func NewGetRetentionTaskLogOK() *GetRetentionTaskLogOK {
 	return &GetRetentionTaskLogOK{}
 }
 
-/*GetRetentionTaskLogOK handles this case with default header values.
+/*
+GetRetentionTaskLogOK handles this case with default header values.
 
 Get Retention job task log successfully.
 */
@@ -89,7 +90,8 @@ func NewGetRetentionTaskLogUnauthorized() *GetRetentionTaskLogUnauthorized {
 	return &GetRetentionTaskLogUnauthorized{}
 }
 
-/*GetRetentionTaskLogUnauthorized handles this case with default header values.
+/*
+GetRetentionTaskLogUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -129,7 +131,8 @@ func NewGetRetentionTaskLogForbidden() *GetRetentionTaskLogForbidden {
 	return &GetRetentionTaskLogForbidden{}
 }
 
-/*GetRetentionTaskLogForbidden handles this case with default header values.
+/*
+GetRetentionTaskLogForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -169,7 +172,8 @@ func NewGetRetentionTaskLogInternalServerError() *GetRetentionTaskLogInternalSer
 	return &GetRetentionTaskLogInternalServerError{}
 }
 
-/*GetRetentionTaskLogInternalServerError handles this case with default header values.
+/*
+GetRetentionTaskLogInternalServerError handles this case with default header values.
 
 Internal server error
 */

@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // UpdateRepositoryReader is a Reader for the UpdateRepository structure.
@@ -70,7 +70,8 @@ func NewUpdateRepositoryOK() *UpdateRepositoryOK {
 	return &UpdateRepositoryOK{}
 }
 
-/*UpdateRepositoryOK handles this case with default header values.
+/*
+UpdateRepositoryOK handles this case with default header values.
 
 Success
 */
@@ -97,7 +98,8 @@ func NewUpdateRepositoryBadRequest() *UpdateRepositoryBadRequest {
 	return &UpdateRepositoryBadRequest{}
 }
 
-/*UpdateRepositoryBadRequest handles this case with default header values.
+/*
+UpdateRepositoryBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -137,7 +139,8 @@ func NewUpdateRepositoryUnauthorized() *UpdateRepositoryUnauthorized {
 	return &UpdateRepositoryUnauthorized{}
 }
 
-/*UpdateRepositoryUnauthorized handles this case with default header values.
+/*
+UpdateRepositoryUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -177,7 +180,8 @@ func NewUpdateRepositoryForbidden() *UpdateRepositoryForbidden {
 	return &UpdateRepositoryForbidden{}
 }
 
-/*UpdateRepositoryForbidden handles this case with default header values.
+/*
+UpdateRepositoryForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -217,7 +221,8 @@ func NewUpdateRepositoryNotFound() *UpdateRepositoryNotFound {
 	return &UpdateRepositoryNotFound{}
 }
 
-/*UpdateRepositoryNotFound handles this case with default header values.
+/*
+UpdateRepositoryNotFound handles this case with default header values.
 
 Not found
 */
@@ -257,7 +262,8 @@ func NewUpdateRepositoryInternalServerError() *UpdateRepositoryInternalServerErr
 	return &UpdateRepositoryInternalServerError{}
 }
 
-/*UpdateRepositoryInternalServerError handles this case with default header values.
+/*
+UpdateRepositoryInternalServerError handles this case with default header values.
 
 Internal server error
 */

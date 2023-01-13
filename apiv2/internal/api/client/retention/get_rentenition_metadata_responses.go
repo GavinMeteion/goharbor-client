@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetRentenitionMetadataReader is a Reader for the GetRentenitionMetadata structure.
@@ -40,7 +40,8 @@ func NewGetRentenitionMetadataOK() *GetRentenitionMetadataOK {
 	return &GetRentenitionMetadataOK{}
 }
 
-/*GetRentenitionMetadataOK handles this case with default header values.
+/*
+GetRentenitionMetadataOK handles this case with default header values.
 
 Get Retention Metadatas successfully.
 */

@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetWorkersReader is a Reader for the GetWorkers structure.
@@ -64,7 +64,8 @@ func NewGetWorkersOK() *GetWorkersOK {
 	return &GetWorkersOK{}
 }
 
-/*GetWorkersOK handles this case with default header values.
+/*
+GetWorkersOK handles this case with default header values.
 
 Get workers successfully.
 */
@@ -95,7 +96,8 @@ func NewGetWorkersUnauthorized() *GetWorkersUnauthorized {
 	return &GetWorkersUnauthorized{}
 }
 
-/*GetWorkersUnauthorized handles this case with default header values.
+/*
+GetWorkersUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -135,7 +137,8 @@ func NewGetWorkersForbidden() *GetWorkersForbidden {
 	return &GetWorkersForbidden{}
 }
 
-/*GetWorkersForbidden handles this case with default header values.
+/*
+GetWorkersForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -175,7 +178,8 @@ func NewGetWorkersNotFound() *GetWorkersNotFound {
 	return &GetWorkersNotFound{}
 }
 
-/*GetWorkersNotFound handles this case with default header values.
+/*
+GetWorkersNotFound handles this case with default header values.
 
 Not found
 */
@@ -215,7 +219,8 @@ func NewGetWorkersInternalServerError() *GetWorkersInternalServerError {
 	return &GetWorkersInternalServerError{}
 }
 
-/*GetWorkersInternalServerError handles this case with default header values.
+/*
+GetWorkersInternalServerError handles this case with default header values.
 
 Internal server error
 */

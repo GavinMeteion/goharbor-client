@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // ListRobotReader is a Reader for the ListRobot structure.
@@ -60,7 +60,8 @@ func NewListRobotOK() *ListRobotOK {
 	return &ListRobotOK{}
 }
 
-/*ListRobotOK handles this case with default header values.
+/*
+ListRobotOK handles this case with default header values.
 
 Success
 */
@@ -108,7 +109,8 @@ func NewListRobotBadRequest() *ListRobotBadRequest {
 	return &ListRobotBadRequest{}
 }
 
-/*ListRobotBadRequest handles this case with default header values.
+/*
+ListRobotBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -148,7 +150,8 @@ func NewListRobotNotFound() *ListRobotNotFound {
 	return &ListRobotNotFound{}
 }
 
-/*ListRobotNotFound handles this case with default header values.
+/*
+ListRobotNotFound handles this case with default header values.
 
 Not found
 */
@@ -188,7 +191,8 @@ func NewListRobotInternalServerError() *ListRobotInternalServerError {
 	return &ListRobotInternalServerError{}
 }
 
-/*ListRobotInternalServerError handles this case with default header values.
+/*
+ListRobotInternalServerError handles this case with default header values.
 
 Internal server error
 */

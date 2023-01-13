@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // ListWebhookPoliciesOfProjectReader is a Reader for the ListWebhookPoliciesOfProject structure.
@@ -66,7 +66,8 @@ func NewListWebhookPoliciesOfProjectOK() *ListWebhookPoliciesOfProjectOK {
 	return &ListWebhookPoliciesOfProjectOK{}
 }
 
-/*ListWebhookPoliciesOfProjectOK handles this case with default header values.
+/*
+ListWebhookPoliciesOfProjectOK handles this case with default header values.
 
 Success
 */
@@ -114,7 +115,8 @@ func NewListWebhookPoliciesOfProjectBadRequest() *ListWebhookPoliciesOfProjectBa
 	return &ListWebhookPoliciesOfProjectBadRequest{}
 }
 
-/*ListWebhookPoliciesOfProjectBadRequest handles this case with default header values.
+/*
+ListWebhookPoliciesOfProjectBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -154,7 +156,8 @@ func NewListWebhookPoliciesOfProjectUnauthorized() *ListWebhookPoliciesOfProject
 	return &ListWebhookPoliciesOfProjectUnauthorized{}
 }
 
-/*ListWebhookPoliciesOfProjectUnauthorized handles this case with default header values.
+/*
+ListWebhookPoliciesOfProjectUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -194,7 +197,8 @@ func NewListWebhookPoliciesOfProjectForbidden() *ListWebhookPoliciesOfProjectFor
 	return &ListWebhookPoliciesOfProjectForbidden{}
 }
 
-/*ListWebhookPoliciesOfProjectForbidden handles this case with default header values.
+/*
+ListWebhookPoliciesOfProjectForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -234,7 +238,8 @@ func NewListWebhookPoliciesOfProjectInternalServerError() *ListWebhookPoliciesOf
 	return &ListWebhookPoliciesOfProjectInternalServerError{}
 }
 
-/*ListWebhookPoliciesOfProjectInternalServerError handles this case with default header values.
+/*
+ListWebhookPoliciesOfProjectInternalServerError handles this case with default header values.
 
 Internal server error
 */

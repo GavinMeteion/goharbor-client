@@ -16,7 +16,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv1/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv1/model"
 )
 
 // NewPutRegistriesIDParams creates a new PutRegistriesIDParams object
@@ -58,7 +58,8 @@ func NewPutRegistriesIDParamsWithHTTPClient(client *http.Client) *PutRegistriesI
 	}
 }
 
-/*PutRegistriesIDParams contains all the parameters to send to the API endpoint
+/*
+PutRegistriesIDParams contains all the parameters to send to the API endpoint
 for the put registries ID operation typically these are written to a http.Request
 */
 type PutRegistriesIDParams struct {

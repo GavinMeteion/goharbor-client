@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // ListJobQueuesReader is a Reader for the ListJobQueues structure.
@@ -64,7 +64,8 @@ func NewListJobQueuesOK() *ListJobQueuesOK {
 	return &ListJobQueuesOK{}
 }
 
-/*ListJobQueuesOK handles this case with default header values.
+/*
+ListJobQueuesOK handles this case with default header values.
 
 List job queue successfully.
 */
@@ -95,7 +96,8 @@ func NewListJobQueuesUnauthorized() *ListJobQueuesUnauthorized {
 	return &ListJobQueuesUnauthorized{}
 }
 
-/*ListJobQueuesUnauthorized handles this case with default header values.
+/*
+ListJobQueuesUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -135,7 +137,8 @@ func NewListJobQueuesForbidden() *ListJobQueuesForbidden {
 	return &ListJobQueuesForbidden{}
 }
 
-/*ListJobQueuesForbidden handles this case with default header values.
+/*
+ListJobQueuesForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -175,7 +178,8 @@ func NewListJobQueuesNotFound() *ListJobQueuesNotFound {
 	return &ListJobQueuesNotFound{}
 }
 
-/*ListJobQueuesNotFound handles this case with default header values.
+/*
+ListJobQueuesNotFound handles this case with default header values.
 
 Not found
 */
@@ -215,7 +219,8 @@ func NewListJobQueuesInternalServerError() *ListJobQueuesInternalServerError {
 	return &ListJobQueuesInternalServerError{}
 }
 
-/*ListJobQueuesInternalServerError handles this case with default header values.
+/*
+ListJobQueuesInternalServerError handles this case with default header values.
 
 Internal server error
 */

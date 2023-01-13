@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetRobotByIDReader is a Reader for the GetRobotByID structure.
@@ -64,7 +64,8 @@ func NewGetRobotByIDOK() *GetRobotByIDOK {
 	return &GetRobotByIDOK{}
 }
 
-/*GetRobotByIDOK handles this case with default header values.
+/*
+GetRobotByIDOK handles this case with default header values.
 
 Return matched robot information.
 */
@@ -97,7 +98,8 @@ func NewGetRobotByIDUnauthorized() *GetRobotByIDUnauthorized {
 	return &GetRobotByIDUnauthorized{}
 }
 
-/*GetRobotByIDUnauthorized handles this case with default header values.
+/*
+GetRobotByIDUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -137,7 +139,8 @@ func NewGetRobotByIDForbidden() *GetRobotByIDForbidden {
 	return &GetRobotByIDForbidden{}
 }
 
-/*GetRobotByIDForbidden handles this case with default header values.
+/*
+GetRobotByIDForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -177,7 +180,8 @@ func NewGetRobotByIDNotFound() *GetRobotByIDNotFound {
 	return &GetRobotByIDNotFound{}
 }
 
-/*GetRobotByIDNotFound handles this case with default header values.
+/*
+GetRobotByIDNotFound handles this case with default header values.
 
 Not found
 */
@@ -217,7 +221,8 @@ func NewGetRobotByIDInternalServerError() *GetRobotByIDInternalServerError {
 	return &GetRobotByIDInternalServerError{}
 }
 
-/*GetRobotByIDInternalServerError handles this case with default header values.
+/*
+GetRobotByIDInternalServerError handles this case with default header values.
 
 Internal server error
 */

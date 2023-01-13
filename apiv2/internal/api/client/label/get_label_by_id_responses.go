@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetLabelByIDReader is a Reader for the GetLabelByID structure.
@@ -58,7 +58,8 @@ func NewGetLabelByIDOK() *GetLabelByIDOK {
 	return &GetLabelByIDOK{}
 }
 
-/*GetLabelByIDOK handles this case with default header values.
+/*
+GetLabelByIDOK handles this case with default header values.
 
 Get successfully.
 */
@@ -91,7 +92,8 @@ func NewGetLabelByIDUnauthorized() *GetLabelByIDUnauthorized {
 	return &GetLabelByIDUnauthorized{}
 }
 
-/*GetLabelByIDUnauthorized handles this case with default header values.
+/*
+GetLabelByIDUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -131,7 +133,8 @@ func NewGetLabelByIDNotFound() *GetLabelByIDNotFound {
 	return &GetLabelByIDNotFound{}
 }
 
-/*GetLabelByIDNotFound handles this case with default header values.
+/*
+GetLabelByIDNotFound handles this case with default header values.
 
 Not found
 */
@@ -171,7 +174,8 @@ func NewGetLabelByIDInternalServerError() *GetLabelByIDInternalServerError {
 	return &GetLabelByIDInternalServerError{}
 }
 
-/*GetLabelByIDInternalServerError handles this case with default header values.
+/*
+GetLabelByIDInternalServerError handles this case with default header values.
 
 Internal server error
 */

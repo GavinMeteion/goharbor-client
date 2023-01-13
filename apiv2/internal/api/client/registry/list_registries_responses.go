@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // ListRegistriesReader is a Reader for the ListRegistries structure.
@@ -60,7 +60,8 @@ func NewListRegistriesOK() *ListRegistriesOK {
 	return &ListRegistriesOK{}
 }
 
-/*ListRegistriesOK handles this case with default header values.
+/*
+ListRegistriesOK handles this case with default header values.
 
 Success
 */
@@ -108,7 +109,8 @@ func NewListRegistriesUnauthorized() *ListRegistriesUnauthorized {
 	return &ListRegistriesUnauthorized{}
 }
 
-/*ListRegistriesUnauthorized handles this case with default header values.
+/*
+ListRegistriesUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -148,7 +150,8 @@ func NewListRegistriesForbidden() *ListRegistriesForbidden {
 	return &ListRegistriesForbidden{}
 }
 
-/*ListRegistriesForbidden handles this case with default header values.
+/*
+ListRegistriesForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -188,7 +191,8 @@ func NewListRegistriesInternalServerError() *ListRegistriesInternalServerError {
 	return &ListRegistriesInternalServerError{}
 }
 
-/*ListRegistriesInternalServerError handles this case with default header values.
+/*
+ListRegistriesInternalServerError handles this case with default header values.
 
 Internal server error
 */

@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetScannerMetadataReader is a Reader for the GetScannerMetadata structure.
@@ -58,7 +58,8 @@ func NewGetScannerMetadataOK() *GetScannerMetadataOK {
 	return &GetScannerMetadataOK{}
 }
 
-/*GetScannerMetadataOK handles this case with default header values.
+/*
+GetScannerMetadataOK handles this case with default header values.
 
 The metadata of the specified scanner adapter
 */
@@ -91,7 +92,8 @@ func NewGetScannerMetadataUnauthorized() *GetScannerMetadataUnauthorized {
 	return &GetScannerMetadataUnauthorized{}
 }
 
-/*GetScannerMetadataUnauthorized handles this case with default header values.
+/*
+GetScannerMetadataUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -131,7 +133,8 @@ func NewGetScannerMetadataForbidden() *GetScannerMetadataForbidden {
 	return &GetScannerMetadataForbidden{}
 }
 
-/*GetScannerMetadataForbidden handles this case with default header values.
+/*
+GetScannerMetadataForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -171,7 +174,8 @@ func NewGetScannerMetadataInternalServerError() *GetScannerMetadataInternalServe
 	return &GetScannerMetadataInternalServerError{}
 }
 
-/*GetScannerMetadataInternalServerError handles this case with default header values.
+/*
+GetScannerMetadataInternalServerError handles this case with default header values.
 
 Internal server error
 */

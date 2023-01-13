@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // CreateRegistryReader is a Reader for the CreateRegistry structure.
@@ -70,7 +70,8 @@ func NewCreateRegistryCreated() *CreateRegistryCreated {
 	return &CreateRegistryCreated{}
 }
 
-/*CreateRegistryCreated handles this case with default header values.
+/*
+CreateRegistryCreated handles this case with default header values.
 
 Created
 */
@@ -103,7 +104,8 @@ func NewCreateRegistryBadRequest() *CreateRegistryBadRequest {
 	return &CreateRegistryBadRequest{}
 }
 
-/*CreateRegistryBadRequest handles this case with default header values.
+/*
+CreateRegistryBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -143,7 +145,8 @@ func NewCreateRegistryUnauthorized() *CreateRegistryUnauthorized {
 	return &CreateRegistryUnauthorized{}
 }
 
-/*CreateRegistryUnauthorized handles this case with default header values.
+/*
+CreateRegistryUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -183,7 +186,8 @@ func NewCreateRegistryForbidden() *CreateRegistryForbidden {
 	return &CreateRegistryForbidden{}
 }
 
-/*CreateRegistryForbidden handles this case with default header values.
+/*
+CreateRegistryForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -223,7 +227,8 @@ func NewCreateRegistryConflict() *CreateRegistryConflict {
 	return &CreateRegistryConflict{}
 }
 
-/*CreateRegistryConflict handles this case with default header values.
+/*
+CreateRegistryConflict handles this case with default header values.
 
 Conflict
 */
@@ -263,7 +268,8 @@ func NewCreateRegistryInternalServerError() *CreateRegistryInternalServerError {
 	return &CreateRegistryInternalServerError{}
 }
 
-/*CreateRegistryInternalServerError handles this case with default header values.
+/*
+CreateRegistryInternalServerError handles this case with default header values.
 
 Internal server error
 */

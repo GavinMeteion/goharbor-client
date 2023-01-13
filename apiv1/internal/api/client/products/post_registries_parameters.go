@@ -15,7 +15,7 @@ import (
 	cr "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv1/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv1/model"
 )
 
 // NewPostRegistriesParams creates a new PostRegistriesParams object
@@ -57,7 +57,8 @@ func NewPostRegistriesParamsWithHTTPClient(client *http.Client) *PostRegistriesP
 	}
 }
 
-/*PostRegistriesParams contains all the parameters to send to the API endpoint
+/*
+PostRegistriesParams contains all the parameters to send to the API endpoint
 for the post registries operation typically these are written to a http.Request
 */
 type PostRegistriesParams struct {

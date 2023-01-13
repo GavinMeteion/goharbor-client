@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // UpdateRegistryReader is a Reader for the UpdateRegistry structure.
@@ -70,7 +70,8 @@ func NewUpdateRegistryOK() *UpdateRegistryOK {
 	return &UpdateRegistryOK{}
 }
 
-/*UpdateRegistryOK handles this case with default header values.
+/*
+UpdateRegistryOK handles this case with default header values.
 
 Success
 */
@@ -97,7 +98,8 @@ func NewUpdateRegistryUnauthorized() *UpdateRegistryUnauthorized {
 	return &UpdateRegistryUnauthorized{}
 }
 
-/*UpdateRegistryUnauthorized handles this case with default header values.
+/*
+UpdateRegistryUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -137,7 +139,8 @@ func NewUpdateRegistryForbidden() *UpdateRegistryForbidden {
 	return &UpdateRegistryForbidden{}
 }
 
-/*UpdateRegistryForbidden handles this case with default header values.
+/*
+UpdateRegistryForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -177,7 +180,8 @@ func NewUpdateRegistryNotFound() *UpdateRegistryNotFound {
 	return &UpdateRegistryNotFound{}
 }
 
-/*UpdateRegistryNotFound handles this case with default header values.
+/*
+UpdateRegistryNotFound handles this case with default header values.
 
 Not found
 */
@@ -217,7 +221,8 @@ func NewUpdateRegistryConflict() *UpdateRegistryConflict {
 	return &UpdateRegistryConflict{}
 }
 
-/*UpdateRegistryConflict handles this case with default header values.
+/*
+UpdateRegistryConflict handles this case with default header values.
 
 Conflict
 */
@@ -257,7 +262,8 @@ func NewUpdateRegistryInternalServerError() *UpdateRegistryInternalServerError {
 	return &UpdateRegistryInternalServerError{}
 }
 
-/*UpdateRegistryInternalServerError handles this case with default header values.
+/*
+UpdateRegistryInternalServerError handles this case with default header values.
 
 Internal server error
 */

@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetReportLogReader is a Reader for the GetReportLog structure.
@@ -64,7 +64,8 @@ func NewGetReportLogOK() *GetReportLogOK {
 	return &GetReportLogOK{}
 }
 
-/*GetReportLogOK handles this case with default header values.
+/*
+GetReportLogOK handles this case with default header values.
 
 Successfully get scan log file
 */
@@ -95,7 +96,8 @@ func NewGetReportLogUnauthorized() *GetReportLogUnauthorized {
 	return &GetReportLogUnauthorized{}
 }
 
-/*GetReportLogUnauthorized handles this case with default header values.
+/*
+GetReportLogUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -135,7 +137,8 @@ func NewGetReportLogForbidden() *GetReportLogForbidden {
 	return &GetReportLogForbidden{}
 }
 
-/*GetReportLogForbidden handles this case with default header values.
+/*
+GetReportLogForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -175,7 +178,8 @@ func NewGetReportLogNotFound() *GetReportLogNotFound {
 	return &GetReportLogNotFound{}
 }
 
-/*GetReportLogNotFound handles this case with default header values.
+/*
+GetReportLogNotFound handles this case with default header values.
 
 Not found
 */
@@ -215,7 +219,8 @@ func NewGetReportLogInternalServerError() *GetReportLogInternalServerError {
 	return &GetReportLogInternalServerError{}
 }
 
-/*GetReportLogInternalServerError handles this case with default header values.
+/*
+GetReportLogInternalServerError handles this case with default header values.
 
 Internal server error
 */

@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetProjectReader is a Reader for the GetProject structure.
@@ -52,7 +52,8 @@ func NewGetProjectOK() *GetProjectOK {
 	return &GetProjectOK{}
 }
 
-/*GetProjectOK handles this case with default header values.
+/*
+GetProjectOK handles this case with default header values.
 
 Return matched project information.
 */
@@ -85,7 +86,8 @@ func NewGetProjectUnauthorized() *GetProjectUnauthorized {
 	return &GetProjectUnauthorized{}
 }
 
-/*GetProjectUnauthorized handles this case with default header values.
+/*
+GetProjectUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -125,7 +127,8 @@ func NewGetProjectInternalServerError() *GetProjectInternalServerError {
 	return &GetProjectInternalServerError{}
 }
 
-/*GetProjectInternalServerError handles this case with default header values.
+/*
+GetProjectInternalServerError handles this case with default header values.
 
 Internal server error
 */

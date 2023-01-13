@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // UpdateProjectReader is a Reader for the UpdateProject structure.
@@ -70,7 +70,8 @@ func NewUpdateProjectOK() *UpdateProjectOK {
 	return &UpdateProjectOK{}
 }
 
-/*UpdateProjectOK handles this case with default header values.
+/*
+UpdateProjectOK handles this case with default header values.
 
 Success
 */
@@ -97,7 +98,8 @@ func NewUpdateProjectBadRequest() *UpdateProjectBadRequest {
 	return &UpdateProjectBadRequest{}
 }
 
-/*UpdateProjectBadRequest handles this case with default header values.
+/*
+UpdateProjectBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -137,7 +139,8 @@ func NewUpdateProjectUnauthorized() *UpdateProjectUnauthorized {
 	return &UpdateProjectUnauthorized{}
 }
 
-/*UpdateProjectUnauthorized handles this case with default header values.
+/*
+UpdateProjectUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -177,7 +180,8 @@ func NewUpdateProjectForbidden() *UpdateProjectForbidden {
 	return &UpdateProjectForbidden{}
 }
 
-/*UpdateProjectForbidden handles this case with default header values.
+/*
+UpdateProjectForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -217,7 +221,8 @@ func NewUpdateProjectNotFound() *UpdateProjectNotFound {
 	return &UpdateProjectNotFound{}
 }
 
-/*UpdateProjectNotFound handles this case with default header values.
+/*
+UpdateProjectNotFound handles this case with default header values.
 
 Not found
 */
@@ -257,7 +262,8 @@ func NewUpdateProjectInternalServerError() *UpdateProjectInternalServerError {
 	return &UpdateProjectInternalServerError{}
 }
 
-/*UpdateProjectInternalServerError handles this case with default header values.
+/*
+UpdateProjectInternalServerError handles this case with default header values.
 
 Internal server error
 */

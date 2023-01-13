@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // UpdateGCScheduleReader is a Reader for the UpdateGCSchedule structure.
@@ -64,7 +64,8 @@ func NewUpdateGCScheduleOK() *UpdateGCScheduleOK {
 	return &UpdateGCScheduleOK{}
 }
 
-/*UpdateGCScheduleOK handles this case with default header values.
+/*
+UpdateGCScheduleOK handles this case with default header values.
 
 Updated gc's schedule successfully.
 */
@@ -85,7 +86,8 @@ func NewUpdateGCScheduleBadRequest() *UpdateGCScheduleBadRequest {
 	return &UpdateGCScheduleBadRequest{}
 }
 
-/*UpdateGCScheduleBadRequest handles this case with default header values.
+/*
+UpdateGCScheduleBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -125,7 +127,8 @@ func NewUpdateGCScheduleUnauthorized() *UpdateGCScheduleUnauthorized {
 	return &UpdateGCScheduleUnauthorized{}
 }
 
-/*UpdateGCScheduleUnauthorized handles this case with default header values.
+/*
+UpdateGCScheduleUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -165,7 +168,8 @@ func NewUpdateGCScheduleForbidden() *UpdateGCScheduleForbidden {
 	return &UpdateGCScheduleForbidden{}
 }
 
-/*UpdateGCScheduleForbidden handles this case with default header values.
+/*
+UpdateGCScheduleForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -205,7 +209,8 @@ func NewUpdateGCScheduleInternalServerError() *UpdateGCScheduleInternalServerErr
 	return &UpdateGCScheduleInternalServerError{}
 }
 
-/*UpdateGCScheduleInternalServerError handles this case with default header values.
+/*
+UpdateGCScheduleInternalServerError handles this case with default header values.
 
 Internal server error
 */

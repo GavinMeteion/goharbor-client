@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // UpdateProjectMemberReader is a Reader for the UpdateProjectMember structure.
@@ -70,7 +70,8 @@ func NewUpdateProjectMemberOK() *UpdateProjectMemberOK {
 	return &UpdateProjectMemberOK{}
 }
 
-/*UpdateProjectMemberOK handles this case with default header values.
+/*
+UpdateProjectMemberOK handles this case with default header values.
 
 Success
 */
@@ -97,7 +98,8 @@ func NewUpdateProjectMemberBadRequest() *UpdateProjectMemberBadRequest {
 	return &UpdateProjectMemberBadRequest{}
 }
 
-/*UpdateProjectMemberBadRequest handles this case with default header values.
+/*
+UpdateProjectMemberBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -137,7 +139,8 @@ func NewUpdateProjectMemberUnauthorized() *UpdateProjectMemberUnauthorized {
 	return &UpdateProjectMemberUnauthorized{}
 }
 
-/*UpdateProjectMemberUnauthorized handles this case with default header values.
+/*
+UpdateProjectMemberUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -177,7 +180,8 @@ func NewUpdateProjectMemberForbidden() *UpdateProjectMemberForbidden {
 	return &UpdateProjectMemberForbidden{}
 }
 
-/*UpdateProjectMemberForbidden handles this case with default header values.
+/*
+UpdateProjectMemberForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -217,7 +221,8 @@ func NewUpdateProjectMemberNotFound() *UpdateProjectMemberNotFound {
 	return &UpdateProjectMemberNotFound{}
 }
 
-/*UpdateProjectMemberNotFound handles this case with default header values.
+/*
+UpdateProjectMemberNotFound handles this case with default header values.
 
 Not found
 */
@@ -257,7 +262,8 @@ func NewUpdateProjectMemberInternalServerError() *UpdateProjectMemberInternalSer
 	return &UpdateProjectMemberInternalServerError{}
 }
 
-/*UpdateProjectMemberInternalServerError handles this case with default header values.
+/*
+UpdateProjectMemberInternalServerError handles this case with default header values.
 
 Internal server error
 */

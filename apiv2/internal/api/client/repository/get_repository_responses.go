@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetRepositoryReader is a Reader for the GetRepository structure.
@@ -70,7 +70,8 @@ func NewGetRepositoryOK() *GetRepositoryOK {
 	return &GetRepositoryOK{}
 }
 
-/*GetRepositoryOK handles this case with default header values.
+/*
+GetRepositoryOK handles this case with default header values.
 
 Success
 */
@@ -103,7 +104,8 @@ func NewGetRepositoryBadRequest() *GetRepositoryBadRequest {
 	return &GetRepositoryBadRequest{}
 }
 
-/*GetRepositoryBadRequest handles this case with default header values.
+/*
+GetRepositoryBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -143,7 +145,8 @@ func NewGetRepositoryUnauthorized() *GetRepositoryUnauthorized {
 	return &GetRepositoryUnauthorized{}
 }
 
-/*GetRepositoryUnauthorized handles this case with default header values.
+/*
+GetRepositoryUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -183,7 +186,8 @@ func NewGetRepositoryForbidden() *GetRepositoryForbidden {
 	return &GetRepositoryForbidden{}
 }
 
-/*GetRepositoryForbidden handles this case with default header values.
+/*
+GetRepositoryForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -223,7 +227,8 @@ func NewGetRepositoryNotFound() *GetRepositoryNotFound {
 	return &GetRepositoryNotFound{}
 }
 
-/*GetRepositoryNotFound handles this case with default header values.
+/*
+GetRepositoryNotFound handles this case with default header values.
 
 Not found
 */
@@ -263,7 +268,8 @@ func NewGetRepositoryInternalServerError() *GetRepositoryInternalServerError {
 	return &GetRepositoryInternalServerError{}
 }
 
-/*GetRepositoryInternalServerError handles this case with default header values.
+/*
+GetRepositoryInternalServerError handles this case with default header values.
 
 Internal server error
 */

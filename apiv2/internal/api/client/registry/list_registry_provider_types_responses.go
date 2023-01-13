@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // ListRegistryProviderTypesReader is a Reader for the ListRegistryProviderTypes structure.
@@ -58,7 +58,8 @@ func NewListRegistryProviderTypesOK() *ListRegistryProviderTypesOK {
 	return &ListRegistryProviderTypesOK{}
 }
 
-/*ListRegistryProviderTypesOK handles this case with default header values.
+/*
+ListRegistryProviderTypesOK handles this case with default header values.
 
 Success.
 */
@@ -89,7 +90,8 @@ func NewListRegistryProviderTypesUnauthorized() *ListRegistryProviderTypesUnauth
 	return &ListRegistryProviderTypesUnauthorized{}
 }
 
-/*ListRegistryProviderTypesUnauthorized handles this case with default header values.
+/*
+ListRegistryProviderTypesUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -129,7 +131,8 @@ func NewListRegistryProviderTypesForbidden() *ListRegistryProviderTypesForbidden
 	return &ListRegistryProviderTypesForbidden{}
 }
 
-/*ListRegistryProviderTypesForbidden handles this case with default header values.
+/*
+ListRegistryProviderTypesForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -169,7 +172,8 @@ func NewListRegistryProviderTypesInternalServerError() *ListRegistryProviderType
 	return &ListRegistryProviderTypesInternalServerError{}
 }
 
-/*ListRegistryProviderTypesInternalServerError handles this case with default header values.
+/*
+ListRegistryProviderTypesInternalServerError handles this case with default header values.
 
 Internal server error
 */

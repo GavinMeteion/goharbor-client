@@ -15,7 +15,7 @@ import (
 	cr "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // NewPingRegistryParams creates a new PingRegistryParams object
@@ -57,7 +57,8 @@ func NewPingRegistryParamsWithHTTPClient(client *http.Client) *PingRegistryParam
 	}
 }
 
-/*PingRegistryParams contains all the parameters to send to the API endpoint
+/*
+PingRegistryParams contains all the parameters to send to the API endpoint
 for the ping registry operation typically these are written to a http.Request
 */
 type PingRegistryParams struct {

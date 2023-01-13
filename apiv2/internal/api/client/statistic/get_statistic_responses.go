@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetStatisticReader is a Reader for the GetStatistic structure.
@@ -52,7 +52,8 @@ func NewGetStatisticOK() *GetStatisticOK {
 	return &GetStatisticOK{}
 }
 
-/*GetStatisticOK handles this case with default header values.
+/*
+GetStatisticOK handles this case with default header values.
 
 The statistic information
 */
@@ -85,7 +86,8 @@ func NewGetStatisticUnauthorized() *GetStatisticUnauthorized {
 	return &GetStatisticUnauthorized{}
 }
 
-/*GetStatisticUnauthorized handles this case with default header values.
+/*
+GetStatisticUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -125,7 +127,8 @@ func NewGetStatisticInternalServerError() *GetStatisticInternalServerError {
 	return &GetStatisticInternalServerError{}
 }
 
-/*GetStatisticInternalServerError handles this case with default header values.
+/*
+GetStatisticInternalServerError handles this case with default header values.
 
 Internal server error
 */

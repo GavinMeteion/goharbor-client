@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv1/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv1/model"
 )
 
 // GetUsersReader is a Reader for the GetUsers structure.
@@ -64,7 +64,8 @@ func NewGetUsersOK() *GetUsersOK {
 	return &GetUsersOK{}
 }
 
-/*GetUsersOK handles this case with default header values.
+/*
+GetUsersOK handles this case with default header values.
 
 Searched for users of Harbor successfully.
 */
@@ -95,7 +96,8 @@ func NewGetUsersBadRequest() *GetUsersBadRequest {
 	return &GetUsersBadRequest{}
 }
 
-/*GetUsersBadRequest handles this case with default header values.
+/*
+GetUsersBadRequest handles this case with default header values.
 
 Invalid user ID.
 */
@@ -116,7 +118,8 @@ func NewGetUsersUnauthorized() *GetUsersUnauthorized {
 	return &GetUsersUnauthorized{}
 }
 
-/*GetUsersUnauthorized handles this case with default header values.
+/*
+GetUsersUnauthorized handles this case with default header values.
 
 User need to log in first.
 */
@@ -137,7 +140,8 @@ func NewGetUsersForbidden() *GetUsersForbidden {
 	return &GetUsersForbidden{}
 }
 
-/*GetUsersForbidden handles this case with default header values.
+/*
+GetUsersForbidden handles this case with default header values.
 
 User does not have permission of admin role.
 */
@@ -158,7 +162,8 @@ func NewGetUsersInternalServerError() *GetUsersInternalServerError {
 	return &GetUsersInternalServerError{}
 }
 
-/*GetUsersInternalServerError handles this case with default header values.
+/*
+GetUsersInternalServerError handles this case with default header values.
 
 Unexpected internal errors.
 */

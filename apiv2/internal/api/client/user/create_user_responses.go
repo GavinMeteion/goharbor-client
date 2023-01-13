@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // CreateUserReader is a Reader for the CreateUser structure.
@@ -70,7 +70,8 @@ func NewCreateUserCreated() *CreateUserCreated {
 	return &CreateUserCreated{}
 }
 
-/*CreateUserCreated handles this case with default header values.
+/*
+CreateUserCreated handles this case with default header values.
 
 Created
 */
@@ -103,7 +104,8 @@ func NewCreateUserBadRequest() *CreateUserBadRequest {
 	return &CreateUserBadRequest{}
 }
 
-/*CreateUserBadRequest handles this case with default header values.
+/*
+CreateUserBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -143,7 +145,8 @@ func NewCreateUserUnauthorized() *CreateUserUnauthorized {
 	return &CreateUserUnauthorized{}
 }
 
-/*CreateUserUnauthorized handles this case with default header values.
+/*
+CreateUserUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -183,7 +186,8 @@ func NewCreateUserForbidden() *CreateUserForbidden {
 	return &CreateUserForbidden{}
 }
 
-/*CreateUserForbidden handles this case with default header values.
+/*
+CreateUserForbidden handles this case with default header values.
 
 When the  self registration is disabled, non-admin does not have permission to create user.  When self registration is enabled, this API can only be called from UI portal, calling it via script will get a 403 error.
 */
@@ -204,7 +208,8 @@ func NewCreateUserConflict() *CreateUserConflict {
 	return &CreateUserConflict{}
 }
 
-/*CreateUserConflict handles this case with default header values.
+/*
+CreateUserConflict handles this case with default header values.
 
 Conflict
 */
@@ -244,7 +249,8 @@ func NewCreateUserInternalServerError() *CreateUserInternalServerError {
 	return &CreateUserInternalServerError{}
 }
 
-/*CreateUserInternalServerError handles this case with default header values.
+/*
+CreateUserInternalServerError handles this case with default header values.
 
 Internal server error
 */

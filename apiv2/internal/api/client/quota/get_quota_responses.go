@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetQuotaReader is a Reader for the GetQuota structure.
@@ -64,7 +64,8 @@ func NewGetQuotaOK() *GetQuotaOK {
 	return &GetQuotaOK{}
 }
 
-/*GetQuotaOK handles this case with default header values.
+/*
+GetQuotaOK handles this case with default header values.
 
 Successfully retrieved the quota.
 */
@@ -97,7 +98,8 @@ func NewGetQuotaUnauthorized() *GetQuotaUnauthorized {
 	return &GetQuotaUnauthorized{}
 }
 
-/*GetQuotaUnauthorized handles this case with default header values.
+/*
+GetQuotaUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -137,7 +139,8 @@ func NewGetQuotaForbidden() *GetQuotaForbidden {
 	return &GetQuotaForbidden{}
 }
 
-/*GetQuotaForbidden handles this case with default header values.
+/*
+GetQuotaForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -177,7 +180,8 @@ func NewGetQuotaNotFound() *GetQuotaNotFound {
 	return &GetQuotaNotFound{}
 }
 
-/*GetQuotaNotFound handles this case with default header values.
+/*
+GetQuotaNotFound handles this case with default header values.
 
 Not found
 */
@@ -217,7 +221,8 @@ func NewGetQuotaInternalServerError() *GetQuotaInternalServerError {
 	return &GetQuotaInternalServerError{}
 }
 
-/*GetQuotaInternalServerError handles this case with default header values.
+/*
+GetQuotaInternalServerError handles this case with default header values.
 
 Internal server error
 */

@@ -16,7 +16,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // NewUpdateUserPasswordParams creates a new UpdateUserPasswordParams object
@@ -58,7 +58,8 @@ func NewUpdateUserPasswordParamsWithHTTPClient(client *http.Client) *UpdateUserP
 	}
 }
 
-/*UpdateUserPasswordParams contains all the parameters to send to the API endpoint
+/*
+UpdateUserPasswordParams contains all the parameters to send to the API endpoint
 for the update user password operation typically these are written to a http.Request
 */
 type UpdateUserPasswordParams struct {

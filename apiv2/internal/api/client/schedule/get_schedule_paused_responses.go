@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetSchedulePausedReader is a Reader for the GetSchedulePaused structure.
@@ -64,7 +64,8 @@ func NewGetSchedulePausedOK() *GetSchedulePausedOK {
 	return &GetSchedulePausedOK{}
 }
 
-/*GetSchedulePausedOK handles this case with default header values.
+/*
+GetSchedulePausedOK handles this case with default header values.
 
 Get scheduler status successfully.
 */
@@ -97,7 +98,8 @@ func NewGetSchedulePausedUnauthorized() *GetSchedulePausedUnauthorized {
 	return &GetSchedulePausedUnauthorized{}
 }
 
-/*GetSchedulePausedUnauthorized handles this case with default header values.
+/*
+GetSchedulePausedUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -137,7 +139,8 @@ func NewGetSchedulePausedForbidden() *GetSchedulePausedForbidden {
 	return &GetSchedulePausedForbidden{}
 }
 
-/*GetSchedulePausedForbidden handles this case with default header values.
+/*
+GetSchedulePausedForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -177,7 +180,8 @@ func NewGetSchedulePausedNotFound() *GetSchedulePausedNotFound {
 	return &GetSchedulePausedNotFound{}
 }
 
-/*GetSchedulePausedNotFound handles this case with default header values.
+/*
+GetSchedulePausedNotFound handles this case with default header values.
 
 Not found
 */
@@ -217,7 +221,8 @@ func NewGetSchedulePausedInternalServerError() *GetSchedulePausedInternalServerE
 	return &GetSchedulePausedInternalServerError{}
 }
 
-/*GetSchedulePausedInternalServerError handles this case with default header values.
+/*
+GetSchedulePausedInternalServerError handles this case with default header values.
 
 Internal server error
 */

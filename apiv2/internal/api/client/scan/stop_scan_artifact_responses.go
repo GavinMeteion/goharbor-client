@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // StopScanArtifactReader is a Reader for the StopScanArtifact structure.
@@ -70,7 +70,8 @@ func NewStopScanArtifactAccepted() *StopScanArtifactAccepted {
 	return &StopScanArtifactAccepted{}
 }
 
-/*StopScanArtifactAccepted handles this case with default header values.
+/*
+StopScanArtifactAccepted handles this case with default header values.
 
 Accepted
 */
@@ -97,7 +98,8 @@ func NewStopScanArtifactBadRequest() *StopScanArtifactBadRequest {
 	return &StopScanArtifactBadRequest{}
 }
 
-/*StopScanArtifactBadRequest handles this case with default header values.
+/*
+StopScanArtifactBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -137,7 +139,8 @@ func NewStopScanArtifactUnauthorized() *StopScanArtifactUnauthorized {
 	return &StopScanArtifactUnauthorized{}
 }
 
-/*StopScanArtifactUnauthorized handles this case with default header values.
+/*
+StopScanArtifactUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -177,7 +180,8 @@ func NewStopScanArtifactForbidden() *StopScanArtifactForbidden {
 	return &StopScanArtifactForbidden{}
 }
 
-/*StopScanArtifactForbidden handles this case with default header values.
+/*
+StopScanArtifactForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -217,7 +221,8 @@ func NewStopScanArtifactNotFound() *StopScanArtifactNotFound {
 	return &StopScanArtifactNotFound{}
 }
 
-/*StopScanArtifactNotFound handles this case with default header values.
+/*
+StopScanArtifactNotFound handles this case with default header values.
 
 Not found
 */
@@ -257,7 +262,8 @@ func NewStopScanArtifactInternalServerError() *StopScanArtifactInternalServerErr
 	return &StopScanArtifactInternalServerError{}
 }
 
-/*StopScanArtifactInternalServerError handles this case with default header values.
+/*
+StopScanArtifactInternalServerError handles this case with default header values.
 
 Internal server error
 */

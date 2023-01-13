@@ -13,7 +13,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // TriggerRetentionExecutionReader is a Reader for the TriggerRetentionExecution structure.
@@ -65,7 +65,8 @@ func NewTriggerRetentionExecutionOK() *TriggerRetentionExecutionOK {
 	return &TriggerRetentionExecutionOK{}
 }
 
-/*TriggerRetentionExecutionOK handles this case with default header values.
+/*
+TriggerRetentionExecutionOK handles this case with default header values.
 
 Trigger a Retention job successfully.
 */
@@ -86,7 +87,8 @@ func NewTriggerRetentionExecutionCreated() *TriggerRetentionExecutionCreated {
 	return &TriggerRetentionExecutionCreated{}
 }
 
-/*TriggerRetentionExecutionCreated handles this case with default header values.
+/*
+TriggerRetentionExecutionCreated handles this case with default header values.
 
 Created
 */
@@ -119,7 +121,8 @@ func NewTriggerRetentionExecutionUnauthorized() *TriggerRetentionExecutionUnauth
 	return &TriggerRetentionExecutionUnauthorized{}
 }
 
-/*TriggerRetentionExecutionUnauthorized handles this case with default header values.
+/*
+TriggerRetentionExecutionUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -159,7 +162,8 @@ func NewTriggerRetentionExecutionForbidden() *TriggerRetentionExecutionForbidden
 	return &TriggerRetentionExecutionForbidden{}
 }
 
-/*TriggerRetentionExecutionForbidden handles this case with default header values.
+/*
+TriggerRetentionExecutionForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -199,7 +203,8 @@ func NewTriggerRetentionExecutionInternalServerError() *TriggerRetentionExecutio
 	return &TriggerRetentionExecutionInternalServerError{}
 }
 
-/*TriggerRetentionExecutionInternalServerError handles this case with default header values.
+/*
+TriggerRetentionExecutionInternalServerError handles this case with default header values.
 
 Internal server error
 */
@@ -234,7 +239,8 @@ func (o *TriggerRetentionExecutionInternalServerError) readResponse(response run
 	return nil
 }
 
-/*TriggerRetentionExecutionBody trigger retention execution body
+/*
+TriggerRetentionExecutionBody trigger retention execution body
 swagger:model TriggerRetentionExecutionBody
 */
 type TriggerRetentionExecutionBody struct {

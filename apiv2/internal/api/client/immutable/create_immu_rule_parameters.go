@@ -16,7 +16,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // NewCreateImmuRuleParams creates a new CreateImmuRuleParams object
@@ -70,7 +70,8 @@ func NewCreateImmuRuleParamsWithHTTPClient(client *http.Client) *CreateImmuRuleP
 	}
 }
 
-/*CreateImmuRuleParams contains all the parameters to send to the API endpoint
+/*
+CreateImmuRuleParams contains all the parameters to send to the API endpoint
 for the create immu rule operation typically these are written to a http.Request
 */
 type CreateImmuRuleParams struct {

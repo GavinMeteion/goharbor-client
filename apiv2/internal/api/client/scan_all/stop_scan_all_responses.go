@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // StopScanAllReader is a Reader for the StopScanAll structure.
@@ -64,7 +64,8 @@ func NewStopScanAllAccepted() *StopScanAllAccepted {
 	return &StopScanAllAccepted{}
 }
 
-/*StopScanAllAccepted handles this case with default header values.
+/*
+StopScanAllAccepted handles this case with default header values.
 
 Accepted
 */
@@ -91,7 +92,8 @@ func NewStopScanAllBadRequest() *StopScanAllBadRequest {
 	return &StopScanAllBadRequest{}
 }
 
-/*StopScanAllBadRequest handles this case with default header values.
+/*
+StopScanAllBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -131,7 +133,8 @@ func NewStopScanAllUnauthorized() *StopScanAllUnauthorized {
 	return &StopScanAllUnauthorized{}
 }
 
-/*StopScanAllUnauthorized handles this case with default header values.
+/*
+StopScanAllUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -171,7 +174,8 @@ func NewStopScanAllForbidden() *StopScanAllForbidden {
 	return &StopScanAllForbidden{}
 }
 
-/*StopScanAllForbidden handles this case with default header values.
+/*
+StopScanAllForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -211,7 +215,8 @@ func NewStopScanAllInternalServerError() *StopScanAllInternalServerError {
 	return &StopScanAllInternalServerError{}
 }
 
-/*StopScanAllInternalServerError handles this case with default header values.
+/*
+StopScanAllInternalServerError handles this case with default header values.
 
 Internal server error
 */

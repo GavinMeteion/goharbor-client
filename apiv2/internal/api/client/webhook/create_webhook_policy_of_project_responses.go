@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // CreateWebhookPolicyOfProjectReader is a Reader for the CreateWebhookPolicyOfProject structure.
@@ -64,7 +64,8 @@ func NewCreateWebhookPolicyOfProjectCreated() *CreateWebhookPolicyOfProjectCreat
 	return &CreateWebhookPolicyOfProjectCreated{}
 }
 
-/*CreateWebhookPolicyOfProjectCreated handles this case with default header values.
+/*
+CreateWebhookPolicyOfProjectCreated handles this case with default header values.
 
 Project webhook policy create successfully.
 */
@@ -97,7 +98,8 @@ func NewCreateWebhookPolicyOfProjectBadRequest() *CreateWebhookPolicyOfProjectBa
 	return &CreateWebhookPolicyOfProjectBadRequest{}
 }
 
-/*CreateWebhookPolicyOfProjectBadRequest handles this case with default header values.
+/*
+CreateWebhookPolicyOfProjectBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -137,7 +139,8 @@ func NewCreateWebhookPolicyOfProjectUnauthorized() *CreateWebhookPolicyOfProject
 	return &CreateWebhookPolicyOfProjectUnauthorized{}
 }
 
-/*CreateWebhookPolicyOfProjectUnauthorized handles this case with default header values.
+/*
+CreateWebhookPolicyOfProjectUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -177,7 +180,8 @@ func NewCreateWebhookPolicyOfProjectForbidden() *CreateWebhookPolicyOfProjectFor
 	return &CreateWebhookPolicyOfProjectForbidden{}
 }
 
-/*CreateWebhookPolicyOfProjectForbidden handles this case with default header values.
+/*
+CreateWebhookPolicyOfProjectForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -217,7 +221,8 @@ func NewCreateWebhookPolicyOfProjectInternalServerError() *CreateWebhookPolicyOf
 	return &CreateWebhookPolicyOfProjectInternalServerError{}
 }
 
-/*CreateWebhookPolicyOfProjectInternalServerError handles this case with default header values.
+/*
+CreateWebhookPolicyOfProjectInternalServerError handles this case with default header values.
 
 Internal server error
 */

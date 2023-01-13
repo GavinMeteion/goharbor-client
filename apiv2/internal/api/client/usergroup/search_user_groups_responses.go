@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // SearchUserGroupsReader is a Reader for the SearchUserGroups structure.
@@ -54,7 +54,8 @@ func NewSearchUserGroupsOK() *SearchUserGroupsOK {
 	return &SearchUserGroupsOK{}
 }
 
-/*SearchUserGroupsOK handles this case with default header values.
+/*
+SearchUserGroupsOK handles this case with default header values.
 
 Search groups successfully.
 */
@@ -102,7 +103,8 @@ func NewSearchUserGroupsUnauthorized() *SearchUserGroupsUnauthorized {
 	return &SearchUserGroupsUnauthorized{}
 }
 
-/*SearchUserGroupsUnauthorized handles this case with default header values.
+/*
+SearchUserGroupsUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -142,7 +144,8 @@ func NewSearchUserGroupsInternalServerError() *SearchUserGroupsInternalServerErr
 	return &SearchUserGroupsInternalServerError{}
 }
 
-/*SearchUserGroupsInternalServerError handles this case with default header values.
+/*
+SearchUserGroupsInternalServerError handles this case with default header values.
 
 Internal server error
 */

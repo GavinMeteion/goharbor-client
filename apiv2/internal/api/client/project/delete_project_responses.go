@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // DeleteProjectReader is a Reader for the DeleteProject structure.
@@ -70,7 +70,8 @@ func NewDeleteProjectOK() *DeleteProjectOK {
 	return &DeleteProjectOK{}
 }
 
-/*DeleteProjectOK handles this case with default header values.
+/*
+DeleteProjectOK handles this case with default header values.
 
 Success
 */
@@ -97,7 +98,8 @@ func NewDeleteProjectBadRequest() *DeleteProjectBadRequest {
 	return &DeleteProjectBadRequest{}
 }
 
-/*DeleteProjectBadRequest handles this case with default header values.
+/*
+DeleteProjectBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -137,7 +139,8 @@ func NewDeleteProjectForbidden() *DeleteProjectForbidden {
 	return &DeleteProjectForbidden{}
 }
 
-/*DeleteProjectForbidden handles this case with default header values.
+/*
+DeleteProjectForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -177,7 +180,8 @@ func NewDeleteProjectNotFound() *DeleteProjectNotFound {
 	return &DeleteProjectNotFound{}
 }
 
-/*DeleteProjectNotFound handles this case with default header values.
+/*
+DeleteProjectNotFound handles this case with default header values.
 
 Not found
 */
@@ -217,7 +221,8 @@ func NewDeleteProjectPreconditionFailed() *DeleteProjectPreconditionFailed {
 	return &DeleteProjectPreconditionFailed{}
 }
 
-/*DeleteProjectPreconditionFailed handles this case with default header values.
+/*
+DeleteProjectPreconditionFailed handles this case with default header values.
 
 Precondition failed
 */
@@ -257,7 +262,8 @@ func NewDeleteProjectInternalServerError() *DeleteProjectInternalServerError {
 	return &DeleteProjectInternalServerError{}
 }
 
-/*DeleteProjectInternalServerError handles this case with default header values.
+/*
+DeleteProjectInternalServerError handles this case with default header values.
 
 Internal server error
 */

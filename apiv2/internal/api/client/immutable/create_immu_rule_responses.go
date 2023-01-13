@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // CreateImmuRuleReader is a Reader for the CreateImmuRule structure.
@@ -70,7 +70,8 @@ func NewCreateImmuRuleCreated() *CreateImmuRuleCreated {
 	return &CreateImmuRuleCreated{}
 }
 
-/*CreateImmuRuleCreated handles this case with default header values.
+/*
+CreateImmuRuleCreated handles this case with default header values.
 
 Created
 */
@@ -103,7 +104,8 @@ func NewCreateImmuRuleBadRequest() *CreateImmuRuleBadRequest {
 	return &CreateImmuRuleBadRequest{}
 }
 
-/*CreateImmuRuleBadRequest handles this case with default header values.
+/*
+CreateImmuRuleBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -143,7 +145,8 @@ func NewCreateImmuRuleUnauthorized() *CreateImmuRuleUnauthorized {
 	return &CreateImmuRuleUnauthorized{}
 }
 
-/*CreateImmuRuleUnauthorized handles this case with default header values.
+/*
+CreateImmuRuleUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -183,7 +186,8 @@ func NewCreateImmuRuleForbidden() *CreateImmuRuleForbidden {
 	return &CreateImmuRuleForbidden{}
 }
 
-/*CreateImmuRuleForbidden handles this case with default header values.
+/*
+CreateImmuRuleForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -223,7 +227,8 @@ func NewCreateImmuRuleNotFound() *CreateImmuRuleNotFound {
 	return &CreateImmuRuleNotFound{}
 }
 
-/*CreateImmuRuleNotFound handles this case with default header values.
+/*
+CreateImmuRuleNotFound handles this case with default header values.
 
 Not found
 */
@@ -263,7 +268,8 @@ func NewCreateImmuRuleInternalServerError() *CreateImmuRuleInternalServerError {
 	return &CreateImmuRuleInternalServerError{}
 }
 
-/*CreateImmuRuleInternalServerError handles this case with default header values.
+/*
+CreateImmuRuleInternalServerError handles this case with default header values.
 
 Internal server error
 */

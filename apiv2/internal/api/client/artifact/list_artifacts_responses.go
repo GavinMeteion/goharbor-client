@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // ListArtifactsReader is a Reader for the ListArtifacts structure.
@@ -72,7 +72,8 @@ func NewListArtifactsOK() *ListArtifactsOK {
 	return &ListArtifactsOK{}
 }
 
-/*ListArtifactsOK handles this case with default header values.
+/*
+ListArtifactsOK handles this case with default header values.
 
 Success
 */
@@ -120,7 +121,8 @@ func NewListArtifactsBadRequest() *ListArtifactsBadRequest {
 	return &ListArtifactsBadRequest{}
 }
 
-/*ListArtifactsBadRequest handles this case with default header values.
+/*
+ListArtifactsBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -160,7 +162,8 @@ func NewListArtifactsUnauthorized() *ListArtifactsUnauthorized {
 	return &ListArtifactsUnauthorized{}
 }
 
-/*ListArtifactsUnauthorized handles this case with default header values.
+/*
+ListArtifactsUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -200,7 +203,8 @@ func NewListArtifactsForbidden() *ListArtifactsForbidden {
 	return &ListArtifactsForbidden{}
 }
 
-/*ListArtifactsForbidden handles this case with default header values.
+/*
+ListArtifactsForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -240,7 +244,8 @@ func NewListArtifactsNotFound() *ListArtifactsNotFound {
 	return &ListArtifactsNotFound{}
 }
 
-/*ListArtifactsNotFound handles this case with default header values.
+/*
+ListArtifactsNotFound handles this case with default header values.
 
 Not found
 */
@@ -280,7 +285,8 @@ func NewListArtifactsInternalServerError() *ListArtifactsInternalServerError {
 	return &ListArtifactsInternalServerError{}
 }
 
-/*ListArtifactsInternalServerError handles this case with default header values.
+/*
+ListArtifactsInternalServerError handles this case with default header values.
 
 Internal server error
 */

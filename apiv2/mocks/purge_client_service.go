@@ -3,8 +3,8 @@
 package mocks
 
 import (
+	purge "github.com/GavinMeteion/goharbor-client/v5/apiv2/internal/api/client/purge"
 	runtime "github.com/go-openapi/runtime"
-	purge "github.com/mittwald/goharbor-client/v5/apiv2/internal/api/client/purge"
 	mock "github.com/stretchr/testify/mock"
 )
 

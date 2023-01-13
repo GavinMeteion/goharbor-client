@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // UpdateRobotV1Reader is a Reader for the UpdateRobotV1 structure.
@@ -76,7 +76,8 @@ func NewUpdateRobotV1OK() *UpdateRobotV1OK {
 	return &UpdateRobotV1OK{}
 }
 
-/*UpdateRobotV1OK handles this case with default header values.
+/*
+UpdateRobotV1OK handles this case with default header values.
 
 Success
 */
@@ -103,7 +104,8 @@ func NewUpdateRobotV1BadRequest() *UpdateRobotV1BadRequest {
 	return &UpdateRobotV1BadRequest{}
 }
 
-/*UpdateRobotV1BadRequest handles this case with default header values.
+/*
+UpdateRobotV1BadRequest handles this case with default header values.
 
 Bad request
 */
@@ -143,7 +145,8 @@ func NewUpdateRobotV1Unauthorized() *UpdateRobotV1Unauthorized {
 	return &UpdateRobotV1Unauthorized{}
 }
 
-/*UpdateRobotV1Unauthorized handles this case with default header values.
+/*
+UpdateRobotV1Unauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -183,7 +186,8 @@ func NewUpdateRobotV1Forbidden() *UpdateRobotV1Forbidden {
 	return &UpdateRobotV1Forbidden{}
 }
 
-/*UpdateRobotV1Forbidden handles this case with default header values.
+/*
+UpdateRobotV1Forbidden handles this case with default header values.
 
 Forbidden
 */
@@ -223,7 +227,8 @@ func NewUpdateRobotV1NotFound() *UpdateRobotV1NotFound {
 	return &UpdateRobotV1NotFound{}
 }
 
-/*UpdateRobotV1NotFound handles this case with default header values.
+/*
+UpdateRobotV1NotFound handles this case with default header values.
 
 Not found
 */
@@ -263,7 +268,8 @@ func NewUpdateRobotV1Conflict() *UpdateRobotV1Conflict {
 	return &UpdateRobotV1Conflict{}
 }
 
-/*UpdateRobotV1Conflict handles this case with default header values.
+/*
+UpdateRobotV1Conflict handles this case with default header values.
 
 Conflict
 */
@@ -303,7 +309,8 @@ func NewUpdateRobotV1InternalServerError() *UpdateRobotV1InternalServerError {
 	return &UpdateRobotV1InternalServerError{}
 }
 
-/*UpdateRobotV1InternalServerError handles this case with default header values.
+/*
+UpdateRobotV1InternalServerError handles this case with default header values.
 
 Internal server error
 */

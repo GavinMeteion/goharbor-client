@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetSystemCVEAllowlistReader is a Reader for the GetSystemCVEAllowlist structure.
@@ -52,7 +52,8 @@ func NewGetSystemCVEAllowlistOK() *GetSystemCVEAllowlistOK {
 	return &GetSystemCVEAllowlistOK{}
 }
 
-/*GetSystemCVEAllowlistOK handles this case with default header values.
+/*
+GetSystemCVEAllowlistOK handles this case with default header values.
 
 Successfully retrieved the CVE allowlist.
 */
@@ -85,7 +86,8 @@ func NewGetSystemCVEAllowlistUnauthorized() *GetSystemCVEAllowlistUnauthorized {
 	return &GetSystemCVEAllowlistUnauthorized{}
 }
 
-/*GetSystemCVEAllowlistUnauthorized handles this case with default header values.
+/*
+GetSystemCVEAllowlistUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -125,7 +127,8 @@ func NewGetSystemCVEAllowlistInternalServerError() *GetSystemCVEAllowlistInterna
 	return &GetSystemCVEAllowlistInternalServerError{}
 }
 
-/*GetSystemCVEAllowlistInternalServerError handles this case with default header values.
+/*
+GetSystemCVEAllowlistInternalServerError handles this case with default header values.
 
 Internal server error
 */

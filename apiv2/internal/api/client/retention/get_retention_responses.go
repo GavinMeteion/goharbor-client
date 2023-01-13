@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetRetentionReader is a Reader for the GetRetention structure.
@@ -58,7 +58,8 @@ func NewGetRetentionOK() *GetRetentionOK {
 	return &GetRetentionOK{}
 }
 
-/*GetRetentionOK handles this case with default header values.
+/*
+GetRetentionOK handles this case with default header values.
 
 Get Retention Policy successfully.
 */
@@ -91,7 +92,8 @@ func NewGetRetentionUnauthorized() *GetRetentionUnauthorized {
 	return &GetRetentionUnauthorized{}
 }
 
-/*GetRetentionUnauthorized handles this case with default header values.
+/*
+GetRetentionUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -131,7 +133,8 @@ func NewGetRetentionForbidden() *GetRetentionForbidden {
 	return &GetRetentionForbidden{}
 }
 
-/*GetRetentionForbidden handles this case with default header values.
+/*
+GetRetentionForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -171,7 +174,8 @@ func NewGetRetentionInternalServerError() *GetRetentionInternalServerError {
 	return &GetRetentionInternalServerError{}
 }
 
-/*GetRetentionInternalServerError handles this case with default header values.
+/*
+GetRetentionInternalServerError handles this case with default header values.
 
 Internal server error
 */

@@ -15,7 +15,7 @@ import (
 	cr "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv1/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv1/model"
 )
 
 // NewPostProjectsParams creates a new PostProjectsParams object
@@ -57,7 +57,8 @@ func NewPostProjectsParamsWithHTTPClient(client *http.Client) *PostProjectsParam
 	}
 }
 
-/*PostProjectsParams contains all the parameters to send to the API endpoint
+/*
+PostProjectsParams contains all the parameters to send to the API endpoint
 for the post projects operation typically these are written to a http.Request
 */
 type PostProjectsParams struct {

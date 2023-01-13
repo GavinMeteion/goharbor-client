@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetLatestScanAllMetricsReader is a Reader for the GetLatestScanAllMetrics structure.
@@ -64,7 +64,8 @@ func NewGetLatestScanAllMetricsOK() *GetLatestScanAllMetricsOK {
 	return &GetLatestScanAllMetricsOK{}
 }
 
-/*GetLatestScanAllMetricsOK handles this case with default header values.
+/*
+GetLatestScanAllMetricsOK handles this case with default header values.
 
 OK
 */
@@ -97,7 +98,8 @@ func NewGetLatestScanAllMetricsUnauthorized() *GetLatestScanAllMetricsUnauthoriz
 	return &GetLatestScanAllMetricsUnauthorized{}
 }
 
-/*GetLatestScanAllMetricsUnauthorized handles this case with default header values.
+/*
+GetLatestScanAllMetricsUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -137,7 +139,8 @@ func NewGetLatestScanAllMetricsForbidden() *GetLatestScanAllMetricsForbidden {
 	return &GetLatestScanAllMetricsForbidden{}
 }
 
-/*GetLatestScanAllMetricsForbidden handles this case with default header values.
+/*
+GetLatestScanAllMetricsForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -177,7 +180,8 @@ func NewGetLatestScanAllMetricsPreconditionFailed() *GetLatestScanAllMetricsPrec
 	return &GetLatestScanAllMetricsPreconditionFailed{}
 }
 
-/*GetLatestScanAllMetricsPreconditionFailed handles this case with default header values.
+/*
+GetLatestScanAllMetricsPreconditionFailed handles this case with default header values.
 
 Precondition failed
 */
@@ -217,7 +221,8 @@ func NewGetLatestScanAllMetricsInternalServerError() *GetLatestScanAllMetricsInt
 	return &GetLatestScanAllMetricsInternalServerError{}
 }
 
-/*GetLatestScanAllMetricsInternalServerError handles this case with default header values.
+/*
+GetLatestScanAllMetricsInternalServerError handles this case with default header values.
 
 Internal server error
 */

@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetRegistryReader is a Reader for the GetRegistry structure.
@@ -64,7 +64,8 @@ func NewGetRegistryOK() *GetRegistryOK {
 	return &GetRegistryOK{}
 }
 
-/*GetRegistryOK handles this case with default header values.
+/*
+GetRegistryOK handles this case with default header values.
 
 Success
 */
@@ -97,7 +98,8 @@ func NewGetRegistryUnauthorized() *GetRegistryUnauthorized {
 	return &GetRegistryUnauthorized{}
 }
 
-/*GetRegistryUnauthorized handles this case with default header values.
+/*
+GetRegistryUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -137,7 +139,8 @@ func NewGetRegistryForbidden() *GetRegistryForbidden {
 	return &GetRegistryForbidden{}
 }
 
-/*GetRegistryForbidden handles this case with default header values.
+/*
+GetRegistryForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -177,7 +180,8 @@ func NewGetRegistryNotFound() *GetRegistryNotFound {
 	return &GetRegistryNotFound{}
 }
 
-/*GetRegistryNotFound handles this case with default header values.
+/*
+GetRegistryNotFound handles this case with default header values.
 
 Not found
 */
@@ -217,7 +221,8 @@ func NewGetRegistryInternalServerError() *GetRegistryInternalServerError {
 	return &GetRegistryInternalServerError{}
 }
 
-/*GetRegistryInternalServerError handles this case with default header values.
+/*
+GetRegistryInternalServerError handles this case with default header values.
 
 Internal server error
 */

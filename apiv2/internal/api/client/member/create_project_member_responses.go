@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // CreateProjectMemberReader is a Reader for the CreateProjectMember structure.
@@ -70,7 +70,8 @@ func NewCreateProjectMemberCreated() *CreateProjectMemberCreated {
 	return &CreateProjectMemberCreated{}
 }
 
-/*CreateProjectMemberCreated handles this case with default header values.
+/*
+CreateProjectMemberCreated handles this case with default header values.
 
 Project member created successfully.
 */
@@ -97,7 +98,8 @@ func NewCreateProjectMemberBadRequest() *CreateProjectMemberBadRequest {
 	return &CreateProjectMemberBadRequest{}
 }
 
-/*CreateProjectMemberBadRequest handles this case with default header values.
+/*
+CreateProjectMemberBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -137,7 +139,8 @@ func NewCreateProjectMemberUnauthorized() *CreateProjectMemberUnauthorized {
 	return &CreateProjectMemberUnauthorized{}
 }
 
-/*CreateProjectMemberUnauthorized handles this case with default header values.
+/*
+CreateProjectMemberUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -177,7 +180,8 @@ func NewCreateProjectMemberForbidden() *CreateProjectMemberForbidden {
 	return &CreateProjectMemberForbidden{}
 }
 
-/*CreateProjectMemberForbidden handles this case with default header values.
+/*
+CreateProjectMemberForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -217,7 +221,8 @@ func NewCreateProjectMemberConflict() *CreateProjectMemberConflict {
 	return &CreateProjectMemberConflict{}
 }
 
-/*CreateProjectMemberConflict handles this case with default header values.
+/*
+CreateProjectMemberConflict handles this case with default header values.
 
 Conflict
 */
@@ -257,7 +262,8 @@ func NewCreateProjectMemberInternalServerError() *CreateProjectMemberInternalSer
 	return &CreateProjectMemberInternalServerError{}
 }
 
-/*CreateProjectMemberInternalServerError handles this case with default header values.
+/*
+CreateProjectMemberInternalServerError handles this case with default header values.
 
 Internal server error
 */

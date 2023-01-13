@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // CopyArtifactReader is a Reader for the CopyArtifact structure.
@@ -76,7 +76,8 @@ func NewCopyArtifactCreated() *CopyArtifactCreated {
 	return &CopyArtifactCreated{}
 }
 
-/*CopyArtifactCreated handles this case with default header values.
+/*
+CopyArtifactCreated handles this case with default header values.
 
 Created
 */
@@ -109,7 +110,8 @@ func NewCopyArtifactBadRequest() *CopyArtifactBadRequest {
 	return &CopyArtifactBadRequest{}
 }
 
-/*CopyArtifactBadRequest handles this case with default header values.
+/*
+CopyArtifactBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -149,7 +151,8 @@ func NewCopyArtifactUnauthorized() *CopyArtifactUnauthorized {
 	return &CopyArtifactUnauthorized{}
 }
 
-/*CopyArtifactUnauthorized handles this case with default header values.
+/*
+CopyArtifactUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -189,7 +192,8 @@ func NewCopyArtifactForbidden() *CopyArtifactForbidden {
 	return &CopyArtifactForbidden{}
 }
 
-/*CopyArtifactForbidden handles this case with default header values.
+/*
+CopyArtifactForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -229,7 +233,8 @@ func NewCopyArtifactNotFound() *CopyArtifactNotFound {
 	return &CopyArtifactNotFound{}
 }
 
-/*CopyArtifactNotFound handles this case with default header values.
+/*
+CopyArtifactNotFound handles this case with default header values.
 
 Not found
 */
@@ -269,7 +274,8 @@ func NewCopyArtifactMethodNotAllowed() *CopyArtifactMethodNotAllowed {
 	return &CopyArtifactMethodNotAllowed{}
 }
 
-/*CopyArtifactMethodNotAllowed handles this case with default header values.
+/*
+CopyArtifactMethodNotAllowed handles this case with default header values.
 
 Method not allowed
 */
@@ -309,7 +315,8 @@ func NewCopyArtifactInternalServerError() *CopyArtifactInternalServerError {
 	return &CopyArtifactInternalServerError{}
 }
 
-/*CopyArtifactInternalServerError handles this case with default header values.
+/*
+CopyArtifactInternalServerError handles this case with default header values.
 
 Internal server error
 */

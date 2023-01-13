@@ -16,7 +16,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // NewRefreshSecParams creates a new RefreshSecParams object
@@ -58,7 +58,8 @@ func NewRefreshSecParamsWithHTTPClient(client *http.Client) *RefreshSecParams {
 	}
 }
 
-/*RefreshSecParams contains all the parameters to send to the API endpoint
+/*
+RefreshSecParams contains all the parameters to send to the API endpoint
 for the refresh sec operation typically these are written to a http.Request
 */
 type RefreshSecParams struct {

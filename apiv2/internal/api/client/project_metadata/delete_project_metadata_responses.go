@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // DeleteProjectMetadataReader is a Reader for the DeleteProjectMetadata structure.
@@ -76,7 +76,8 @@ func NewDeleteProjectMetadataOK() *DeleteProjectMetadataOK {
 	return &DeleteProjectMetadataOK{}
 }
 
-/*DeleteProjectMetadataOK handles this case with default header values.
+/*
+DeleteProjectMetadataOK handles this case with default header values.
 
 Success
 */
@@ -103,7 +104,8 @@ func NewDeleteProjectMetadataBadRequest() *DeleteProjectMetadataBadRequest {
 	return &DeleteProjectMetadataBadRequest{}
 }
 
-/*DeleteProjectMetadataBadRequest handles this case with default header values.
+/*
+DeleteProjectMetadataBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -143,7 +145,8 @@ func NewDeleteProjectMetadataUnauthorized() *DeleteProjectMetadataUnauthorized {
 	return &DeleteProjectMetadataUnauthorized{}
 }
 
-/*DeleteProjectMetadataUnauthorized handles this case with default header values.
+/*
+DeleteProjectMetadataUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -183,7 +186,8 @@ func NewDeleteProjectMetadataForbidden() *DeleteProjectMetadataForbidden {
 	return &DeleteProjectMetadataForbidden{}
 }
 
-/*DeleteProjectMetadataForbidden handles this case with default header values.
+/*
+DeleteProjectMetadataForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -223,7 +227,8 @@ func NewDeleteProjectMetadataNotFound() *DeleteProjectMetadataNotFound {
 	return &DeleteProjectMetadataNotFound{}
 }
 
-/*DeleteProjectMetadataNotFound handles this case with default header values.
+/*
+DeleteProjectMetadataNotFound handles this case with default header values.
 
 Not found
 */
@@ -263,7 +268,8 @@ func NewDeleteProjectMetadataConflict() *DeleteProjectMetadataConflict {
 	return &DeleteProjectMetadataConflict{}
 }
 
-/*DeleteProjectMetadataConflict handles this case with default header values.
+/*
+DeleteProjectMetadataConflict handles this case with default header values.
 
 Conflict
 */
@@ -303,7 +309,8 @@ func NewDeleteProjectMetadataInternalServerError() *DeleteProjectMetadataInterna
 	return &DeleteProjectMetadataInternalServerError{}
 }
 
-/*DeleteProjectMetadataInternalServerError handles this case with default header values.
+/*
+DeleteProjectMetadataInternalServerError handles this case with default header values.
 
 Internal server error
 */

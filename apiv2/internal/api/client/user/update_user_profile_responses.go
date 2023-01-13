@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // UpdateUserProfileReader is a Reader for the UpdateUserProfile structure.
@@ -64,7 +64,8 @@ func NewUpdateUserProfileOK() *UpdateUserProfileOK {
 	return &UpdateUserProfileOK{}
 }
 
-/*UpdateUserProfileOK handles this case with default header values.
+/*
+UpdateUserProfileOK handles this case with default header values.
 
 Success
 */
@@ -91,7 +92,8 @@ func NewUpdateUserProfileUnauthorized() *UpdateUserProfileUnauthorized {
 	return &UpdateUserProfileUnauthorized{}
 }
 
-/*UpdateUserProfileUnauthorized handles this case with default header values.
+/*
+UpdateUserProfileUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -131,7 +133,8 @@ func NewUpdateUserProfileForbidden() *UpdateUserProfileForbidden {
 	return &UpdateUserProfileForbidden{}
 }
 
-/*UpdateUserProfileForbidden handles this case with default header values.
+/*
+UpdateUserProfileForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -171,7 +174,8 @@ func NewUpdateUserProfileNotFound() *UpdateUserProfileNotFound {
 	return &UpdateUserProfileNotFound{}
 }
 
-/*UpdateUserProfileNotFound handles this case with default header values.
+/*
+UpdateUserProfileNotFound handles this case with default header values.
 
 Not found
 */
@@ -211,7 +215,8 @@ func NewUpdateUserProfileInternalServerError() *UpdateUserProfileInternalServerE
 	return &UpdateUserProfileInternalServerError{}
 }
 
-/*UpdateUserProfileInternalServerError handles this case with default header values.
+/*
+UpdateUserProfileInternalServerError handles this case with default header values.
 
 Internal server error
 */

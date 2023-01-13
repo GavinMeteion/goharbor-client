@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // ListRetentionTasksReader is a Reader for the ListRetentionTasks structure.
@@ -60,7 +60,8 @@ func NewListRetentionTasksOK() *ListRetentionTasksOK {
 	return &ListRetentionTasksOK{}
 }
 
-/*ListRetentionTasksOK handles this case with default header values.
+/*
+ListRetentionTasksOK handles this case with default header values.
 
 Get Retention job tasks successfully.
 */
@@ -108,7 +109,8 @@ func NewListRetentionTasksUnauthorized() *ListRetentionTasksUnauthorized {
 	return &ListRetentionTasksUnauthorized{}
 }
 
-/*ListRetentionTasksUnauthorized handles this case with default header values.
+/*
+ListRetentionTasksUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -148,7 +150,8 @@ func NewListRetentionTasksForbidden() *ListRetentionTasksForbidden {
 	return &ListRetentionTasksForbidden{}
 }
 
-/*ListRetentionTasksForbidden handles this case with default header values.
+/*
+ListRetentionTasksForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -188,7 +191,8 @@ func NewListRetentionTasksInternalServerError() *ListRetentionTasksInternalServe
 	return &ListRetentionTasksInternalServerError{}
 }
 
-/*ListRetentionTasksInternalServerError handles this case with default header values.
+/*
+ListRetentionTasksInternalServerError handles this case with default header values.
 
 Internal server error
 */

@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetReplicationLogReader is a Reader for the GetReplicationLog structure.
@@ -64,7 +64,8 @@ func NewGetReplicationLogOK() *GetReplicationLogOK {
 	return &GetReplicationLogOK{}
 }
 
-/*GetReplicationLogOK handles this case with default header values.
+/*
+GetReplicationLogOK handles this case with default header values.
 
 Success
 */
@@ -102,7 +103,8 @@ func NewGetReplicationLogUnauthorized() *GetReplicationLogUnauthorized {
 	return &GetReplicationLogUnauthorized{}
 }
 
-/*GetReplicationLogUnauthorized handles this case with default header values.
+/*
+GetReplicationLogUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -142,7 +144,8 @@ func NewGetReplicationLogForbidden() *GetReplicationLogForbidden {
 	return &GetReplicationLogForbidden{}
 }
 
-/*GetReplicationLogForbidden handles this case with default header values.
+/*
+GetReplicationLogForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -182,7 +185,8 @@ func NewGetReplicationLogNotFound() *GetReplicationLogNotFound {
 	return &GetReplicationLogNotFound{}
 }
 
-/*GetReplicationLogNotFound handles this case with default header values.
+/*
+GetReplicationLogNotFound handles this case with default header values.
 
 Not found
 */
@@ -222,7 +226,8 @@ func NewGetReplicationLogInternalServerError() *GetReplicationLogInternalServerE
 	return &GetReplicationLogInternalServerError{}
 }
 
-/*GetReplicationLogInternalServerError handles this case with default header values.
+/*
+GetReplicationLogInternalServerError handles this case with default header values.
 
 Internal server error
 */

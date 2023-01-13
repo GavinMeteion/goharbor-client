@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // ListScannerCandidatesOfProjectReader is a Reader for the ListScannerCandidatesOfProject structure.
@@ -66,7 +66,8 @@ func NewListScannerCandidatesOfProjectOK() *ListScannerCandidatesOfProjectOK {
 	return &ListScannerCandidatesOfProjectOK{}
 }
 
-/*ListScannerCandidatesOfProjectOK handles this case with default header values.
+/*
+ListScannerCandidatesOfProjectOK handles this case with default header values.
 
 A list of scanner registrations.
 */
@@ -114,7 +115,8 @@ func NewListScannerCandidatesOfProjectBadRequest() *ListScannerCandidatesOfProje
 	return &ListScannerCandidatesOfProjectBadRequest{}
 }
 
-/*ListScannerCandidatesOfProjectBadRequest handles this case with default header values.
+/*
+ListScannerCandidatesOfProjectBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -154,7 +156,8 @@ func NewListScannerCandidatesOfProjectUnauthorized() *ListScannerCandidatesOfPro
 	return &ListScannerCandidatesOfProjectUnauthorized{}
 }
 
-/*ListScannerCandidatesOfProjectUnauthorized handles this case with default header values.
+/*
+ListScannerCandidatesOfProjectUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -194,7 +197,8 @@ func NewListScannerCandidatesOfProjectForbidden() *ListScannerCandidatesOfProjec
 	return &ListScannerCandidatesOfProjectForbidden{}
 }
 
-/*ListScannerCandidatesOfProjectForbidden handles this case with default header values.
+/*
+ListScannerCandidatesOfProjectForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -234,7 +238,8 @@ func NewListScannerCandidatesOfProjectInternalServerError() *ListScannerCandidat
 	return &ListScannerCandidatesOfProjectInternalServerError{}
 }
 
-/*ListScannerCandidatesOfProjectInternalServerError handles this case with default header values.
+/*
+ListScannerCandidatesOfProjectInternalServerError handles this case with default header values.
 
 Internal server error
 */

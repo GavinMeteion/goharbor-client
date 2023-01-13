@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // DeleteUserReader is a Reader for the DeleteUser structure.
@@ -64,7 +64,8 @@ func NewDeleteUserOK() *DeleteUserOK {
 	return &DeleteUserOK{}
 }
 
-/*DeleteUserOK handles this case with default header values.
+/*
+DeleteUserOK handles this case with default header values.
 
 Success
 */
@@ -91,7 +92,8 @@ func NewDeleteUserUnauthorized() *DeleteUserUnauthorized {
 	return &DeleteUserUnauthorized{}
 }
 
-/*DeleteUserUnauthorized handles this case with default header values.
+/*
+DeleteUserUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -131,7 +133,8 @@ func NewDeleteUserForbidden() *DeleteUserForbidden {
 	return &DeleteUserForbidden{}
 }
 
-/*DeleteUserForbidden handles this case with default header values.
+/*
+DeleteUserForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -171,7 +174,8 @@ func NewDeleteUserNotFound() *DeleteUserNotFound {
 	return &DeleteUserNotFound{}
 }
 
-/*DeleteUserNotFound handles this case with default header values.
+/*
+DeleteUserNotFound handles this case with default header values.
 
 Not found
 */
@@ -211,7 +215,8 @@ func NewDeleteUserInternalServerError() *DeleteUserInternalServerError {
 	return &DeleteUserInternalServerError{}
 }
 
-/*DeleteUserInternalServerError handles this case with default header values.
+/*
+DeleteUserInternalServerError handles this case with default header values.
 
 Internal server error
 */

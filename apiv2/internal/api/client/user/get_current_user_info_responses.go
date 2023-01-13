@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetCurrentUserInfoReader is a Reader for the GetCurrentUserInfo structure.
@@ -52,7 +52,8 @@ func NewGetCurrentUserInfoOK() *GetCurrentUserInfoOK {
 	return &GetCurrentUserInfoOK{}
 }
 
-/*GetCurrentUserInfoOK handles this case with default header values.
+/*
+GetCurrentUserInfoOK handles this case with default header values.
 
 Get current user information successfully.
 */
@@ -85,7 +86,8 @@ func NewGetCurrentUserInfoUnauthorized() *GetCurrentUserInfoUnauthorized {
 	return &GetCurrentUserInfoUnauthorized{}
 }
 
-/*GetCurrentUserInfoUnauthorized handles this case with default header values.
+/*
+GetCurrentUserInfoUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -125,7 +127,8 @@ func NewGetCurrentUserInfoInternalServerError() *GetCurrentUserInfoInternalServe
 	return &GetCurrentUserInfoInternalServerError{}
 }
 
-/*GetCurrentUserInfoInternalServerError handles this case with default header values.
+/*
+GetCurrentUserInfoInternalServerError handles this case with default header values.
 
 Internal server error
 */

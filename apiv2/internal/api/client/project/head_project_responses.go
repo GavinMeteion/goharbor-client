@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // HeadProjectReader is a Reader for the HeadProject structure.
@@ -52,7 +52,8 @@ func NewHeadProjectOK() *HeadProjectOK {
 	return &HeadProjectOK{}
 }
 
-/*HeadProjectOK handles this case with default header values.
+/*
+HeadProjectOK handles this case with default header values.
 
 Success
 */
@@ -79,7 +80,8 @@ func NewHeadProjectNotFound() *HeadProjectNotFound {
 	return &HeadProjectNotFound{}
 }
 
-/*HeadProjectNotFound handles this case with default header values.
+/*
+HeadProjectNotFound handles this case with default header values.
 
 Not found
 */
@@ -119,7 +121,8 @@ func NewHeadProjectInternalServerError() *HeadProjectInternalServerError {
 	return &HeadProjectInternalServerError{}
 }
 
-/*HeadProjectInternalServerError handles this case with default header values.
+/*
+HeadProjectInternalServerError handles this case with default header values.
 
 Internal server error
 */

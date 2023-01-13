@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // DeleteWebhookPolicyOfProjectReader is a Reader for the DeleteWebhookPolicyOfProject structure.
@@ -70,7 +70,8 @@ func NewDeleteWebhookPolicyOfProjectOK() *DeleteWebhookPolicyOfProjectOK {
 	return &DeleteWebhookPolicyOfProjectOK{}
 }
 
-/*DeleteWebhookPolicyOfProjectOK handles this case with default header values.
+/*
+DeleteWebhookPolicyOfProjectOK handles this case with default header values.
 
 Success
 */
@@ -97,7 +98,8 @@ func NewDeleteWebhookPolicyOfProjectBadRequest() *DeleteWebhookPolicyOfProjectBa
 	return &DeleteWebhookPolicyOfProjectBadRequest{}
 }
 
-/*DeleteWebhookPolicyOfProjectBadRequest handles this case with default header values.
+/*
+DeleteWebhookPolicyOfProjectBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -137,7 +139,8 @@ func NewDeleteWebhookPolicyOfProjectUnauthorized() *DeleteWebhookPolicyOfProject
 	return &DeleteWebhookPolicyOfProjectUnauthorized{}
 }
 
-/*DeleteWebhookPolicyOfProjectUnauthorized handles this case with default header values.
+/*
+DeleteWebhookPolicyOfProjectUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -177,7 +180,8 @@ func NewDeleteWebhookPolicyOfProjectForbidden() *DeleteWebhookPolicyOfProjectFor
 	return &DeleteWebhookPolicyOfProjectForbidden{}
 }
 
-/*DeleteWebhookPolicyOfProjectForbidden handles this case with default header values.
+/*
+DeleteWebhookPolicyOfProjectForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -217,7 +221,8 @@ func NewDeleteWebhookPolicyOfProjectNotFound() *DeleteWebhookPolicyOfProjectNotF
 	return &DeleteWebhookPolicyOfProjectNotFound{}
 }
 
-/*DeleteWebhookPolicyOfProjectNotFound handles this case with default header values.
+/*
+DeleteWebhookPolicyOfProjectNotFound handles this case with default header values.
 
 Not found
 */
@@ -257,7 +262,8 @@ func NewDeleteWebhookPolicyOfProjectInternalServerError() *DeleteWebhookPolicyOf
 	return &DeleteWebhookPolicyOfProjectInternalServerError{}
 }
 
-/*DeleteWebhookPolicyOfProjectInternalServerError handles this case with default header values.
+/*
+DeleteWebhookPolicyOfProjectInternalServerError handles this case with default header values.
 
 Internal server error
 */

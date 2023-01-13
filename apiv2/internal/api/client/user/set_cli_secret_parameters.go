@@ -16,7 +16,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // NewSetCliSecretParams creates a new SetCliSecretParams object
@@ -58,7 +58,8 @@ func NewSetCliSecretParamsWithHTTPClient(client *http.Client) *SetCliSecretParam
 	}
 }
 
-/*SetCliSecretParams contains all the parameters to send to the API endpoint
+/*
+SetCliSecretParams contains all the parameters to send to the API endpoint
 for the set cli secret operation typically these are written to a http.Request
 */
 type SetCliSecretParams struct {

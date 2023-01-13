@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv1/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv1/model"
 )
 
 // GetProjectsProjectIDMembersReader is a Reader for the GetProjectsProjectIDMembers structure.
@@ -70,7 +70,8 @@ func NewGetProjectsProjectIDMembersOK() *GetProjectsProjectIDMembersOK {
 	return &GetProjectsProjectIDMembersOK{}
 }
 
-/*GetProjectsProjectIDMembersOK handles this case with default header values.
+/*
+GetProjectsProjectIDMembersOK handles this case with default header values.
 
 Get project members successfully.
 */
@@ -101,7 +102,8 @@ func NewGetProjectsProjectIDMembersBadRequest() *GetProjectsProjectIDMembersBadR
 	return &GetProjectsProjectIDMembersBadRequest{}
 }
 
-/*GetProjectsProjectIDMembersBadRequest handles this case with default header values.
+/*
+GetProjectsProjectIDMembersBadRequest handles this case with default header values.
 
 The project id is invalid.
 */
@@ -122,7 +124,8 @@ func NewGetProjectsProjectIDMembersUnauthorized() *GetProjectsProjectIDMembersUn
 	return &GetProjectsProjectIDMembersUnauthorized{}
 }
 
-/*GetProjectsProjectIDMembersUnauthorized handles this case with default header values.
+/*
+GetProjectsProjectIDMembersUnauthorized handles this case with default header values.
 
 User need to log in first.
 */
@@ -143,7 +146,8 @@ func NewGetProjectsProjectIDMembersForbidden() *GetProjectsProjectIDMembersForbi
 	return &GetProjectsProjectIDMembersForbidden{}
 }
 
-/*GetProjectsProjectIDMembersForbidden handles this case with default header values.
+/*
+GetProjectsProjectIDMembersForbidden handles this case with default header values.
 
 User in session does not have permission to the project.
 */
@@ -164,7 +168,8 @@ func NewGetProjectsProjectIDMembersNotFound() *GetProjectsProjectIDMembersNotFou
 	return &GetProjectsProjectIDMembersNotFound{}
 }
 
-/*GetProjectsProjectIDMembersNotFound handles this case with default header values.
+/*
+GetProjectsProjectIDMembersNotFound handles this case with default header values.
 
 Project ID does not exist.
 */
@@ -185,7 +190,8 @@ func NewGetProjectsProjectIDMembersInternalServerError() *GetProjectsProjectIDMe
 	return &GetProjectsProjectIDMembersInternalServerError{}
 }
 
-/*GetProjectsProjectIDMembersInternalServerError handles this case with default header values.
+/*
+GetProjectsProjectIDMembersInternalServerError handles this case with default header values.
 
 Unexpected internal errors.
 */

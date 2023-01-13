@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetGCScheduleReader is a Reader for the GetGCSchedule structure.
@@ -58,7 +58,8 @@ func NewGetGCScheduleOK() *GetGCScheduleOK {
 	return &GetGCScheduleOK{}
 }
 
-/*GetGCScheduleOK handles this case with default header values.
+/*
+GetGCScheduleOK handles this case with default header values.
 
 Get gc's schedule.
 */
@@ -91,7 +92,8 @@ func NewGetGCScheduleUnauthorized() *GetGCScheduleUnauthorized {
 	return &GetGCScheduleUnauthorized{}
 }
 
-/*GetGCScheduleUnauthorized handles this case with default header values.
+/*
+GetGCScheduleUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -131,7 +133,8 @@ func NewGetGCScheduleForbidden() *GetGCScheduleForbidden {
 	return &GetGCScheduleForbidden{}
 }
 
-/*GetGCScheduleForbidden handles this case with default header values.
+/*
+GetGCScheduleForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -171,7 +174,8 @@ func NewGetGCScheduleInternalServerError() *GetGCScheduleInternalServerError {
 	return &GetGCScheduleInternalServerError{}
 }
 
-/*GetGCScheduleInternalServerError handles this case with default header values.
+/*
+GetGCScheduleInternalServerError handles this case with default header values.
 
 Internal server error
 */

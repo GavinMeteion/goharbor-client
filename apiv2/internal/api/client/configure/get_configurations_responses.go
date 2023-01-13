@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetConfigurationsReader is a Reader for the GetConfigurations structure.
@@ -58,7 +58,8 @@ func NewGetConfigurationsOK() *GetConfigurationsOK {
 	return &GetConfigurationsOK{}
 }
 
-/*GetConfigurationsOK handles this case with default header values.
+/*
+GetConfigurationsOK handles this case with default header values.
 
 Get system configurations successfully. The response body is a map.
 */
@@ -91,7 +92,8 @@ func NewGetConfigurationsUnauthorized() *GetConfigurationsUnauthorized {
 	return &GetConfigurationsUnauthorized{}
 }
 
-/*GetConfigurationsUnauthorized handles this case with default header values.
+/*
+GetConfigurationsUnauthorized handles this case with default header values.
 
 User need to log in first.ß
 */
@@ -112,7 +114,8 @@ func NewGetConfigurationsForbidden() *GetConfigurationsForbidden {
 	return &GetConfigurationsForbidden{}
 }
 
-/*GetConfigurationsForbidden handles this case with default header values.
+/*
+GetConfigurationsForbidden handles this case with default header values.
 
 User does not have permission of admin role.
 */
@@ -133,7 +136,8 @@ func NewGetConfigurationsInternalServerError() *GetConfigurationsInternalServerE
 	return &GetConfigurationsInternalServerError{}
 }
 
-/*GetConfigurationsInternalServerError handles this case with default header values.
+/*
+GetConfigurationsInternalServerError handles this case with default header values.
 
 Unexpected internal errors.
 */

@@ -15,7 +15,7 @@ import (
 	cr "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // NewExportScanDataParams creates a new ExportScanDataParams object
@@ -57,7 +57,8 @@ func NewExportScanDataParamsWithHTTPClient(client *http.Client) *ExportScanDataP
 	}
 }
 
-/*ExportScanDataParams contains all the parameters to send to the API endpoint
+/*
+ExportScanDataParams contains all the parameters to send to the API endpoint
 for the export scan data operation typically these are written to a http.Request
 */
 type ExportScanDataParams struct {

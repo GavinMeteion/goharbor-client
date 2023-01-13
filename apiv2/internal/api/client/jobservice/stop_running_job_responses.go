@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // StopRunningJobReader is a Reader for the StopRunningJob structure.
@@ -64,7 +64,8 @@ func NewStopRunningJobOK() *StopRunningJobOK {
 	return &StopRunningJobOK{}
 }
 
-/*StopRunningJobOK handles this case with default header values.
+/*
+StopRunningJobOK handles this case with default header values.
 
 Stop worker successfully.
 */
@@ -85,7 +86,8 @@ func NewStopRunningJobUnauthorized() *StopRunningJobUnauthorized {
 	return &StopRunningJobUnauthorized{}
 }
 
-/*StopRunningJobUnauthorized handles this case with default header values.
+/*
+StopRunningJobUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -125,7 +127,8 @@ func NewStopRunningJobForbidden() *StopRunningJobForbidden {
 	return &StopRunningJobForbidden{}
 }
 
-/*StopRunningJobForbidden handles this case with default header values.
+/*
+StopRunningJobForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -165,7 +168,8 @@ func NewStopRunningJobNotFound() *StopRunningJobNotFound {
 	return &StopRunningJobNotFound{}
 }
 
-/*StopRunningJobNotFound handles this case with default header values.
+/*
+StopRunningJobNotFound handles this case with default header values.
 
 Not found
 */
@@ -205,7 +209,8 @@ func NewStopRunningJobInternalServerError() *StopRunningJobInternalServerError {
 	return &StopRunningJobInternalServerError{}
 }
 
-/*StopRunningJobInternalServerError handles this case with default header values.
+/*
+StopRunningJobInternalServerError handles this case with default header values.
 
 Internal server error
 */

@@ -15,7 +15,7 @@ import (
 	cr "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv1/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv1/model"
 )
 
 // NewPostReplicationExecutionsParams creates a new PostReplicationExecutionsParams object
@@ -57,7 +57,8 @@ func NewPostReplicationExecutionsParamsWithHTTPClient(client *http.Client) *Post
 	}
 }
 
-/*PostReplicationExecutionsParams contains all the parameters to send to the API endpoint
+/*
+PostReplicationExecutionsParams contains all the parameters to send to the API endpoint
 for the post replication executions operation typically these are written to a http.Request
 */
 type PostReplicationExecutionsParams struct {

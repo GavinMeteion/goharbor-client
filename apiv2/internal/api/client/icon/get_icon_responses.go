@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetIconReader is a Reader for the GetIcon structure.
@@ -58,7 +58,8 @@ func NewGetIconOK() *GetIconOK {
 	return &GetIconOK{}
 }
 
-/*GetIconOK handles this case with default header values.
+/*
+GetIconOK handles this case with default header values.
 
 Success
 */
@@ -91,7 +92,8 @@ func NewGetIconBadRequest() *GetIconBadRequest {
 	return &GetIconBadRequest{}
 }
 
-/*GetIconBadRequest handles this case with default header values.
+/*
+GetIconBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -131,7 +133,8 @@ func NewGetIconNotFound() *GetIconNotFound {
 	return &GetIconNotFound{}
 }
 
-/*GetIconNotFound handles this case with default header values.
+/*
+GetIconNotFound handles this case with default header values.
 
 Not found
 */
@@ -171,7 +174,8 @@ func NewGetIconInternalServerError() *GetIconInternalServerError {
 	return &GetIconInternalServerError{}
 }
 
-/*GetIconInternalServerError handles this case with default header values.
+/*
+GetIconInternalServerError handles this case with default header values.
 
 Internal server error
 */

@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // DownloadScanDataReader is a Reader for the DownloadScanData structure.
@@ -67,7 +67,8 @@ func NewDownloadScanDataOK(writer io.Writer) *DownloadScanDataOK {
 	}
 }
 
-/*DownloadScanDataOK handles this case with default header values.
+/*
+DownloadScanDataOK handles this case with default header values.
 
 Data file containing the export data
 */
@@ -105,7 +106,8 @@ func NewDownloadScanDataUnauthorized() *DownloadScanDataUnauthorized {
 	return &DownloadScanDataUnauthorized{}
 }
 
-/*DownloadScanDataUnauthorized handles this case with default header values.
+/*
+DownloadScanDataUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -145,7 +147,8 @@ func NewDownloadScanDataForbidden() *DownloadScanDataForbidden {
 	return &DownloadScanDataForbidden{}
 }
 
-/*DownloadScanDataForbidden handles this case with default header values.
+/*
+DownloadScanDataForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -185,7 +188,8 @@ func NewDownloadScanDataNotFound() *DownloadScanDataNotFound {
 	return &DownloadScanDataNotFound{}
 }
 
-/*DownloadScanDataNotFound handles this case with default header values.
+/*
+DownloadScanDataNotFound handles this case with default header values.
 
 Not found
 */
@@ -225,7 +229,8 @@ func NewDownloadScanDataInternalServerError() *DownloadScanDataInternalServerErr
 	return &DownloadScanDataInternalServerError{}
 }
 
-/*DownloadScanDataInternalServerError handles this case with default header values.
+/*
+DownloadScanDataInternalServerError handles this case with default header values.
 
 Internal server error
 */

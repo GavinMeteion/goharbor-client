@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // SearchUsersReader is a Reader for the SearchUsers structure.
@@ -54,7 +54,8 @@ func NewSearchUsersOK() *SearchUsersOK {
 	return &SearchUsersOK{}
 }
 
-/*SearchUsersOK handles this case with default header values.
+/*
+SearchUsersOK handles this case with default header values.
 
 Search users by username successfully.
 */
@@ -102,7 +103,8 @@ func NewSearchUsersUnauthorized() *SearchUsersUnauthorized {
 	return &SearchUsersUnauthorized{}
 }
 
-/*SearchUsersUnauthorized handles this case with default header values.
+/*
+SearchUsersUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -142,7 +144,8 @@ func NewSearchUsersInternalServerError() *SearchUsersInternalServerError {
 	return &SearchUsersInternalServerError{}
 }
 
-/*SearchUsersInternalServerError handles this case with default header values.
+/*
+SearchUsersInternalServerError handles this case with default header values.
 
 Internal server error
 */

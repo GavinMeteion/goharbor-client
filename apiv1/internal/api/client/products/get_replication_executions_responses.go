@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv1/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv1/model"
 )
 
 // GetReplicationExecutionsReader is a Reader for the GetReplicationExecutions structure.
@@ -58,7 +58,8 @@ func NewGetReplicationExecutionsOK() *GetReplicationExecutionsOK {
 	return &GetReplicationExecutionsOK{}
 }
 
-/*GetReplicationExecutionsOK handles this case with default header values.
+/*
+GetReplicationExecutionsOK handles this case with default header values.
 
 Success
 */
@@ -89,7 +90,8 @@ func NewGetReplicationExecutionsUnauthorized() *GetReplicationExecutionsUnauthor
 	return &GetReplicationExecutionsUnauthorized{}
 }
 
-/*GetReplicationExecutionsUnauthorized handles this case with default header values.
+/*
+GetReplicationExecutionsUnauthorized handles this case with default header values.
 
 User need to login first.
 */
@@ -110,7 +112,8 @@ func NewGetReplicationExecutionsForbidden() *GetReplicationExecutionsForbidden {
 	return &GetReplicationExecutionsForbidden{}
 }
 
-/*GetReplicationExecutionsForbidden handles this case with default header values.
+/*
+GetReplicationExecutionsForbidden handles this case with default header values.
 
 User has no privilege for the operation.
 */
@@ -131,7 +134,8 @@ func NewGetReplicationExecutionsInternalServerError() *GetReplicationExecutionsI
 	return &GetReplicationExecutionsInternalServerError{}
 }
 
-/*GetReplicationExecutionsInternalServerError handles this case with default header values.
+/*
+GetReplicationExecutionsInternalServerError handles this case with default header values.
 
 Unexpected internal errors.
 */

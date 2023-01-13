@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // ListUsersReader is a Reader for the ListUsers structure.
@@ -60,7 +60,8 @@ func NewListUsersOK() *ListUsersOK {
 	return &ListUsersOK{}
 }
 
-/*ListUsersOK handles this case with default header values.
+/*
+ListUsersOK handles this case with default header values.
 
 return the list of users.
 */
@@ -108,7 +109,8 @@ func NewListUsersUnauthorized() *ListUsersUnauthorized {
 	return &ListUsersUnauthorized{}
 }
 
-/*ListUsersUnauthorized handles this case with default header values.
+/*
+ListUsersUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -148,7 +150,8 @@ func NewListUsersForbidden() *ListUsersForbidden {
 	return &ListUsersForbidden{}
 }
 
-/*ListUsersForbidden handles this case with default header values.
+/*
+ListUsersForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -188,7 +191,8 @@ func NewListUsersInternalServerError() *ListUsersInternalServerError {
 	return &ListUsersInternalServerError{}
 }
 
-/*ListUsersInternalServerError handles this case with default header values.
+/*
+ListUsersInternalServerError handles this case with default header values.
 
 Internal server error
 */

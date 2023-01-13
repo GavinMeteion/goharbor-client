@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // RefreshSecReader is a Reader for the RefreshSec structure.
@@ -70,7 +70,8 @@ func NewRefreshSecOK() *RefreshSecOK {
 	return &RefreshSecOK{}
 }
 
-/*RefreshSecOK handles this case with default header values.
+/*
+RefreshSecOK handles this case with default header values.
 
 Return refreshed robot sec.
 */
@@ -103,7 +104,8 @@ func NewRefreshSecBadRequest() *RefreshSecBadRequest {
 	return &RefreshSecBadRequest{}
 }
 
-/*RefreshSecBadRequest handles this case with default header values.
+/*
+RefreshSecBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -143,7 +145,8 @@ func NewRefreshSecUnauthorized() *RefreshSecUnauthorized {
 	return &RefreshSecUnauthorized{}
 }
 
-/*RefreshSecUnauthorized handles this case with default header values.
+/*
+RefreshSecUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -183,7 +186,8 @@ func NewRefreshSecForbidden() *RefreshSecForbidden {
 	return &RefreshSecForbidden{}
 }
 
-/*RefreshSecForbidden handles this case with default header values.
+/*
+RefreshSecForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -223,7 +227,8 @@ func NewRefreshSecNotFound() *RefreshSecNotFound {
 	return &RefreshSecNotFound{}
 }
 
-/*RefreshSecNotFound handles this case with default header values.
+/*
+RefreshSecNotFound handles this case with default header values.
 
 Not found
 */
@@ -263,7 +268,8 @@ func NewRefreshSecInternalServerError() *RefreshSecInternalServerError {
 	return &RefreshSecInternalServerError{}
 }
 
-/*RefreshSecInternalServerError handles this case with default header values.
+/*
+RefreshSecInternalServerError handles this case with default header values.
 
 Internal server error
 */

@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // ListAccessoriesReader is a Reader for the ListAccessories structure.
@@ -72,7 +72,8 @@ func NewListAccessoriesOK() *ListAccessoriesOK {
 	return &ListAccessoriesOK{}
 }
 
-/*ListAccessoriesOK handles this case with default header values.
+/*
+ListAccessoriesOK handles this case with default header values.
 
 Success
 */
@@ -120,7 +121,8 @@ func NewListAccessoriesBadRequest() *ListAccessoriesBadRequest {
 	return &ListAccessoriesBadRequest{}
 }
 
-/*ListAccessoriesBadRequest handles this case with default header values.
+/*
+ListAccessoriesBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -160,7 +162,8 @@ func NewListAccessoriesUnauthorized() *ListAccessoriesUnauthorized {
 	return &ListAccessoriesUnauthorized{}
 }
 
-/*ListAccessoriesUnauthorized handles this case with default header values.
+/*
+ListAccessoriesUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -200,7 +203,8 @@ func NewListAccessoriesForbidden() *ListAccessoriesForbidden {
 	return &ListAccessoriesForbidden{}
 }
 
-/*ListAccessoriesForbidden handles this case with default header values.
+/*
+ListAccessoriesForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -240,7 +244,8 @@ func NewListAccessoriesNotFound() *ListAccessoriesNotFound {
 	return &ListAccessoriesNotFound{}
 }
 
-/*ListAccessoriesNotFound handles this case with default header values.
+/*
+ListAccessoriesNotFound handles this case with default header values.
 
 Not found
 */
@@ -280,7 +285,8 @@ func NewListAccessoriesInternalServerError() *ListAccessoriesInternalServerError
 	return &ListAccessoriesInternalServerError{}
 }
 
-/*ListAccessoriesInternalServerError handles this case with default header values.
+/*
+ListAccessoriesInternalServerError handles this case with default header values.
 
 Internal server error
 */

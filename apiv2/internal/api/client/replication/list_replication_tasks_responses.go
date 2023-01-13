@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // ListReplicationTasksReader is a Reader for the ListReplicationTasks structure.
@@ -60,7 +60,8 @@ func NewListReplicationTasksOK() *ListReplicationTasksOK {
 	return &ListReplicationTasksOK{}
 }
 
-/*ListReplicationTasksOK handles this case with default header values.
+/*
+ListReplicationTasksOK handles this case with default header values.
 
 Success
 */
@@ -108,7 +109,8 @@ func NewListReplicationTasksUnauthorized() *ListReplicationTasksUnauthorized {
 	return &ListReplicationTasksUnauthorized{}
 }
 
-/*ListReplicationTasksUnauthorized handles this case with default header values.
+/*
+ListReplicationTasksUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -148,7 +150,8 @@ func NewListReplicationTasksForbidden() *ListReplicationTasksForbidden {
 	return &ListReplicationTasksForbidden{}
 }
 
-/*ListReplicationTasksForbidden handles this case with default header values.
+/*
+ListReplicationTasksForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -188,7 +191,8 @@ func NewListReplicationTasksInternalServerError() *ListReplicationTasksInternalS
 	return &ListReplicationTasksInternalServerError{}
 }
 
-/*ListReplicationTasksInternalServerError handles this case with default header values.
+/*
+ListReplicationTasksInternalServerError handles this case with default header values.
 
 Internal server error
 */

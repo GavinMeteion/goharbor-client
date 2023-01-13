@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // ListTasksReader is a Reader for the ListTasks structure.
@@ -72,7 +72,8 @@ func NewListTasksOK() *ListTasksOK {
 	return &ListTasksOK{}
 }
 
-/*ListTasksOK handles this case with default header values.
+/*
+ListTasksOK handles this case with default header values.
 
 List tasks success
 */
@@ -120,7 +121,8 @@ func NewListTasksBadRequest() *ListTasksBadRequest {
 	return &ListTasksBadRequest{}
 }
 
-/*ListTasksBadRequest handles this case with default header values.
+/*
+ListTasksBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -160,7 +162,8 @@ func NewListTasksUnauthorized() *ListTasksUnauthorized {
 	return &ListTasksUnauthorized{}
 }
 
-/*ListTasksUnauthorized handles this case with default header values.
+/*
+ListTasksUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -200,7 +203,8 @@ func NewListTasksForbidden() *ListTasksForbidden {
 	return &ListTasksForbidden{}
 }
 
-/*ListTasksForbidden handles this case with default header values.
+/*
+ListTasksForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -240,7 +244,8 @@ func NewListTasksNotFound() *ListTasksNotFound {
 	return &ListTasksNotFound{}
 }
 
-/*ListTasksNotFound handles this case with default header values.
+/*
+ListTasksNotFound handles this case with default header values.
 
 Not found
 */
@@ -280,7 +285,8 @@ func NewListTasksInternalServerError() *ListTasksInternalServerError {
 	return &ListTasksInternalServerError{}
 }
 
-/*ListTasksInternalServerError handles this case with default header values.
+/*
+ListTasksInternalServerError handles this case with default header values.
 
 Internal server error
 */

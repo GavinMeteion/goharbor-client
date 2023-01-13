@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // ListInstancesReader is a Reader for the ListInstances structure.
@@ -72,7 +72,8 @@ func NewListInstancesOK() *ListInstancesOK {
 	return &ListInstancesOK{}
 }
 
-/*ListInstancesOK handles this case with default header values.
+/*
+ListInstancesOK handles this case with default header values.
 
 Success
 */
@@ -120,7 +121,8 @@ func NewListInstancesBadRequest() *ListInstancesBadRequest {
 	return &ListInstancesBadRequest{}
 }
 
-/*ListInstancesBadRequest handles this case with default header values.
+/*
+ListInstancesBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -160,7 +162,8 @@ func NewListInstancesUnauthorized() *ListInstancesUnauthorized {
 	return &ListInstancesUnauthorized{}
 }
 
-/*ListInstancesUnauthorized handles this case with default header values.
+/*
+ListInstancesUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -200,7 +203,8 @@ func NewListInstancesForbidden() *ListInstancesForbidden {
 	return &ListInstancesForbidden{}
 }
 
-/*ListInstancesForbidden handles this case with default header values.
+/*
+ListInstancesForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -240,7 +244,8 @@ func NewListInstancesNotFound() *ListInstancesNotFound {
 	return &ListInstancesNotFound{}
 }
 
-/*ListInstancesNotFound handles this case with default header values.
+/*
+ListInstancesNotFound handles this case with default header values.
 
 Not found
 */
@@ -280,7 +285,8 @@ func NewListInstancesInternalServerError() *ListInstancesInternalServerError {
 	return &ListInstancesInternalServerError{}
 }
 
-/*ListInstancesInternalServerError handles this case with default header values.
+/*
+ListInstancesInternalServerError handles this case with default header values.
 
 Internal server error
 */

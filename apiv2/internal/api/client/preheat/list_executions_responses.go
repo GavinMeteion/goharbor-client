@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // ListExecutionsReader is a Reader for the ListExecutions structure.
@@ -72,7 +72,8 @@ func NewListExecutionsOK() *ListExecutionsOK {
 	return &ListExecutionsOK{}
 }
 
-/*ListExecutionsOK handles this case with default header values.
+/*
+ListExecutionsOK handles this case with default header values.
 
 List executions success
 */
@@ -120,7 +121,8 @@ func NewListExecutionsBadRequest() *ListExecutionsBadRequest {
 	return &ListExecutionsBadRequest{}
 }
 
-/*ListExecutionsBadRequest handles this case with default header values.
+/*
+ListExecutionsBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -160,7 +162,8 @@ func NewListExecutionsUnauthorized() *ListExecutionsUnauthorized {
 	return &ListExecutionsUnauthorized{}
 }
 
-/*ListExecutionsUnauthorized handles this case with default header values.
+/*
+ListExecutionsUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -200,7 +203,8 @@ func NewListExecutionsForbidden() *ListExecutionsForbidden {
 	return &ListExecutionsForbidden{}
 }
 
-/*ListExecutionsForbidden handles this case with default header values.
+/*
+ListExecutionsForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -240,7 +244,8 @@ func NewListExecutionsNotFound() *ListExecutionsNotFound {
 	return &ListExecutionsNotFound{}
 }
 
-/*ListExecutionsNotFound handles this case with default header values.
+/*
+ListExecutionsNotFound handles this case with default header values.
 
 Not found
 */
@@ -280,7 +285,8 @@ func NewListExecutionsInternalServerError() *ListExecutionsInternalServerError {
 	return &ListExecutionsInternalServerError{}
 }
 
-/*ListExecutionsInternalServerError handles this case with default header values.
+/*
+ListExecutionsInternalServerError handles this case with default header values.
 
 Internal server error
 */

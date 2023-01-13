@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // CreateScanAllScheduleReader is a Reader for the CreateScanAllSchedule structure.
@@ -76,7 +76,8 @@ func NewCreateScanAllScheduleCreated() *CreateScanAllScheduleCreated {
 	return &CreateScanAllScheduleCreated{}
 }
 
-/*CreateScanAllScheduleCreated handles this case with default header values.
+/*
+CreateScanAllScheduleCreated handles this case with default header values.
 
 Created
 */
@@ -109,7 +110,8 @@ func NewCreateScanAllScheduleBadRequest() *CreateScanAllScheduleBadRequest {
 	return &CreateScanAllScheduleBadRequest{}
 }
 
-/*CreateScanAllScheduleBadRequest handles this case with default header values.
+/*
+CreateScanAllScheduleBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -149,7 +151,8 @@ func NewCreateScanAllScheduleUnauthorized() *CreateScanAllScheduleUnauthorized {
 	return &CreateScanAllScheduleUnauthorized{}
 }
 
-/*CreateScanAllScheduleUnauthorized handles this case with default header values.
+/*
+CreateScanAllScheduleUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -189,7 +192,8 @@ func NewCreateScanAllScheduleForbidden() *CreateScanAllScheduleForbidden {
 	return &CreateScanAllScheduleForbidden{}
 }
 
-/*CreateScanAllScheduleForbidden handles this case with default header values.
+/*
+CreateScanAllScheduleForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -229,7 +233,8 @@ func NewCreateScanAllScheduleConflict() *CreateScanAllScheduleConflict {
 	return &CreateScanAllScheduleConflict{}
 }
 
-/*CreateScanAllScheduleConflict handles this case with default header values.
+/*
+CreateScanAllScheduleConflict handles this case with default header values.
 
 Conflict
 */
@@ -269,7 +274,8 @@ func NewCreateScanAllSchedulePreconditionFailed() *CreateScanAllSchedulePrecondi
 	return &CreateScanAllSchedulePreconditionFailed{}
 }
 
-/*CreateScanAllSchedulePreconditionFailed handles this case with default header values.
+/*
+CreateScanAllSchedulePreconditionFailed handles this case with default header values.
 
 Precondition failed
 */
@@ -309,7 +315,8 @@ func NewCreateScanAllScheduleInternalServerError() *CreateScanAllScheduleInterna
 	return &CreateScanAllScheduleInternalServerError{}
 }
 
-/*CreateScanAllScheduleInternalServerError handles this case with default header values.
+/*
+CreateScanAllScheduleInternalServerError handles this case with default header values.
 
 Internal server error
 */

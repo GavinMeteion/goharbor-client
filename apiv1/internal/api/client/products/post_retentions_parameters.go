@@ -15,7 +15,7 @@ import (
 	cr "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv1/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv1/model"
 )
 
 // NewPostRetentionsParams creates a new PostRetentionsParams object
@@ -57,7 +57,8 @@ func NewPostRetentionsParamsWithHTTPClient(client *http.Client) *PostRetentionsP
 	}
 }
 
-/*PostRetentionsParams contains all the parameters to send to the API endpoint
+/*
+PostRetentionsParams contains all the parameters to send to the API endpoint
 for the post retentions operation typically these are written to a http.Request
 */
 type PostRetentionsParams struct {

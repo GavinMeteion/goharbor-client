@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetLatestScheduledScanAllMetricsReader is a Reader for the GetLatestScheduledScanAllMetrics structure.
@@ -64,7 +64,8 @@ func NewGetLatestScheduledScanAllMetricsOK() *GetLatestScheduledScanAllMetricsOK
 	return &GetLatestScheduledScanAllMetricsOK{}
 }
 
-/*GetLatestScheduledScanAllMetricsOK handles this case with default header values.
+/*
+GetLatestScheduledScanAllMetricsOK handles this case with default header values.
 
 OK
 */
@@ -97,7 +98,8 @@ func NewGetLatestScheduledScanAllMetricsUnauthorized() *GetLatestScheduledScanAl
 	return &GetLatestScheduledScanAllMetricsUnauthorized{}
 }
 
-/*GetLatestScheduledScanAllMetricsUnauthorized handles this case with default header values.
+/*
+GetLatestScheduledScanAllMetricsUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -137,7 +139,8 @@ func NewGetLatestScheduledScanAllMetricsForbidden() *GetLatestScheduledScanAllMe
 	return &GetLatestScheduledScanAllMetricsForbidden{}
 }
 
-/*GetLatestScheduledScanAllMetricsForbidden handles this case with default header values.
+/*
+GetLatestScheduledScanAllMetricsForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -177,7 +180,8 @@ func NewGetLatestScheduledScanAllMetricsPreconditionFailed() *GetLatestScheduled
 	return &GetLatestScheduledScanAllMetricsPreconditionFailed{}
 }
 
-/*GetLatestScheduledScanAllMetricsPreconditionFailed handles this case with default header values.
+/*
+GetLatestScheduledScanAllMetricsPreconditionFailed handles this case with default header values.
 
 Precondition failed
 */
@@ -217,7 +221,8 @@ func NewGetLatestScheduledScanAllMetricsInternalServerError() *GetLatestSchedule
 	return &GetLatestScheduledScanAllMetricsInternalServerError{}
 }
 
-/*GetLatestScheduledScanAllMetricsInternalServerError handles this case with default header values.
+/*
+GetLatestScheduledScanAllMetricsInternalServerError handles this case with default header values.
 
 Internal server error
 */

@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetVulnerabilitiesAdditionReader is a Reader for the GetVulnerabilitiesAddition structure.
@@ -70,7 +70,8 @@ func NewGetVulnerabilitiesAdditionOK() *GetVulnerabilitiesAdditionOK {
 	return &GetVulnerabilitiesAdditionOK{}
 }
 
-/*GetVulnerabilitiesAdditionOK handles this case with default header values.
+/*
+GetVulnerabilitiesAdditionOK handles this case with default header values.
 
 Success
 */
@@ -108,7 +109,8 @@ func NewGetVulnerabilitiesAdditionBadRequest() *GetVulnerabilitiesAdditionBadReq
 	return &GetVulnerabilitiesAdditionBadRequest{}
 }
 
-/*GetVulnerabilitiesAdditionBadRequest handles this case with default header values.
+/*
+GetVulnerabilitiesAdditionBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -148,7 +150,8 @@ func NewGetVulnerabilitiesAdditionUnauthorized() *GetVulnerabilitiesAdditionUnau
 	return &GetVulnerabilitiesAdditionUnauthorized{}
 }
 
-/*GetVulnerabilitiesAdditionUnauthorized handles this case with default header values.
+/*
+GetVulnerabilitiesAdditionUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -188,7 +191,8 @@ func NewGetVulnerabilitiesAdditionForbidden() *GetVulnerabilitiesAdditionForbidd
 	return &GetVulnerabilitiesAdditionForbidden{}
 }
 
-/*GetVulnerabilitiesAdditionForbidden handles this case with default header values.
+/*
+GetVulnerabilitiesAdditionForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -228,7 +232,8 @@ func NewGetVulnerabilitiesAdditionNotFound() *GetVulnerabilitiesAdditionNotFound
 	return &GetVulnerabilitiesAdditionNotFound{}
 }
 
-/*GetVulnerabilitiesAdditionNotFound handles this case with default header values.
+/*
+GetVulnerabilitiesAdditionNotFound handles this case with default header values.
 
 Not found
 */
@@ -268,7 +273,8 @@ func NewGetVulnerabilitiesAdditionInternalServerError() *GetVulnerabilitiesAddit
 	return &GetVulnerabilitiesAdditionInternalServerError{}
 }
 
-/*GetVulnerabilitiesAdditionInternalServerError handles this case with default header values.
+/*
+GetVulnerabilitiesAdditionInternalServerError handles this case with default header values.
 
 Internal server error
 */

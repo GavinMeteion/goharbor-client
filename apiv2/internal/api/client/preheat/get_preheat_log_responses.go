@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetPreheatLogReader is a Reader for the GetPreheatLog structure.
@@ -70,7 +70,8 @@ func NewGetPreheatLogOK() *GetPreheatLogOK {
 	return &GetPreheatLogOK{}
 }
 
-/*GetPreheatLogOK handles this case with default header values.
+/*
+GetPreheatLogOK handles this case with default header values.
 
 Get log success
 */
@@ -108,7 +109,8 @@ func NewGetPreheatLogBadRequest() *GetPreheatLogBadRequest {
 	return &GetPreheatLogBadRequest{}
 }
 
-/*GetPreheatLogBadRequest handles this case with default header values.
+/*
+GetPreheatLogBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -148,7 +150,8 @@ func NewGetPreheatLogUnauthorized() *GetPreheatLogUnauthorized {
 	return &GetPreheatLogUnauthorized{}
 }
 
-/*GetPreheatLogUnauthorized handles this case with default header values.
+/*
+GetPreheatLogUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -188,7 +191,8 @@ func NewGetPreheatLogForbidden() *GetPreheatLogForbidden {
 	return &GetPreheatLogForbidden{}
 }
 
-/*GetPreheatLogForbidden handles this case with default header values.
+/*
+GetPreheatLogForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -228,7 +232,8 @@ func NewGetPreheatLogNotFound() *GetPreheatLogNotFound {
 	return &GetPreheatLogNotFound{}
 }
 
-/*GetPreheatLogNotFound handles this case with default header values.
+/*
+GetPreheatLogNotFound handles this case with default header values.
 
 Not found
 */
@@ -268,7 +273,8 @@ func NewGetPreheatLogInternalServerError() *GetPreheatLogInternalServerError {
 	return &GetPreheatLogInternalServerError{}
 }
 
-/*GetPreheatLogInternalServerError handles this case with default header values.
+/*
+GetPreheatLogInternalServerError handles this case with default header values.
 
 Internal server error
 */

@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // UpdateWebhookPolicyOfProjectReader is a Reader for the UpdateWebhookPolicyOfProject structure.
@@ -70,7 +70,8 @@ func NewUpdateWebhookPolicyOfProjectOK() *UpdateWebhookPolicyOfProjectOK {
 	return &UpdateWebhookPolicyOfProjectOK{}
 }
 
-/*UpdateWebhookPolicyOfProjectOK handles this case with default header values.
+/*
+UpdateWebhookPolicyOfProjectOK handles this case with default header values.
 
 Success
 */
@@ -97,7 +98,8 @@ func NewUpdateWebhookPolicyOfProjectBadRequest() *UpdateWebhookPolicyOfProjectBa
 	return &UpdateWebhookPolicyOfProjectBadRequest{}
 }
 
-/*UpdateWebhookPolicyOfProjectBadRequest handles this case with default header values.
+/*
+UpdateWebhookPolicyOfProjectBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -137,7 +139,8 @@ func NewUpdateWebhookPolicyOfProjectUnauthorized() *UpdateWebhookPolicyOfProject
 	return &UpdateWebhookPolicyOfProjectUnauthorized{}
 }
 
-/*UpdateWebhookPolicyOfProjectUnauthorized handles this case with default header values.
+/*
+UpdateWebhookPolicyOfProjectUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -177,7 +180,8 @@ func NewUpdateWebhookPolicyOfProjectForbidden() *UpdateWebhookPolicyOfProjectFor
 	return &UpdateWebhookPolicyOfProjectForbidden{}
 }
 
-/*UpdateWebhookPolicyOfProjectForbidden handles this case with default header values.
+/*
+UpdateWebhookPolicyOfProjectForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -217,7 +221,8 @@ func NewUpdateWebhookPolicyOfProjectNotFound() *UpdateWebhookPolicyOfProjectNotF
 	return &UpdateWebhookPolicyOfProjectNotFound{}
 }
 
-/*UpdateWebhookPolicyOfProjectNotFound handles this case with default header values.
+/*
+UpdateWebhookPolicyOfProjectNotFound handles this case with default header values.
 
 Not found
 */
@@ -257,7 +262,8 @@ func NewUpdateWebhookPolicyOfProjectInternalServerError() *UpdateWebhookPolicyOf
 	return &UpdateWebhookPolicyOfProjectInternalServerError{}
 }
 
-/*UpdateWebhookPolicyOfProjectInternalServerError handles this case with default header values.
+/*
+UpdateWebhookPolicyOfProjectInternalServerError handles this case with default header values.
 
 Internal server error
 */

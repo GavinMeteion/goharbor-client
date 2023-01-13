@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // ListLabelsReader is a Reader for the ListLabels structure.
@@ -60,7 +60,8 @@ func NewListLabelsOK() *ListLabelsOK {
 	return &ListLabelsOK{}
 }
 
-/*ListLabelsOK handles this case with default header values.
+/*
+ListLabelsOK handles this case with default header values.
 
 Get successfully.
 */
@@ -108,7 +109,8 @@ func NewListLabelsBadRequest() *ListLabelsBadRequest {
 	return &ListLabelsBadRequest{}
 }
 
-/*ListLabelsBadRequest handles this case with default header values.
+/*
+ListLabelsBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -148,7 +150,8 @@ func NewListLabelsUnauthorized() *ListLabelsUnauthorized {
 	return &ListLabelsUnauthorized{}
 }
 
-/*ListLabelsUnauthorized handles this case with default header values.
+/*
+ListLabelsUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -188,7 +191,8 @@ func NewListLabelsInternalServerError() *ListLabelsInternalServerError {
 	return &ListLabelsInternalServerError{}
 }
 
-/*ListLabelsInternalServerError handles this case with default header values.
+/*
+ListLabelsInternalServerError handles this case with default header values.
 
 Internal server error
 */

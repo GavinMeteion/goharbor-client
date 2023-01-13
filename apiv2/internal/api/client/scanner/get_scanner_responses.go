@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetScannerReader is a Reader for the GetScanner structure.
@@ -64,7 +64,8 @@ func NewGetScannerOK() *GetScannerOK {
 	return &GetScannerOK{}
 }
 
-/*GetScannerOK handles this case with default header values.
+/*
+GetScannerOK handles this case with default header values.
 
 The details of the scanner registration.
 */
@@ -97,7 +98,8 @@ func NewGetScannerUnauthorized() *GetScannerUnauthorized {
 	return &GetScannerUnauthorized{}
 }
 
-/*GetScannerUnauthorized handles this case with default header values.
+/*
+GetScannerUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -137,7 +139,8 @@ func NewGetScannerForbidden() *GetScannerForbidden {
 	return &GetScannerForbidden{}
 }
 
-/*GetScannerForbidden handles this case with default header values.
+/*
+GetScannerForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -177,7 +180,8 @@ func NewGetScannerNotFound() *GetScannerNotFound {
 	return &GetScannerNotFound{}
 }
 
-/*GetScannerNotFound handles this case with default header values.
+/*
+GetScannerNotFound handles this case with default header values.
 
 Not found
 */
@@ -217,7 +221,8 @@ func NewGetScannerInternalServerError() *GetScannerInternalServerError {
 	return &GetScannerInternalServerError{}
 }
 
-/*GetScannerInternalServerError handles this case with default header values.
+/*
+GetScannerInternalServerError handles this case with default header values.
 
 Internal server error
 */

@@ -16,7 +16,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // NewUpdateWebhookPolicyOfProjectParams creates a new UpdateWebhookPolicyOfProjectParams object
@@ -70,7 +70,8 @@ func NewUpdateWebhookPolicyOfProjectParamsWithHTTPClient(client *http.Client) *U
 	}
 }
 
-/*UpdateWebhookPolicyOfProjectParams contains all the parameters to send to the API endpoint
+/*
+UpdateWebhookPolicyOfProjectParams contains all the parameters to send to the API endpoint
 for the update webhook policy of project operation typically these are written to a http.Request
 */
 type UpdateWebhookPolicyOfProjectParams struct {

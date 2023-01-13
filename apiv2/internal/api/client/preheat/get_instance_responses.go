@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetInstanceReader is a Reader for the GetInstance structure.
@@ -70,7 +70,8 @@ func NewGetInstanceOK() *GetInstanceOK {
 	return &GetInstanceOK{}
 }
 
-/*GetInstanceOK handles this case with default header values.
+/*
+GetInstanceOK handles this case with default header values.
 
 Success
 */
@@ -103,7 +104,8 @@ func NewGetInstanceBadRequest() *GetInstanceBadRequest {
 	return &GetInstanceBadRequest{}
 }
 
-/*GetInstanceBadRequest handles this case with default header values.
+/*
+GetInstanceBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -143,7 +145,8 @@ func NewGetInstanceUnauthorized() *GetInstanceUnauthorized {
 	return &GetInstanceUnauthorized{}
 }
 
-/*GetInstanceUnauthorized handles this case with default header values.
+/*
+GetInstanceUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -183,7 +186,8 @@ func NewGetInstanceForbidden() *GetInstanceForbidden {
 	return &GetInstanceForbidden{}
 }
 
-/*GetInstanceForbidden handles this case with default header values.
+/*
+GetInstanceForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -223,7 +227,8 @@ func NewGetInstanceNotFound() *GetInstanceNotFound {
 	return &GetInstanceNotFound{}
 }
 
-/*GetInstanceNotFound handles this case with default header values.
+/*
+GetInstanceNotFound handles this case with default header values.
 
 Not found
 */
@@ -263,7 +268,8 @@ func NewGetInstanceInternalServerError() *GetInstanceInternalServerError {
 	return &GetInstanceInternalServerError{}
 }
 
-/*GetInstanceInternalServerError handles this case with default header values.
+/*
+GetInstanceInternalServerError handles this case with default header values.
 
 Internal server error
 */

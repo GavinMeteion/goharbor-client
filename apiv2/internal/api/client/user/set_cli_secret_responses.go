@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // SetCliSecretReader is a Reader for the SetCliSecret structure.
@@ -76,7 +76,8 @@ func NewSetCliSecretOK() *SetCliSecretOK {
 	return &SetCliSecretOK{}
 }
 
-/*SetCliSecretOK handles this case with default header values.
+/*
+SetCliSecretOK handles this case with default header values.
 
 The secret is successfully updated
 */
@@ -97,7 +98,8 @@ func NewSetCliSecretBadRequest() *SetCliSecretBadRequest {
 	return &SetCliSecretBadRequest{}
 }
 
-/*SetCliSecretBadRequest handles this case with default header values.
+/*
+SetCliSecretBadRequest handles this case with default header values.
 
 Invalid user ID.  Or user is not onboarded via OIDC authentication. Or the secret does not meet the standard.
 */
@@ -118,7 +120,8 @@ func NewSetCliSecretUnauthorized() *SetCliSecretUnauthorized {
 	return &SetCliSecretUnauthorized{}
 }
 
-/*SetCliSecretUnauthorized handles this case with default header values.
+/*
+SetCliSecretUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -158,7 +161,8 @@ func NewSetCliSecretForbidden() *SetCliSecretForbidden {
 	return &SetCliSecretForbidden{}
 }
 
-/*SetCliSecretForbidden handles this case with default header values.
+/*
+SetCliSecretForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -198,7 +202,8 @@ func NewSetCliSecretNotFound() *SetCliSecretNotFound {
 	return &SetCliSecretNotFound{}
 }
 
-/*SetCliSecretNotFound handles this case with default header values.
+/*
+SetCliSecretNotFound handles this case with default header values.
 
 Not found
 */
@@ -238,7 +243,8 @@ func NewSetCliSecretPreconditionFailed() *SetCliSecretPreconditionFailed {
 	return &SetCliSecretPreconditionFailed{}
 }
 
-/*SetCliSecretPreconditionFailed handles this case with default header values.
+/*
+SetCliSecretPreconditionFailed handles this case with default header values.
 
 The auth mode of the system is not "oidc_auth", or the user is not onboarded via OIDC AuthN.
 */
@@ -259,7 +265,8 @@ func NewSetCliSecretInternalServerError() *SetCliSecretInternalServerError {
 	return &SetCliSecretInternalServerError{}
 }
 
-/*SetCliSecretInternalServerError handles this case with default header values.
+/*
+SetCliSecretInternalServerError handles this case with default header values.
 
 Internal server error
 */

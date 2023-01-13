@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv1/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv1/model"
 )
 
 // GetReplicationExecutionsIDReader is a Reader for the GetReplicationExecutionsID structure.
@@ -76,7 +76,8 @@ func NewGetReplicationExecutionsIDOK() *GetReplicationExecutionsIDOK {
 	return &GetReplicationExecutionsIDOK{}
 }
 
-/*GetReplicationExecutionsIDOK handles this case with default header values.
+/*
+GetReplicationExecutionsIDOK handles this case with default header values.
 
 Success.
 */
@@ -109,7 +110,8 @@ func NewGetReplicationExecutionsIDBadRequest() *GetReplicationExecutionsIDBadReq
 	return &GetReplicationExecutionsIDBadRequest{}
 }
 
-/*GetReplicationExecutionsIDBadRequest handles this case with default header values.
+/*
+GetReplicationExecutionsIDBadRequest handles this case with default header values.
 
 Bad request.
 */
@@ -130,7 +132,8 @@ func NewGetReplicationExecutionsIDUnauthorized() *GetReplicationExecutionsIDUnau
 	return &GetReplicationExecutionsIDUnauthorized{}
 }
 
-/*GetReplicationExecutionsIDUnauthorized handles this case with default header values.
+/*
+GetReplicationExecutionsIDUnauthorized handles this case with default header values.
 
 User need to login first.
 */
@@ -151,7 +154,8 @@ func NewGetReplicationExecutionsIDForbidden() *GetReplicationExecutionsIDForbidd
 	return &GetReplicationExecutionsIDForbidden{}
 }
 
-/*GetReplicationExecutionsIDForbidden handles this case with default header values.
+/*
+GetReplicationExecutionsIDForbidden handles this case with default header values.
 
 User has no privilege for the operation.
 */
@@ -172,7 +176,8 @@ func NewGetReplicationExecutionsIDNotFound() *GetReplicationExecutionsIDNotFound
 	return &GetReplicationExecutionsIDNotFound{}
 }
 
-/*GetReplicationExecutionsIDNotFound handles this case with default header values.
+/*
+GetReplicationExecutionsIDNotFound handles this case with default header values.
 
 Resource requested does not exist.
 */
@@ -193,7 +198,8 @@ func NewGetReplicationExecutionsIDUnsupportedMediaType() *GetReplicationExecutio
 	return &GetReplicationExecutionsIDUnsupportedMediaType{}
 }
 
-/*GetReplicationExecutionsIDUnsupportedMediaType handles this case with default header values.
+/*
+GetReplicationExecutionsIDUnsupportedMediaType handles this case with default header values.
 
 The Media Type of the request is not supported, it has to be "application/json"
 */
@@ -214,7 +220,8 @@ func NewGetReplicationExecutionsIDInternalServerError() *GetReplicationExecution
 	return &GetReplicationExecutionsIDInternalServerError{}
 }
 
-/*GetReplicationExecutionsIDInternalServerError handles this case with default header values.
+/*
+GetReplicationExecutionsIDInternalServerError handles this case with default header values.
 
 Unexpected internal errors.
 */

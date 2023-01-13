@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // ListProjectsReader is a Reader for the ListProjects structure.
@@ -54,7 +54,8 @@ func NewListProjectsOK() *ListProjectsOK {
 	return &ListProjectsOK{}
 }
 
-/*ListProjectsOK handles this case with default header values.
+/*
+ListProjectsOK handles this case with default header values.
 
 Return all matched projects.
 */
@@ -102,7 +103,8 @@ func NewListProjectsUnauthorized() *ListProjectsUnauthorized {
 	return &ListProjectsUnauthorized{}
 }
 
-/*ListProjectsUnauthorized handles this case with default header values.
+/*
+ListProjectsUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -142,7 +144,8 @@ func NewListProjectsInternalServerError() *ListProjectsInternalServerError {
 	return &ListProjectsInternalServerError{}
 }
 
-/*ListProjectsInternalServerError handles this case with default header values.
+/*
+ListProjectsInternalServerError handles this case with default header values.
 
 Internal server error
 */

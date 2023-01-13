@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // UpdateImmuRuleReader is a Reader for the UpdateImmuRule structure.
@@ -64,7 +64,8 @@ func NewUpdateImmuRuleOK() *UpdateImmuRuleOK {
 	return &UpdateImmuRuleOK{}
 }
 
-/*UpdateImmuRuleOK handles this case with default header values.
+/*
+UpdateImmuRuleOK handles this case with default header values.
 
 Success
 */
@@ -91,7 +92,8 @@ func NewUpdateImmuRuleBadRequest() *UpdateImmuRuleBadRequest {
 	return &UpdateImmuRuleBadRequest{}
 }
 
-/*UpdateImmuRuleBadRequest handles this case with default header values.
+/*
+UpdateImmuRuleBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -131,7 +133,8 @@ func NewUpdateImmuRuleUnauthorized() *UpdateImmuRuleUnauthorized {
 	return &UpdateImmuRuleUnauthorized{}
 }
 
-/*UpdateImmuRuleUnauthorized handles this case with default header values.
+/*
+UpdateImmuRuleUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -171,7 +174,8 @@ func NewUpdateImmuRuleForbidden() *UpdateImmuRuleForbidden {
 	return &UpdateImmuRuleForbidden{}
 }
 
-/*UpdateImmuRuleForbidden handles this case with default header values.
+/*
+UpdateImmuRuleForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -211,7 +215,8 @@ func NewUpdateImmuRuleInternalServerError() *UpdateImmuRuleInternalServerError {
 	return &UpdateImmuRuleInternalServerError{}
 }
 
-/*UpdateImmuRuleInternalServerError handles this case with default header values.
+/*
+UpdateImmuRuleInternalServerError handles this case with default header values.
 
 Internal server error
 */

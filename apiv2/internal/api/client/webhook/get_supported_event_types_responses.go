@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetSupportedEventTypesReader is a Reader for the GetSupportedEventTypes structure.
@@ -58,7 +58,8 @@ func NewGetSupportedEventTypesOK() *GetSupportedEventTypesOK {
 	return &GetSupportedEventTypesOK{}
 }
 
-/*GetSupportedEventTypesOK handles this case with default header values.
+/*
+GetSupportedEventTypesOK handles this case with default header values.
 
 Success
 */
@@ -91,7 +92,8 @@ func NewGetSupportedEventTypesUnauthorized() *GetSupportedEventTypesUnauthorized
 	return &GetSupportedEventTypesUnauthorized{}
 }
 
-/*GetSupportedEventTypesUnauthorized handles this case with default header values.
+/*
+GetSupportedEventTypesUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -131,7 +133,8 @@ func NewGetSupportedEventTypesForbidden() *GetSupportedEventTypesForbidden {
 	return &GetSupportedEventTypesForbidden{}
 }
 
-/*GetSupportedEventTypesForbidden handles this case with default header values.
+/*
+GetSupportedEventTypesForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -171,7 +174,8 @@ func NewGetSupportedEventTypesInternalServerError() *GetSupportedEventTypesInter
 	return &GetSupportedEventTypesInternalServerError{}
 }
 
-/*GetSupportedEventTypesInternalServerError handles this case with default header values.
+/*
+GetSupportedEventTypesInternalServerError handles this case with default header values.
 
 Internal server error
 */

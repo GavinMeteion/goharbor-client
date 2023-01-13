@@ -16,7 +16,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv1/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv1/model"
 )
 
 // NewPostProjectsProjectIDMetadatasParams creates a new PostProjectsProjectIDMetadatasParams object
@@ -58,7 +58,8 @@ func NewPostProjectsProjectIDMetadatasParamsWithHTTPClient(client *http.Client) 
 	}
 }
 
-/*PostProjectsProjectIDMetadatasParams contains all the parameters to send to the API endpoint
+/*
+PostProjectsProjectIDMetadatasParams contains all the parameters to send to the API endpoint
 for the post projects project ID metadatas operation typically these are written to a http.Request
 */
 type PostProjectsProjectIDMetadatasParams struct {

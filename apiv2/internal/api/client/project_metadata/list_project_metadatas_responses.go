@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // ListProjectMetadatasReader is a Reader for the ListProjectMetadatas structure.
@@ -70,7 +70,8 @@ func NewListProjectMetadatasOK() *ListProjectMetadatasOK {
 	return &ListProjectMetadatasOK{}
 }
 
-/*ListProjectMetadatasOK handles this case with default header values.
+/*
+ListProjectMetadatasOK handles this case with default header values.
 
 Success
 */
@@ -101,7 +102,8 @@ func NewListProjectMetadatasBadRequest() *ListProjectMetadatasBadRequest {
 	return &ListProjectMetadatasBadRequest{}
 }
 
-/*ListProjectMetadatasBadRequest handles this case with default header values.
+/*
+ListProjectMetadatasBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -141,7 +143,8 @@ func NewListProjectMetadatasUnauthorized() *ListProjectMetadatasUnauthorized {
 	return &ListProjectMetadatasUnauthorized{}
 }
 
-/*ListProjectMetadatasUnauthorized handles this case with default header values.
+/*
+ListProjectMetadatasUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -181,7 +184,8 @@ func NewListProjectMetadatasForbidden() *ListProjectMetadatasForbidden {
 	return &ListProjectMetadatasForbidden{}
 }
 
-/*ListProjectMetadatasForbidden handles this case with default header values.
+/*
+ListProjectMetadatasForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -221,7 +225,8 @@ func NewListProjectMetadatasNotFound() *ListProjectMetadatasNotFound {
 	return &ListProjectMetadatasNotFound{}
 }
 
-/*ListProjectMetadatasNotFound handles this case with default header values.
+/*
+ListProjectMetadatasNotFound handles this case with default header values.
 
 Not found
 */
@@ -261,7 +266,8 @@ func NewListProjectMetadatasInternalServerError() *ListProjectMetadatasInternalS
 	return &ListProjectMetadatasInternalServerError{}
 }
 
-/*ListProjectMetadatasInternalServerError handles this case with default header values.
+/*
+ListProjectMetadatasInternalServerError handles this case with default header values.
 
 Internal server error
 */

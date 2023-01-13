@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetLogsReader is a Reader for the GetLogs structure.
@@ -60,7 +60,8 @@ func NewGetLogsOK() *GetLogsOK {
 	return &GetLogsOK{}
 }
 
-/*GetLogsOK handles this case with default header values.
+/*
+GetLogsOK handles this case with default header values.
 
 Success
 */
@@ -108,7 +109,8 @@ func NewGetLogsBadRequest() *GetLogsBadRequest {
 	return &GetLogsBadRequest{}
 }
 
-/*GetLogsBadRequest handles this case with default header values.
+/*
+GetLogsBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -148,7 +150,8 @@ func NewGetLogsUnauthorized() *GetLogsUnauthorized {
 	return &GetLogsUnauthorized{}
 }
 
-/*GetLogsUnauthorized handles this case with default header values.
+/*
+GetLogsUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -188,7 +191,8 @@ func NewGetLogsInternalServerError() *GetLogsInternalServerError {
 	return &GetLogsInternalServerError{}
 }
 
-/*GetLogsInternalServerError handles this case with default header values.
+/*
+GetLogsInternalServerError handles this case with default header values.
 
 Internal server error
 */

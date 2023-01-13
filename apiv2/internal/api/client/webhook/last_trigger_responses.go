@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // LastTriggerReader is a Reader for the LastTrigger structure.
@@ -64,7 +64,8 @@ func NewLastTriggerOK() *LastTriggerOK {
 	return &LastTriggerOK{}
 }
 
-/*LastTriggerOK handles this case with default header values.
+/*
+LastTriggerOK handles this case with default header values.
 
 Test webhook connection successfully.
 */
@@ -95,7 +96,8 @@ func NewLastTriggerBadRequest() *LastTriggerBadRequest {
 	return &LastTriggerBadRequest{}
 }
 
-/*LastTriggerBadRequest handles this case with default header values.
+/*
+LastTriggerBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -135,7 +137,8 @@ func NewLastTriggerUnauthorized() *LastTriggerUnauthorized {
 	return &LastTriggerUnauthorized{}
 }
 
-/*LastTriggerUnauthorized handles this case with default header values.
+/*
+LastTriggerUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -175,7 +178,8 @@ func NewLastTriggerForbidden() *LastTriggerForbidden {
 	return &LastTriggerForbidden{}
 }
 
-/*LastTriggerForbidden handles this case with default header values.
+/*
+LastTriggerForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -215,7 +219,8 @@ func NewLastTriggerInternalServerError() *LastTriggerInternalServerError {
 	return &LastTriggerInternalServerError{}
 }
 
-/*LastTriggerInternalServerError handles this case with default header values.
+/*
+LastTriggerInternalServerError handles this case with default header values.
 
 Internal server error
 */

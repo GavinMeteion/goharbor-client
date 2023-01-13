@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetReplicationPolicyReader is a Reader for the GetReplicationPolicy structure.
@@ -58,7 +58,8 @@ func NewGetReplicationPolicyOK() *GetReplicationPolicyOK {
 	return &GetReplicationPolicyOK{}
 }
 
-/*GetReplicationPolicyOK handles this case with default header values.
+/*
+GetReplicationPolicyOK handles this case with default header values.
 
 Success
 */
@@ -91,7 +92,8 @@ func NewGetReplicationPolicyUnauthorized() *GetReplicationPolicyUnauthorized {
 	return &GetReplicationPolicyUnauthorized{}
 }
 
-/*GetReplicationPolicyUnauthorized handles this case with default header values.
+/*
+GetReplicationPolicyUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -131,7 +133,8 @@ func NewGetReplicationPolicyForbidden() *GetReplicationPolicyForbidden {
 	return &GetReplicationPolicyForbidden{}
 }
 
-/*GetReplicationPolicyForbidden handles this case with default header values.
+/*
+GetReplicationPolicyForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -171,7 +174,8 @@ func NewGetReplicationPolicyInternalServerError() *GetReplicationPolicyInternalS
 	return &GetReplicationPolicyInternalServerError{}
 }
 
-/*GetReplicationPolicyInternalServerError handles this case with default header values.
+/*
+GetReplicationPolicyInternalServerError handles this case with default header values.
 
 Internal server error
 */

@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // SearchLdapGroupReader is a Reader for the SearchLdapGroup structure.
@@ -64,7 +64,8 @@ func NewSearchLdapGroupOK() *SearchLdapGroupOK {
 	return &SearchLdapGroupOK{}
 }
 
-/*SearchLdapGroupOK handles this case with default header values.
+/*
+SearchLdapGroupOK handles this case with default header values.
 
 Search ldap group successfully.
 */
@@ -95,7 +96,8 @@ func NewSearchLdapGroupBadRequest() *SearchLdapGroupBadRequest {
 	return &SearchLdapGroupBadRequest{}
 }
 
-/*SearchLdapGroupBadRequest handles this case with default header values.
+/*
+SearchLdapGroupBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -135,7 +137,8 @@ func NewSearchLdapGroupUnauthorized() *SearchLdapGroupUnauthorized {
 	return &SearchLdapGroupUnauthorized{}
 }
 
-/*SearchLdapGroupUnauthorized handles this case with default header values.
+/*
+SearchLdapGroupUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -175,7 +178,8 @@ func NewSearchLdapGroupForbidden() *SearchLdapGroupForbidden {
 	return &SearchLdapGroupForbidden{}
 }
 
-/*SearchLdapGroupForbidden handles this case with default header values.
+/*
+SearchLdapGroupForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -215,7 +219,8 @@ func NewSearchLdapGroupInternalServerError() *SearchLdapGroupInternalServerError
 	return &SearchLdapGroupInternalServerError{}
 }
 
-/*SearchLdapGroupInternalServerError handles this case with default header values.
+/*
+SearchLdapGroupInternalServerError handles this case with default header values.
 
 Internal server error
 */

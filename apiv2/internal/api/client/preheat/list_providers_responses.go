@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // ListProvidersReader is a Reader for the ListProviders structure.
@@ -70,7 +70,8 @@ func NewListProvidersOK() *ListProvidersOK {
 	return &ListProvidersOK{}
 }
 
-/*ListProvidersOK handles this case with default header values.
+/*
+ListProvidersOK handles this case with default header values.
 
 Success
 */
@@ -101,7 +102,8 @@ func NewListProvidersBadRequest() *ListProvidersBadRequest {
 	return &ListProvidersBadRequest{}
 }
 
-/*ListProvidersBadRequest handles this case with default header values.
+/*
+ListProvidersBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -141,7 +143,8 @@ func NewListProvidersUnauthorized() *ListProvidersUnauthorized {
 	return &ListProvidersUnauthorized{}
 }
 
-/*ListProvidersUnauthorized handles this case with default header values.
+/*
+ListProvidersUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -181,7 +184,8 @@ func NewListProvidersForbidden() *ListProvidersForbidden {
 	return &ListProvidersForbidden{}
 }
 
-/*ListProvidersForbidden handles this case with default header values.
+/*
+ListProvidersForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -221,7 +225,8 @@ func NewListProvidersNotFound() *ListProvidersNotFound {
 	return &ListProvidersNotFound{}
 }
 
-/*ListProvidersNotFound handles this case with default header values.
+/*
+ListProvidersNotFound handles this case with default header values.
 
 Not found
 */
@@ -261,7 +266,8 @@ func NewListProvidersInternalServerError() *ListProvidersInternalServerError {
 	return &ListProvidersInternalServerError{}
 }
 
-/*ListProvidersInternalServerError handles this case with default header values.
+/*
+ListProvidersInternalServerError handles this case with default header values.
 
 Internal server error
 */

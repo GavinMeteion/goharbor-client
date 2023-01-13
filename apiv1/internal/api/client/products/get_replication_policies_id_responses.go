@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv1/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv1/model"
 )
 
 // GetReplicationPoliciesIDReader is a Reader for the GetReplicationPoliciesID structure.
@@ -70,7 +70,8 @@ func NewGetReplicationPoliciesIDOK() *GetReplicationPoliciesIDOK {
 	return &GetReplicationPoliciesIDOK{}
 }
 
-/*GetReplicationPoliciesIDOK handles this case with default header values.
+/*
+GetReplicationPoliciesIDOK handles this case with default header values.
 
 Get the replication policy successfully.
 */
@@ -103,7 +104,8 @@ func NewGetReplicationPoliciesIDBadRequest() *GetReplicationPoliciesIDBadRequest
 	return &GetReplicationPoliciesIDBadRequest{}
 }
 
-/*GetReplicationPoliciesIDBadRequest handles this case with default header values.
+/*
+GetReplicationPoliciesIDBadRequest handles this case with default header values.
 
 Bad Request
 */
@@ -124,7 +126,8 @@ func NewGetReplicationPoliciesIDUnauthorized() *GetReplicationPoliciesIDUnauthor
 	return &GetReplicationPoliciesIDUnauthorized{}
 }
 
-/*GetReplicationPoliciesIDUnauthorized handles this case with default header values.
+/*
+GetReplicationPoliciesIDUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -145,7 +148,8 @@ func NewGetReplicationPoliciesIDForbidden() *GetReplicationPoliciesIDForbidden {
 	return &GetReplicationPoliciesIDForbidden{}
 }
 
-/*GetReplicationPoliciesIDForbidden handles this case with default header values.
+/*
+GetReplicationPoliciesIDForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -166,7 +170,8 @@ func NewGetReplicationPoliciesIDNotFound() *GetReplicationPoliciesIDNotFound {
 	return &GetReplicationPoliciesIDNotFound{}
 }
 
-/*GetReplicationPoliciesIDNotFound handles this case with default header values.
+/*
+GetReplicationPoliciesIDNotFound handles this case with default header values.
 
 Not Found
 */
@@ -187,7 +192,8 @@ func NewGetReplicationPoliciesIDInternalServerError() *GetReplicationPoliciesIDI
 	return &GetReplicationPoliciesIDInternalServerError{}
 }
 
-/*GetReplicationPoliciesIDInternalServerError handles this case with default header values.
+/*
+GetReplicationPoliciesIDInternalServerError handles this case with default header values.
 
 Internal Server Error
 */

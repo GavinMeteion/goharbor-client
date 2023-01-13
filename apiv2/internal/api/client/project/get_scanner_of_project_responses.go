@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetScannerOfProjectReader is a Reader for the GetScannerOfProject structure.
@@ -70,7 +70,8 @@ func NewGetScannerOfProjectOK() *GetScannerOfProjectOK {
 	return &GetScannerOfProjectOK{}
 }
 
-/*GetScannerOfProjectOK handles this case with default header values.
+/*
+GetScannerOfProjectOK handles this case with default header values.
 
 The details of the scanner registration.
 */
@@ -103,7 +104,8 @@ func NewGetScannerOfProjectBadRequest() *GetScannerOfProjectBadRequest {
 	return &GetScannerOfProjectBadRequest{}
 }
 
-/*GetScannerOfProjectBadRequest handles this case with default header values.
+/*
+GetScannerOfProjectBadRequest handles this case with default header values.
 
 Bad project ID
 */
@@ -124,7 +126,8 @@ func NewGetScannerOfProjectUnauthorized() *GetScannerOfProjectUnauthorized {
 	return &GetScannerOfProjectUnauthorized{}
 }
 
-/*GetScannerOfProjectUnauthorized handles this case with default header values.
+/*
+GetScannerOfProjectUnauthorized handles this case with default header values.
 
 Unauthorized request
 */
@@ -145,7 +148,8 @@ func NewGetScannerOfProjectForbidden() *GetScannerOfProjectForbidden {
 	return &GetScannerOfProjectForbidden{}
 }
 
-/*GetScannerOfProjectForbidden handles this case with default header values.
+/*
+GetScannerOfProjectForbidden handles this case with default header values.
 
 Request is not allowed
 */
@@ -166,7 +170,8 @@ func NewGetScannerOfProjectNotFound() *GetScannerOfProjectNotFound {
 	return &GetScannerOfProjectNotFound{}
 }
 
-/*GetScannerOfProjectNotFound handles this case with default header values.
+/*
+GetScannerOfProjectNotFound handles this case with default header values.
 
 The requested object is not found
 */
@@ -187,7 +192,8 @@ func NewGetScannerOfProjectInternalServerError() *GetScannerOfProjectInternalSer
 	return &GetScannerOfProjectInternalServerError{}
 }
 
-/*GetScannerOfProjectInternalServerError handles this case with default header values.
+/*
+GetScannerOfProjectInternalServerError handles this case with default header values.
 
 Internal server error happened
 */

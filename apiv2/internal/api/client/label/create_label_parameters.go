@@ -15,7 +15,7 @@ import (
 	cr "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // NewCreateLabelParams creates a new CreateLabelParams object
@@ -57,7 +57,8 @@ func NewCreateLabelParamsWithHTTPClient(client *http.Client) *CreateLabelParams 
 	}
 }
 
-/*CreateLabelParams contains all the parameters to send to the API endpoint
+/*
+CreateLabelParams contains all the parameters to send to the API endpoint
 for the create label operation typically these are written to a http.Request
 */
 type CreateLabelParams struct {

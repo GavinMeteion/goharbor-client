@@ -3,10 +3,10 @@ package ping
 import (
 	"context"
 
+	v2client "github.com/GavinMeteion/goharbor-client/v5/apiv2/internal/api/client"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/internal/api/client/ping"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/pkg/config"
 	"github.com/go-openapi/runtime"
-	v2client "github.com/mittwald/goharbor-client/v5/apiv2/internal/api/client"
-	"github.com/mittwald/goharbor-client/v5/apiv2/internal/api/client/ping"
-	"github.com/mittwald/goharbor-client/v5/apiv2/pkg/config"
 )
 
 // RESTClient is a subclient for handling ping related actions.

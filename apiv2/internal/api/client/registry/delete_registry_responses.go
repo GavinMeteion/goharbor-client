@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // DeleteRegistryReader is a Reader for the DeleteRegistry structure.
@@ -70,7 +70,8 @@ func NewDeleteRegistryOK() *DeleteRegistryOK {
 	return &DeleteRegistryOK{}
 }
 
-/*DeleteRegistryOK handles this case with default header values.
+/*
+DeleteRegistryOK handles this case with default header values.
 
 Success
 */
@@ -97,7 +98,8 @@ func NewDeleteRegistryUnauthorized() *DeleteRegistryUnauthorized {
 	return &DeleteRegistryUnauthorized{}
 }
 
-/*DeleteRegistryUnauthorized handles this case with default header values.
+/*
+DeleteRegistryUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -137,7 +139,8 @@ func NewDeleteRegistryForbidden() *DeleteRegistryForbidden {
 	return &DeleteRegistryForbidden{}
 }
 
-/*DeleteRegistryForbidden handles this case with default header values.
+/*
+DeleteRegistryForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -177,7 +180,8 @@ func NewDeleteRegistryNotFound() *DeleteRegistryNotFound {
 	return &DeleteRegistryNotFound{}
 }
 
-/*DeleteRegistryNotFound handles this case with default header values.
+/*
+DeleteRegistryNotFound handles this case with default header values.
 
 Not found
 */
@@ -217,7 +221,8 @@ func NewDeleteRegistryPreconditionFailed() *DeleteRegistryPreconditionFailed {
 	return &DeleteRegistryPreconditionFailed{}
 }
 
-/*DeleteRegistryPreconditionFailed handles this case with default header values.
+/*
+DeleteRegistryPreconditionFailed handles this case with default header values.
 
 Precondition failed
 */
@@ -257,7 +262,8 @@ func NewDeleteRegistryInternalServerError() *DeleteRegistryInternalServerError {
 	return &DeleteRegistryInternalServerError{}
 }
 
-/*DeleteRegistryInternalServerError handles this case with default header values.
+/*
+DeleteRegistryInternalServerError handles this case with default header values.
 
 Internal server error
 */

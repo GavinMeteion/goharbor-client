@@ -16,7 +16,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // NewUpdateProjectMemberParams creates a new UpdateProjectMemberParams object
@@ -70,7 +70,8 @@ func NewUpdateProjectMemberParamsWithHTTPClient(client *http.Client) *UpdateProj
 	}
 }
 
-/*UpdateProjectMemberParams contains all the parameters to send to the API endpoint
+/*
+UpdateProjectMemberParams contains all the parameters to send to the API endpoint
 for the update project member operation typically these are written to a http.Request
 */
 type UpdateProjectMemberParams struct {

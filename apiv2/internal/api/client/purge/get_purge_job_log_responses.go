@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetPurgeJobLogReader is a Reader for the GetPurgeJobLog structure.
@@ -70,7 +70,8 @@ func NewGetPurgeJobLogOK() *GetPurgeJobLogOK {
 	return &GetPurgeJobLogOK{}
 }
 
-/*GetPurgeJobLogOK handles this case with default header values.
+/*
+GetPurgeJobLogOK handles this case with default header values.
 
 Get successfully.
 */
@@ -101,7 +102,8 @@ func NewGetPurgeJobLogBadRequest() *GetPurgeJobLogBadRequest {
 	return &GetPurgeJobLogBadRequest{}
 }
 
-/*GetPurgeJobLogBadRequest handles this case with default header values.
+/*
+GetPurgeJobLogBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -141,7 +143,8 @@ func NewGetPurgeJobLogUnauthorized() *GetPurgeJobLogUnauthorized {
 	return &GetPurgeJobLogUnauthorized{}
 }
 
-/*GetPurgeJobLogUnauthorized handles this case with default header values.
+/*
+GetPurgeJobLogUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -181,7 +184,8 @@ func NewGetPurgeJobLogForbidden() *GetPurgeJobLogForbidden {
 	return &GetPurgeJobLogForbidden{}
 }
 
-/*GetPurgeJobLogForbidden handles this case with default header values.
+/*
+GetPurgeJobLogForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -221,7 +225,8 @@ func NewGetPurgeJobLogNotFound() *GetPurgeJobLogNotFound {
 	return &GetPurgeJobLogNotFound{}
 }
 
-/*GetPurgeJobLogNotFound handles this case with default header values.
+/*
+GetPurgeJobLogNotFound handles this case with default header values.
 
 Not found
 */
@@ -261,7 +266,8 @@ func NewGetPurgeJobLogInternalServerError() *GetPurgeJobLogInternalServerError {
 	return &GetPurgeJobLogInternalServerError{}
 }
 
-/*GetPurgeJobLogInternalServerError handles this case with default header values.
+/*
+GetPurgeJobLogInternalServerError handles this case with default header values.
 
 Internal server error
 */

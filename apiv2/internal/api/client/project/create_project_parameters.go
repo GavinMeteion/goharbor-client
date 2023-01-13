@@ -16,7 +16,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // NewCreateProjectParams creates a new CreateProjectParams object
@@ -70,7 +70,8 @@ func NewCreateProjectParamsWithHTTPClient(client *http.Client) *CreateProjectPar
 	}
 }
 
-/*CreateProjectParams contains all the parameters to send to the API endpoint
+/*
+CreateProjectParams contains all the parameters to send to the API endpoint
 for the create project operation typically these are written to a http.Request
 */
 type CreateProjectParams struct {

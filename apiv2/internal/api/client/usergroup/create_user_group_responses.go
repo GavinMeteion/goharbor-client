@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // CreateUserGroupReader is a Reader for the CreateUserGroup structure.
@@ -70,7 +70,8 @@ func NewCreateUserGroupCreated() *CreateUserGroupCreated {
 	return &CreateUserGroupCreated{}
 }
 
-/*CreateUserGroupCreated handles this case with default header values.
+/*
+CreateUserGroupCreated handles this case with default header values.
 
 User group created successfully.
 */
@@ -97,7 +98,8 @@ func NewCreateUserGroupBadRequest() *CreateUserGroupBadRequest {
 	return &CreateUserGroupBadRequest{}
 }
 
-/*CreateUserGroupBadRequest handles this case with default header values.
+/*
+CreateUserGroupBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -137,7 +139,8 @@ func NewCreateUserGroupUnauthorized() *CreateUserGroupUnauthorized {
 	return &CreateUserGroupUnauthorized{}
 }
 
-/*CreateUserGroupUnauthorized handles this case with default header values.
+/*
+CreateUserGroupUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -177,7 +180,8 @@ func NewCreateUserGroupForbidden() *CreateUserGroupForbidden {
 	return &CreateUserGroupForbidden{}
 }
 
-/*CreateUserGroupForbidden handles this case with default header values.
+/*
+CreateUserGroupForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -217,7 +221,8 @@ func NewCreateUserGroupConflict() *CreateUserGroupConflict {
 	return &CreateUserGroupConflict{}
 }
 
-/*CreateUserGroupConflict handles this case with default header values.
+/*
+CreateUserGroupConflict handles this case with default header values.
 
 Conflict
 */
@@ -257,7 +262,8 @@ func NewCreateUserGroupInternalServerError() *CreateUserGroupInternalServerError
 	return &CreateUserGroupInternalServerError{}
 }
 
-/*CreateUserGroupInternalServerError handles this case with default header values.
+/*
+CreateUserGroupInternalServerError handles this case with default header values.
 
 Internal server error
 */

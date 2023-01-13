@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv1/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv1/model"
 )
 
 // GetRegistriesReader is a Reader for the GetRegistries structure.
@@ -52,7 +52,8 @@ func NewGetRegistriesOK() *GetRegistriesOK {
 	return &GetRegistriesOK{}
 }
 
-/*GetRegistriesOK handles this case with default header values.
+/*
+GetRegistriesOK handles this case with default header values.
 
 List registries successfully.
 */
@@ -83,7 +84,8 @@ func NewGetRegistriesUnauthorized() *GetRegistriesUnauthorized {
 	return &GetRegistriesUnauthorized{}
 }
 
-/*GetRegistriesUnauthorized handles this case with default header values.
+/*
+GetRegistriesUnauthorized handles this case with default header values.
 
 User need to log in first.
 */
@@ -104,7 +106,8 @@ func NewGetRegistriesInternalServerError() *GetRegistriesInternalServerError {
 	return &GetRegistriesInternalServerError{}
 }
 
-/*GetRegistriesInternalServerError handles this case with default header values.
+/*
+GetRegistriesInternalServerError handles this case with default header values.
 
 Unexpected internal errors.
 */

@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // CreateRetentionReader is a Reader for the CreateRetention structure.
@@ -64,7 +64,8 @@ func NewCreateRetentionCreated() *CreateRetentionCreated {
 	return &CreateRetentionCreated{}
 }
 
-/*CreateRetentionCreated handles this case with default header values.
+/*
+CreateRetentionCreated handles this case with default header values.
 
 Created
 */
@@ -97,7 +98,8 @@ func NewCreateRetentionBadRequest() *CreateRetentionBadRequest {
 	return &CreateRetentionBadRequest{}
 }
 
-/*CreateRetentionBadRequest handles this case with default header values.
+/*
+CreateRetentionBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -137,7 +139,8 @@ func NewCreateRetentionUnauthorized() *CreateRetentionUnauthorized {
 	return &CreateRetentionUnauthorized{}
 }
 
-/*CreateRetentionUnauthorized handles this case with default header values.
+/*
+CreateRetentionUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -177,7 +180,8 @@ func NewCreateRetentionForbidden() *CreateRetentionForbidden {
 	return &CreateRetentionForbidden{}
 }
 
-/*CreateRetentionForbidden handles this case with default header values.
+/*
+CreateRetentionForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -217,7 +221,8 @@ func NewCreateRetentionInternalServerError() *CreateRetentionInternalServerError
 	return &CreateRetentionInternalServerError{}
 }
 
-/*CreateRetentionInternalServerError handles this case with default header values.
+/*
+CreateRetentionInternalServerError handles this case with default header values.
 
 Internal server error
 */

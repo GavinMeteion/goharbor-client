@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetWorkerPoolsReader is a Reader for the GetWorkerPools structure.
@@ -58,7 +58,8 @@ func NewGetWorkerPoolsOK() *GetWorkerPoolsOK {
 	return &GetWorkerPoolsOK{}
 }
 
-/*GetWorkerPoolsOK handles this case with default header values.
+/*
+GetWorkerPoolsOK handles this case with default header values.
 
 Get worker pools successfully.
 */
@@ -89,7 +90,8 @@ func NewGetWorkerPoolsUnauthorized() *GetWorkerPoolsUnauthorized {
 	return &GetWorkerPoolsUnauthorized{}
 }
 
-/*GetWorkerPoolsUnauthorized handles this case with default header values.
+/*
+GetWorkerPoolsUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -129,7 +131,8 @@ func NewGetWorkerPoolsForbidden() *GetWorkerPoolsForbidden {
 	return &GetWorkerPoolsForbidden{}
 }
 
-/*GetWorkerPoolsForbidden handles this case with default header values.
+/*
+GetWorkerPoolsForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -169,7 +172,8 @@ func NewGetWorkerPoolsInternalServerError() *GetWorkerPoolsInternalServerError {
 	return &GetWorkerPoolsInternalServerError{}
 }
 
-/*GetWorkerPoolsInternalServerError handles this case with default header values.
+/*
+GetWorkerPoolsInternalServerError handles this case with default header values.
 
 Internal server error
 */

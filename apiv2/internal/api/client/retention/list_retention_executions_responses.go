@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // ListRetentionExecutionsReader is a Reader for the ListRetentionExecutions structure.
@@ -60,7 +60,8 @@ func NewListRetentionExecutionsOK() *ListRetentionExecutionsOK {
 	return &ListRetentionExecutionsOK{}
 }
 
-/*ListRetentionExecutionsOK handles this case with default header values.
+/*
+ListRetentionExecutionsOK handles this case with default header values.
 
 Get a Retention execution successfully.
 */
@@ -108,7 +109,8 @@ func NewListRetentionExecutionsUnauthorized() *ListRetentionExecutionsUnauthoriz
 	return &ListRetentionExecutionsUnauthorized{}
 }
 
-/*ListRetentionExecutionsUnauthorized handles this case with default header values.
+/*
+ListRetentionExecutionsUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -148,7 +150,8 @@ func NewListRetentionExecutionsForbidden() *ListRetentionExecutionsForbidden {
 	return &ListRetentionExecutionsForbidden{}
 }
 
-/*ListRetentionExecutionsForbidden handles this case with default header values.
+/*
+ListRetentionExecutionsForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -188,7 +191,8 @@ func NewListRetentionExecutionsInternalServerError() *ListRetentionExecutionsInt
 	return &ListRetentionExecutionsInternalServerError{}
 }
 
-/*ListRetentionExecutionsInternalServerError handles this case with default header values.
+/*
+ListRetentionExecutionsInternalServerError handles this case with default header values.
 
 Internal server error
 */

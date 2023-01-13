@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetScanDataExportExecutionReader is a Reader for the GetScanDataExportExecution structure.
@@ -64,7 +64,8 @@ func NewGetScanDataExportExecutionOK() *GetScanDataExportExecutionOK {
 	return &GetScanDataExportExecutionOK{}
 }
 
-/*GetScanDataExportExecutionOK handles this case with default header values.
+/*
+GetScanDataExportExecutionOK handles this case with default header values.
 
 Success
 */
@@ -97,7 +98,8 @@ func NewGetScanDataExportExecutionUnauthorized() *GetScanDataExportExecutionUnau
 	return &GetScanDataExportExecutionUnauthorized{}
 }
 
-/*GetScanDataExportExecutionUnauthorized handles this case with default header values.
+/*
+GetScanDataExportExecutionUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -137,7 +139,8 @@ func NewGetScanDataExportExecutionForbidden() *GetScanDataExportExecutionForbidd
 	return &GetScanDataExportExecutionForbidden{}
 }
 
-/*GetScanDataExportExecutionForbidden handles this case with default header values.
+/*
+GetScanDataExportExecutionForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -177,7 +180,8 @@ func NewGetScanDataExportExecutionNotFound() *GetScanDataExportExecutionNotFound
 	return &GetScanDataExportExecutionNotFound{}
 }
 
-/*GetScanDataExportExecutionNotFound handles this case with default header values.
+/*
+GetScanDataExportExecutionNotFound handles this case with default header values.
 
 Not found
 */
@@ -217,7 +221,8 @@ func NewGetScanDataExportExecutionInternalServerError() *GetScanDataExportExecut
 	return &GetScanDataExportExecutionInternalServerError{}
 }
 
-/*GetScanDataExportExecutionInternalServerError handles this case with default header values.
+/*
+GetScanDataExportExecutionInternalServerError handles this case with default header values.
 
 Internal server error
 */

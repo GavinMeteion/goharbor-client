@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // AddProjectMetadatasReader is a Reader for the AddProjectMetadatas structure.
@@ -76,7 +76,8 @@ func NewAddProjectMetadatasOK() *AddProjectMetadatasOK {
 	return &AddProjectMetadatasOK{}
 }
 
-/*AddProjectMetadatasOK handles this case with default header values.
+/*
+AddProjectMetadatasOK handles this case with default header values.
 
 Success
 */
@@ -103,7 +104,8 @@ func NewAddProjectMetadatasBadRequest() *AddProjectMetadatasBadRequest {
 	return &AddProjectMetadatasBadRequest{}
 }
 
-/*AddProjectMetadatasBadRequest handles this case with default header values.
+/*
+AddProjectMetadatasBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -143,7 +145,8 @@ func NewAddProjectMetadatasUnauthorized() *AddProjectMetadatasUnauthorized {
 	return &AddProjectMetadatasUnauthorized{}
 }
 
-/*AddProjectMetadatasUnauthorized handles this case with default header values.
+/*
+AddProjectMetadatasUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -183,7 +186,8 @@ func NewAddProjectMetadatasForbidden() *AddProjectMetadatasForbidden {
 	return &AddProjectMetadatasForbidden{}
 }
 
-/*AddProjectMetadatasForbidden handles this case with default header values.
+/*
+AddProjectMetadatasForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -223,7 +227,8 @@ func NewAddProjectMetadatasNotFound() *AddProjectMetadatasNotFound {
 	return &AddProjectMetadatasNotFound{}
 }
 
-/*AddProjectMetadatasNotFound handles this case with default header values.
+/*
+AddProjectMetadatasNotFound handles this case with default header values.
 
 Not found
 */
@@ -263,7 +268,8 @@ func NewAddProjectMetadatasConflict() *AddProjectMetadatasConflict {
 	return &AddProjectMetadatasConflict{}
 }
 
-/*AddProjectMetadatasConflict handles this case with default header values.
+/*
+AddProjectMetadatasConflict handles this case with default header values.
 
 Conflict
 */
@@ -303,7 +309,8 @@ func NewAddProjectMetadatasInternalServerError() *AddProjectMetadatasInternalSer
 	return &AddProjectMetadatasInternalServerError{}
 }
 
-/*AddProjectMetadatasInternalServerError handles this case with default header values.
+/*
+AddProjectMetadatasInternalServerError handles this case with default header values.
 
 Internal server error
 */

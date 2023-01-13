@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetAdditionReader is a Reader for the GetAddition structure.
@@ -70,7 +70,8 @@ func NewGetAdditionOK() *GetAdditionOK {
 	return &GetAdditionOK{}
 }
 
-/*GetAdditionOK handles this case with default header values.
+/*
+GetAdditionOK handles this case with default header values.
 
 Success
 */
@@ -108,7 +109,8 @@ func NewGetAdditionBadRequest() *GetAdditionBadRequest {
 	return &GetAdditionBadRequest{}
 }
 
-/*GetAdditionBadRequest handles this case with default header values.
+/*
+GetAdditionBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -148,7 +150,8 @@ func NewGetAdditionUnauthorized() *GetAdditionUnauthorized {
 	return &GetAdditionUnauthorized{}
 }
 
-/*GetAdditionUnauthorized handles this case with default header values.
+/*
+GetAdditionUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -188,7 +191,8 @@ func NewGetAdditionForbidden() *GetAdditionForbidden {
 	return &GetAdditionForbidden{}
 }
 
-/*GetAdditionForbidden handles this case with default header values.
+/*
+GetAdditionForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -228,7 +232,8 @@ func NewGetAdditionNotFound() *GetAdditionNotFound {
 	return &GetAdditionNotFound{}
 }
 
-/*GetAdditionNotFound handles this case with default header values.
+/*
+GetAdditionNotFound handles this case with default header values.
 
 Not found
 */
@@ -268,7 +273,8 @@ func NewGetAdditionInternalServerError() *GetAdditionInternalServerError {
 	return &GetAdditionInternalServerError{}
 }
 
-/*GetAdditionInternalServerError handles this case with default header values.
+/*
+GetAdditionInternalServerError handles this case with default header values.
 
 Internal server error
 */

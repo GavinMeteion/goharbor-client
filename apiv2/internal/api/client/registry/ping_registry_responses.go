@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // PingRegistryReader is a Reader for the PingRegistry structure.
@@ -70,7 +70,8 @@ func NewPingRegistryOK() *PingRegistryOK {
 	return &PingRegistryOK{}
 }
 
-/*PingRegistryOK handles this case with default header values.
+/*
+PingRegistryOK handles this case with default header values.
 
 Success
 */
@@ -97,7 +98,8 @@ func NewPingRegistryBadRequest() *PingRegistryBadRequest {
 	return &PingRegistryBadRequest{}
 }
 
-/*PingRegistryBadRequest handles this case with default header values.
+/*
+PingRegistryBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -137,7 +139,8 @@ func NewPingRegistryUnauthorized() *PingRegistryUnauthorized {
 	return &PingRegistryUnauthorized{}
 }
 
-/*PingRegistryUnauthorized handles this case with default header values.
+/*
+PingRegistryUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -177,7 +180,8 @@ func NewPingRegistryForbidden() *PingRegistryForbidden {
 	return &PingRegistryForbidden{}
 }
 
-/*PingRegistryForbidden handles this case with default header values.
+/*
+PingRegistryForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -217,7 +221,8 @@ func NewPingRegistryNotFound() *PingRegistryNotFound {
 	return &PingRegistryNotFound{}
 }
 
-/*PingRegistryNotFound handles this case with default header values.
+/*
+PingRegistryNotFound handles this case with default header values.
 
 Not found
 */
@@ -257,7 +262,8 @@ func NewPingRegistryInternalServerError() *PingRegistryInternalServerError {
 	return &PingRegistryInternalServerError{}
 }
 
-/*PingRegistryInternalServerError handles this case with default header values.
+/*
+PingRegistryInternalServerError handles this case with default header values.
 
 Internal server error
 */

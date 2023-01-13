@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // ListReplicationExecutionsReader is a Reader for the ListReplicationExecutions structure.
@@ -60,7 +60,8 @@ func NewListReplicationExecutionsOK() *ListReplicationExecutionsOK {
 	return &ListReplicationExecutionsOK{}
 }
 
-/*ListReplicationExecutionsOK handles this case with default header values.
+/*
+ListReplicationExecutionsOK handles this case with default header values.
 
 Success
 */
@@ -108,7 +109,8 @@ func NewListReplicationExecutionsUnauthorized() *ListReplicationExecutionsUnauth
 	return &ListReplicationExecutionsUnauthorized{}
 }
 
-/*ListReplicationExecutionsUnauthorized handles this case with default header values.
+/*
+ListReplicationExecutionsUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -148,7 +150,8 @@ func NewListReplicationExecutionsForbidden() *ListReplicationExecutionsForbidden
 	return &ListReplicationExecutionsForbidden{}
 }
 
-/*ListReplicationExecutionsForbidden handles this case with default header values.
+/*
+ListReplicationExecutionsForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -188,7 +191,8 @@ func NewListReplicationExecutionsInternalServerError() *ListReplicationExecution
 	return &ListReplicationExecutionsInternalServerError{}
 }
 
-/*ListReplicationExecutionsInternalServerError handles this case with default header values.
+/*
+ListReplicationExecutionsInternalServerError handles this case with default header values.
 
 Internal server error
 */

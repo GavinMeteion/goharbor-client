@@ -15,7 +15,7 @@ import (
 	cr "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // NewPingScannerParams creates a new PingScannerParams object
@@ -57,7 +57,8 @@ func NewPingScannerParamsWithHTTPClient(client *http.Client) *PingScannerParams 
 	}
 }
 
-/*PingScannerParams contains all the parameters to send to the API endpoint
+/*
+PingScannerParams contains all the parameters to send to the API endpoint
 for the ping scanner operation typically these are written to a http.Request
 */
 type PingScannerParams struct {

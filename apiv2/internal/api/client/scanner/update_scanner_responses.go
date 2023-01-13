@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // UpdateScannerReader is a Reader for the UpdateScanner structure.
@@ -64,7 +64,8 @@ func NewUpdateScannerOK() *UpdateScannerOK {
 	return &UpdateScannerOK{}
 }
 
-/*UpdateScannerOK handles this case with default header values.
+/*
+UpdateScannerOK handles this case with default header values.
 
 Success
 */
@@ -91,7 +92,8 @@ func NewUpdateScannerUnauthorized() *UpdateScannerUnauthorized {
 	return &UpdateScannerUnauthorized{}
 }
 
-/*UpdateScannerUnauthorized handles this case with default header values.
+/*
+UpdateScannerUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -131,7 +133,8 @@ func NewUpdateScannerForbidden() *UpdateScannerForbidden {
 	return &UpdateScannerForbidden{}
 }
 
-/*UpdateScannerForbidden handles this case with default header values.
+/*
+UpdateScannerForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -171,7 +174,8 @@ func NewUpdateScannerNotFound() *UpdateScannerNotFound {
 	return &UpdateScannerNotFound{}
 }
 
-/*UpdateScannerNotFound handles this case with default header values.
+/*
+UpdateScannerNotFound handles this case with default header values.
 
 Not found
 */
@@ -211,7 +215,8 @@ func NewUpdateScannerInternalServerError() *UpdateScannerInternalServerError {
 	return &UpdateScannerInternalServerError{}
 }
 
-/*UpdateScannerInternalServerError handles this case with default header values.
+/*
+UpdateScannerInternalServerError handles this case with default header values.
 
 Internal server error
 */

@@ -3,8 +3,8 @@ package repository
 import (
 	"net/http"
 
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/pkg/errors"
 	"github.com/go-openapi/runtime"
-	"github.com/mittwald/goharbor-client/v5/apiv2/pkg/errors"
 )
 
 // handleSwaggerRepositoryErrors takes a swagger generated error as input,

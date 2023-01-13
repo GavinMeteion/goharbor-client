@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // SetUserSysAdminReader is a Reader for the SetUserSysAdmin structure.
@@ -64,7 +64,8 @@ func NewSetUserSysAdminOK() *SetUserSysAdminOK {
 	return &SetUserSysAdminOK{}
 }
 
-/*SetUserSysAdminOK handles this case with default header values.
+/*
+SetUserSysAdminOK handles this case with default header values.
 
 Success
 */
@@ -91,7 +92,8 @@ func NewSetUserSysAdminUnauthorized() *SetUserSysAdminUnauthorized {
 	return &SetUserSysAdminUnauthorized{}
 }
 
-/*SetUserSysAdminUnauthorized handles this case with default header values.
+/*
+SetUserSysAdminUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -131,7 +133,8 @@ func NewSetUserSysAdminForbidden() *SetUserSysAdminForbidden {
 	return &SetUserSysAdminForbidden{}
 }
 
-/*SetUserSysAdminForbidden handles this case with default header values.
+/*
+SetUserSysAdminForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -171,7 +174,8 @@ func NewSetUserSysAdminNotFound() *SetUserSysAdminNotFound {
 	return &SetUserSysAdminNotFound{}
 }
 
-/*SetUserSysAdminNotFound handles this case with default header values.
+/*
+SetUserSysAdminNotFound handles this case with default header values.
 
 Not found
 */
@@ -211,7 +215,8 @@ func NewSetUserSysAdminInternalServerError() *SetUserSysAdminInternalServerError
 	return &SetUserSysAdminInternalServerError{}
 }
 
-/*SetUserSysAdminInternalServerError handles this case with default header values.
+/*
+SetUserSysAdminInternalServerError handles this case with default header values.
 
 Unexpected internal errors.
 */

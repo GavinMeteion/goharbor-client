@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // ActionPendingJobsReader is a Reader for the ActionPendingJobs structure.
@@ -64,7 +64,8 @@ func NewActionPendingJobsOK() *ActionPendingJobsOK {
 	return &ActionPendingJobsOK{}
 }
 
-/*ActionPendingJobsOK handles this case with default header values.
+/*
+ActionPendingJobsOK handles this case with default header values.
 
 take action to the jobs in the queue successfully.
 */
@@ -85,7 +86,8 @@ func NewActionPendingJobsUnauthorized() *ActionPendingJobsUnauthorized {
 	return &ActionPendingJobsUnauthorized{}
 }
 
-/*ActionPendingJobsUnauthorized handles this case with default header values.
+/*
+ActionPendingJobsUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -125,7 +127,8 @@ func NewActionPendingJobsForbidden() *ActionPendingJobsForbidden {
 	return &ActionPendingJobsForbidden{}
 }
 
-/*ActionPendingJobsForbidden handles this case with default header values.
+/*
+ActionPendingJobsForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -165,7 +168,8 @@ func NewActionPendingJobsNotFound() *ActionPendingJobsNotFound {
 	return &ActionPendingJobsNotFound{}
 }
 
-/*ActionPendingJobsNotFound handles this case with default header values.
+/*
+ActionPendingJobsNotFound handles this case with default header values.
 
 Not found
 */
@@ -205,7 +209,8 @@ func NewActionPendingJobsInternalServerError() *ActionPendingJobsInternalServerE
 	return &ActionPendingJobsInternalServerError{}
 }
 
-/*ActionPendingJobsInternalServerError handles this case with default header values.
+/*
+ActionPendingJobsInternalServerError handles this case with default header values.
 
 Internal server error
 */

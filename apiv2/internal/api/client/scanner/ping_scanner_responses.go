@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // PingScannerReader is a Reader for the PingScanner structure.
@@ -64,7 +64,8 @@ func NewPingScannerOK() *PingScannerOK {
 	return &PingScannerOK{}
 }
 
-/*PingScannerOK handles this case with default header values.
+/*
+PingScannerOK handles this case with default header values.
 
 Success
 */
@@ -91,7 +92,8 @@ func NewPingScannerBadRequest() *PingScannerBadRequest {
 	return &PingScannerBadRequest{}
 }
 
-/*PingScannerBadRequest handles this case with default header values.
+/*
+PingScannerBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -131,7 +133,8 @@ func NewPingScannerUnauthorized() *PingScannerUnauthorized {
 	return &PingScannerUnauthorized{}
 }
 
-/*PingScannerUnauthorized handles this case with default header values.
+/*
+PingScannerUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -171,7 +174,8 @@ func NewPingScannerForbidden() *PingScannerForbidden {
 	return &PingScannerForbidden{}
 }
 
-/*PingScannerForbidden handles this case with default header values.
+/*
+PingScannerForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -211,7 +215,8 @@ func NewPingScannerInternalServerError() *PingScannerInternalServerError {
 	return &PingScannerInternalServerError{}
 }
 
-/*PingScannerInternalServerError handles this case with default header values.
+/*
+PingScannerInternalServerError handles this case with default header values.
 
 Internal server error
 */

@@ -13,7 +13,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // OperateRetentionExecutionReader is a Reader for the OperateRetentionExecution structure.
@@ -59,7 +59,8 @@ func NewOperateRetentionExecutionOK() *OperateRetentionExecutionOK {
 	return &OperateRetentionExecutionOK{}
 }
 
-/*OperateRetentionExecutionOK handles this case with default header values.
+/*
+OperateRetentionExecutionOK handles this case with default header values.
 
 Stop a Retention job successfully.
 */
@@ -80,7 +81,8 @@ func NewOperateRetentionExecutionUnauthorized() *OperateRetentionExecutionUnauth
 	return &OperateRetentionExecutionUnauthorized{}
 }
 
-/*OperateRetentionExecutionUnauthorized handles this case with default header values.
+/*
+OperateRetentionExecutionUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -120,7 +122,8 @@ func NewOperateRetentionExecutionForbidden() *OperateRetentionExecutionForbidden
 	return &OperateRetentionExecutionForbidden{}
 }
 
-/*OperateRetentionExecutionForbidden handles this case with default header values.
+/*
+OperateRetentionExecutionForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -160,7 +163,8 @@ func NewOperateRetentionExecutionInternalServerError() *OperateRetentionExecutio
 	return &OperateRetentionExecutionInternalServerError{}
 }
 
-/*OperateRetentionExecutionInternalServerError handles this case with default header values.
+/*
+OperateRetentionExecutionInternalServerError handles this case with default header values.
 
 Internal server error
 */
@@ -195,7 +199,8 @@ func (o *OperateRetentionExecutionInternalServerError) readResponse(response run
 	return nil
 }
 
-/*OperateRetentionExecutionBody operate retention execution body
+/*
+OperateRetentionExecutionBody operate retention execution body
 swagger:model OperateRetentionExecutionBody
 */
 type OperateRetentionExecutionBody struct {

@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // GetProjectMemberReader is a Reader for the GetProjectMember structure.
@@ -70,7 +70,8 @@ func NewGetProjectMemberOK() *GetProjectMemberOK {
 	return &GetProjectMemberOK{}
 }
 
-/*GetProjectMemberOK handles this case with default header values.
+/*
+GetProjectMemberOK handles this case with default header values.
 
 Project member retrieved successfully.
 */
@@ -103,7 +104,8 @@ func NewGetProjectMemberBadRequest() *GetProjectMemberBadRequest {
 	return &GetProjectMemberBadRequest{}
 }
 
-/*GetProjectMemberBadRequest handles this case with default header values.
+/*
+GetProjectMemberBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -143,7 +145,8 @@ func NewGetProjectMemberUnauthorized() *GetProjectMemberUnauthorized {
 	return &GetProjectMemberUnauthorized{}
 }
 
-/*GetProjectMemberUnauthorized handles this case with default header values.
+/*
+GetProjectMemberUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -183,7 +186,8 @@ func NewGetProjectMemberForbidden() *GetProjectMemberForbidden {
 	return &GetProjectMemberForbidden{}
 }
 
-/*GetProjectMemberForbidden handles this case with default header values.
+/*
+GetProjectMemberForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -223,7 +227,8 @@ func NewGetProjectMemberNotFound() *GetProjectMemberNotFound {
 	return &GetProjectMemberNotFound{}
 }
 
-/*GetProjectMemberNotFound handles this case with default header values.
+/*
+GetProjectMemberNotFound handles this case with default header values.
 
 Not found
 */
@@ -263,7 +268,8 @@ func NewGetProjectMemberInternalServerError() *GetProjectMemberInternalServerErr
 	return &GetProjectMemberInternalServerError{}
 }
 
-/*GetProjectMemberInternalServerError handles this case with default header values.
+/*
+GetProjectMemberInternalServerError handles this case with default header values.
 
 Internal server error
 */

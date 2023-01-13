@@ -13,7 +13,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
+	"github.com/GavinMeteion/goharbor-client/v5/apiv2/model"
 )
 
 // PingOIDCReader is a Reader for the PingOIDC structure.
@@ -59,7 +59,8 @@ func NewPingOIDCOK() *PingOIDCOK {
 	return &PingOIDCOK{}
 }
 
-/*PingOIDCOK handles this case with default header values.
+/*
+PingOIDCOK handles this case with default header values.
 
 Success
 */
@@ -86,7 +87,8 @@ func NewPingOIDCBadRequest() *PingOIDCBadRequest {
 	return &PingOIDCBadRequest{}
 }
 
-/*PingOIDCBadRequest handles this case with default header values.
+/*
+PingOIDCBadRequest handles this case with default header values.
 
 Bad request
 */
@@ -126,7 +128,8 @@ func NewPingOIDCUnauthorized() *PingOIDCUnauthorized {
 	return &PingOIDCUnauthorized{}
 }
 
-/*PingOIDCUnauthorized handles this case with default header values.
+/*
+PingOIDCUnauthorized handles this case with default header values.
 
 Unauthorized
 */
@@ -166,7 +169,8 @@ func NewPingOIDCForbidden() *PingOIDCForbidden {
 	return &PingOIDCForbidden{}
 }
 
-/*PingOIDCForbidden handles this case with default header values.
+/*
+PingOIDCForbidden handles this case with default header values.
 
 Forbidden
 */
@@ -201,7 +205,8 @@ func (o *PingOIDCForbidden) readResponse(response runtime.ClientResponse, consum
 	return nil
 }
 
-/*PingOIDCBody ping OIDC body
+/*
+PingOIDCBody ping OIDC body
 swagger:model PingOIDCBody
 */
 type PingOIDCBody struct {
